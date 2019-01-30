@@ -10,4 +10,4 @@ tags: SPEND
 
 There is no personal data.
 
-Your all data is stored only on your device. Any data is NOT shared automatically and is NOT sent to server. because We don't have a server and remote database. If you want to remove your data, JUST remove [SPEND - Split bills]. That's all. Thnaks you.
+Your all data is stored only on your device. No data is shared automatically or sent to server. Because we don't have a server and a remote database. If you want to remove your data, Just remove [SPEND - Split bills]. That's all. Thnak you.
