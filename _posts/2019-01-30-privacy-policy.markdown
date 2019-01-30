@@ -8,4 +8,4 @@ tags: SPEND
 
 ## Privacy policy
 
-Your financial data is not accessed or analyzed for any purpose.   The financial data you enter in Taxnote is saved only to your device.  Your financial history is not shared.   Your financial history is not sent to a server.  It is only saved to your iOS device.
+Your all data is stored only on your device. Any data is NOT shared automatically and is NOT sent to server. because [SPEND - Split bills] doesn't need a server. If you want to remove your data, JUST remove [SPEND - Split bills]. That's all. Thnaks you.
