@@ -43,3 +43,4 @@ Updated: 2026-09-05
 
 - Theme icon implementation complete: inline native sun/moon SVG icons, 44px button, theme-based visibility, localized aria-label and tooltip. No icon library or asset dependency.
 - Verification PASS: JS syntax/diff hygiene; runtime checks for fixed SPEND title in Korean/English, dark/light transitions, localized icon aria-labels/tooltips. Policy article bytes unchanged. SVG parses and embeds the exact app PNG with rounded clipping. Brand styles use 34px/750 SPEND and 26px/600 Hi, SPENDER (longer text line); no screenshot/browser measurement claimed.
+- Commit complete: `22bfe6d` contains verified typography correction, rounded browser icon, fixed tab title and icon-only theme control. Push/deployment next.
