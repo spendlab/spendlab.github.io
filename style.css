@@ -35,3 +35,8 @@ footer a span { margin-left: 4px; }
 .theme-moon { display: none; }
 :root[data-theme="light"] .theme-sun { display: none; }
 :root[data-theme="light"] .theme-moon { display: inline; }
+
+.brand { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.brand-dot { display: none; }
+.greeting { margin: 0; font-family: Geist, sans-serif; font-size: 18px; font-weight: 500; line-height: 1.4; color: var(--muted); }
+@media (min-width: 640px) { .brand { flex-direction: row; align-items: baseline; gap: 14px; } .brand-dot { display: inline; color: var(--muted); font-size: 18px; } }

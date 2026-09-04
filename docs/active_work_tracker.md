@@ -56,3 +56,7 @@ Updated: 2026-09-05
 - IN PROGRESS — USER REVISED header balance: remove Hi, SPENDER and retain SPEND left / theme icon right. Current cosmetic website deployment; safe post-production. English-only remains unconditional including old #ko links; no language controls or state.
 - Implementation and source verification complete: greeting and unused CSS removed, one-wordmark header preserved, stylesheet URL versioned. English policy/theme unchanged, no hash-dependent code. Diff hygiene passed.
 - Commit complete: `ef713ae` is the verified header-only simplification. Push/public verification next.
+- Push complete: origin/master `97ae914751958cc7fb0da4643d9c2b6e230600d7`; Pages building this exact source with no error.
+- Previous header-only deployment verified: Pages built `97ae914`, public root/#ko is English-only without greeting, versioned stylesheet matches. Superseded by the following responsive header revision before closure.
+- USER REVISED — Restore Hi, SPENDER responsively: 18px supporting text beneath SPEND on narrow screens; inline with a middle-dot separator on wide screens. Dot appears only inline. Keep the current deployment IN PROGRESS for this latest cosmetic revision; English-only and theme/favicon behavior unchanged.
+- Responsive implementation complete: below 640px brand is a column with no dot; at 640px+ wordmark, dot and 18px greeting align on one baseline. Outer header still wraps as needed. Policy, theme code, favicon and tab title unchanged; versioned stylesheet updated and diff hygiene passed.
