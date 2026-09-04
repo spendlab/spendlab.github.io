@@ -2,11 +2,11 @@
 
 One Korean/English page at https://blog.spendlab.net/.
 
-Plain HTML, CSS and a small language switch. No added dependencies, web fonts, cookies, analytics or external page assets. Without JavaScript, both languages remain readable.
+Plain HTML, CSS and a small language switch. No build dependencies, cookies, analytics or external page assets. The app’s Geist font is hosted locally with its OFL license. Without JavaScript, both languages remain readable.
 
 - `index.html`: existing policy and approved contact.
 - `style.css`: responsive styling.
-- `language.js`: hash-based language selection and browser back/forward support.
+- `language.js`: hash-based language selection, browser back/forward support, and a dark/light toggle (dark on every load).
 - `/privacy/` and `/spend/2019/01/30/privacy-policy.html`: compatibility redirects.
 - `.nojekyll`: direct static publishing; old blog files remain in Git history.
 - `CNAME`: existing custom domain, unchanged.
