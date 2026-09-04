@@ -49,3 +49,4 @@ Updated: 2026-09-05
 
 - English-only implementation complete: Korean article/navigation removed, theme.js replaces language state, English accessibility/metadata/redirect copy, original English policy unchanged. Old URL hashes no longer affect content. Verification next.
 - Verification PASS: English article matches previous source exactly, only one article, no Korean text/navigation, English document language, fixed SPEND title and default dark. Runtime theme toggle/English labels pass; JS syntax and diff hygiene clean. Rounded favicon/wordmark verification from prior unchanged source remains valid.
+- English-only commit complete: `824c2f6`; push/deployment verification next.
