@@ -9,7 +9,7 @@ themeToggle.hidden = false;
 themeToggle.addEventListener('click', () => {
   const dark = document.documentElement.dataset.theme !== 'dark';
   document.documentElement.dataset.theme = dark ? 'dark' : 'light';
-  document.querySelector('meta[name="theme-color"]').content = dark ? '#121212' : '#ffffff';
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#111413' : '#ffffff';
   updateThemeLabel();
 });
 updateThemeLabel();
