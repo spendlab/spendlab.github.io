@@ -53,7 +53,7 @@ Updated: 2026-09-05
 - Push complete: origin/master `264aab3f584c093b541c7d966d06197d4cc80d36`; Pages building exact commit with no error. This final English-only version includes all current branding requests.
 - COMPLETE — Final English-only branding deployment verified: Pages built `264aab3` with no error. Public root has one English article, no Korean, SPEND title, Hi, SPENDER, SVG favicon and versioned theme.js; public CSS/theme.js/favicon.svg match source bytes. All current branding, icon-only theme and English-only requests complete.
 
-- IN PROGRESS — USER REVISED header balance: remove Hi, SPENDER and retain SPEND left / theme icon right. Current cosmetic website deployment; safe post-production. English-only remains unconditional including old #ko links; no language controls or state.
+- COMPLETE — USER REVISED header balance: remove Hi, SPENDER and retain SPEND left / theme icon right. Current cosmetic website deployment; safe post-production. English-only remains unconditional including old #ko links; no language controls or state.
 - Implementation and source verification complete: greeting and unused CSS removed, one-wordmark header preserved, stylesheet URL versioned. English policy/theme unchanged, no hash-dependent code. Diff hygiene passed.
 - Commit complete: `ef713ae` is the verified header-only simplification. Push/public verification next.
 - Push complete: origin/master `97ae914751958cc7fb0da4643d9c2b6e230600d7`; Pages building this exact source with no error.
@@ -68,3 +68,5 @@ Updated: 2026-09-05
 - Final implementation/verification complete: greeting, dot and duplicate eyebrow removed; 26px bold SPEND, unified Geist, 680px reading column and neutral palette. Dark metadata synchronized, final1 asset versions avoid stale caches. Original policy body preserved exactly; English/default-dark/SPEND-title source checks and JS syntax pass. Initial diff hygiene reported an extra trailing blank line; corrected before push. Existing theme/icon behavior unchanged.
 
 - Runtime commit `9d721af` created. Trailing stylesheet blank line removed; `git diff --check` now passes. Commit this correction with verification evidence and push both.
+- Final push complete: origin/master `05075efea346c5dc71da8b02f5ec2ecb7aa646e6`; Pages building exact source with no error.
+- COMPLETE — User-approved no-greeting final design deployed. Pages built `05075ef` without error; public root is English/default-dark with a single policy heading and fixed SPEND title, no greeting/eyebrow. Public final1 stylesheet/theme script and rounded favicon match source bytes. Original policy/date and license files preserved. All current website requests complete; no redesign pending. Browser screenshot/layout QA was not performed.
