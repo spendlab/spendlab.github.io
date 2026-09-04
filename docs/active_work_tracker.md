@@ -55,3 +55,4 @@ Updated: 2026-09-05
 
 - IN PROGRESS — USER REVISED header balance: remove Hi, SPENDER and retain SPEND left / theme icon right. Current cosmetic website deployment; safe post-production. English-only remains unconditional including old #ko links; no language controls or state.
 - Implementation and source verification complete: greeting and unused CSS removed, one-wordmark header preserved, stylesheet URL versioned. English policy/theme unchanged, no hash-dependent code. Diff hygiene passed.
+- Commit complete: `ef713ae` is the verified header-only simplification. Push/public verification next.
