@@ -13,10 +13,6 @@ header { display: flex; flex-wrap: wrap; align-items: center; justify-content: s
 #theme-toggle { min-height: 44px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; background: transparent; color: var(--foreground); font: inherit; font-size: 14px; cursor: pointer; }
 #theme-toggle:hover { background: var(--selected); }
 #theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-nav { display: flex; align-items: center; gap: 8px; }
-nav a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 12px; font-size: 14px; font-weight: 500; text-decoration: none; color: var(--muted); border-radius: 6px; }
-nav a[aria-current="true"] { background: var(--selected); color: var(--foreground); }
-nav a:hover { color: var(--accent); }
 main { padding-block: 72px 48px; }
 article[hidden] { display: none; }
 article:target { scroll-margin-top: 24px; }
@@ -32,8 +28,8 @@ footer > span { color: var(--muted); }
 footer a { color: var(--accent); text-decoration: none; }
 footer a:hover { text-decoration: underline; }
 footer a span { margin-left: 4px; }
-@media (max-width: 480px) { header { padding-block: 20px; gap: 12px; } main { padding-top: 48px; } .policy { margin-top: 36px; font-size: 16px; } nav { gap: 0; } nav a { padding-inline: 10px; } }
-@media print { header nav { display: none; } main { padding-block: 24px; } .page { width: 100%; } }
+@media (max-width: 480px) { header { padding-block: 20px; gap: 12px; } main { padding-top: 48px; } .policy { margin-top: 36px; font-size: 16px; }  }
+@media print { header .header-controls { display: none; } main { padding-block: 24px; } .page { width: 100%; } }
 
 #theme-toggle { width: 44px; padding: 10px; line-height: 0; }
 #theme-toggle svg { width: 22px; height: 22px; }
