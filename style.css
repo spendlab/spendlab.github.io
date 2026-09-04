@@ -7,8 +7,8 @@ a { color: inherit; text-underline-offset: .25em; }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
 .page { width: min(100% - 48px, 760px); margin-inline: auto; }
 header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; padding-block: 30px; border-bottom: 1px solid var(--border); }
-.wordmark { font-family: Geist, sans-serif; font-size: 34px; font-weight: 600; letter-spacing: 0; line-height: 1.2; text-decoration: none; }
-.greeting { font-family: Geist, sans-serif; font-size: 14px; font-weight: 500; color: var(--muted); margin: 6px 0 0; }
+.wordmark { font-family: Geist, sans-serif; font-size: 34px; font-weight: 750; letter-spacing: 0; line-height: 1.2; text-decoration: none; }
+.greeting { font-family: Geist, sans-serif; font-size: 26px; font-weight: 600; line-height: 1.25; color: var(--muted); margin: 6px 0 0; }
 .header-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 #theme-toggle { min-height: 44px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; background: transparent; color: var(--foreground); font: inherit; font-size: 14px; cursor: pointer; }
 #theme-toggle:hover { background: var(--selected); }
@@ -34,3 +34,9 @@ footer a:hover { text-decoration: underline; }
 footer a span { margin-left: 4px; }
 @media (max-width: 480px) { header { padding-block: 20px; gap: 12px; } main { padding-top: 48px; } .policy { margin-top: 36px; font-size: 16px; } nav { gap: 0; } nav a { padding-inline: 10px; } }
 @media print { header nav { display: none; } main { padding-block: 24px; } .page { width: 100%; } }
+
+#theme-toggle { width: 44px; padding: 10px; line-height: 0; }
+#theme-toggle svg { width: 22px; height: 22px; }
+.theme-moon { display: none; }
+:root[data-theme="light"] .theme-sun { display: none; }
+:root[data-theme="light"] .theme-moon { display: inline; }
