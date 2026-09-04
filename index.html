@@ -1,86 +1,51 @@
----
-layout: default
----
-<div class="home">
-
-<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
-  <div class="scrim {% if site.cover %}has-cover{% endif %}">
-    <header class="site-header">
-      <h1 class="title">{{ site.title }}</h1>
-      {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SPEND 개인정보처리방침 · Privacy Policy">
+  <meta name="theme-color" content="#ffffff">
+  <title>개인정보처리방침 · SPEND</title>
+  <link rel="canonical" href="https://blog.spendlab.net/">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/language.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="wordmark" href="/" aria-label="SPEND">SPEND<span aria-hidden="true">.</span></a>
+      <nav aria-label="Language">
+        <a href="#ko" lang="ko" data-language="ko">한국어</a>
+        <a href="#en" lang="en" data-language="en">English</a>
+      </nav>
     </header>
+    <main>
+      <article id="ko" lang="ko">
+        <div class="eyebrow">PRIVACY POLICY</div>
+        <h1>개인정보처리방침</h1>
+        <p class="date">정책 게시일 <time datetime="2019-01-30">2019. 01. 30.</time></p>
+        <div class="policy">
+          <h2>개인정보를 수집하지 않습니다.</h2>
+          <p>모든 데이터는 사용자의 기기에만 저장됩니다. 데이터가 자동으로 공유되거나 서버로 전송되지 않습니다. SPEND는 서버나 원격 데이터베이스를 운영하지 않습니다.</p>
+          <p>데이터를 삭제하려면 <span lang="en">SPEND - Split bills</span> 앱을 삭제해 주세요.</p>
+          <p>감사합니다.</p>
+        </div>
+        <footer><span>개인정보 관련 문의</span><a href="mailto:cs@spendlab.net">cs@spendlab.net <span aria-hidden="true">↗</span></a></footer>
+      </article>
+      <article id="en" lang="en">
+        <div class="eyebrow">PRIVACY POLICY</div>
+        <h1>Privacy Policy</h1>
+        <p class="date">Published <time datetime="2019-01-30">January 30, 2019</time></p>
+        <div class="policy">
+          <h2>There is no personal data.</h2>
+          <p>All your data is stored only on your device. No data is shared automatically or sent to server. Because we don't have a server or a remote database.</p>
+          <p>If you want to remove your data, Just remove [SPEND - Split bills].</p>
+          <p>That's all. Thank you.</p>
+        </div>
+        <footer><span>Privacy inquiries</span><a href="mailto:cs@spendlab.net">cs@spendlab.net <span aria-hidden="true">↗</span></a></footer>
+      </article>
+    </main>
   </div>
-</div>
-
-<div class="wrapper">
-<ul class="post-list">
-  {% for post in paginator.posts %}
-  <li>
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-      <div class="post-categories">
-      {% if post.categories.size > 0 %}in {% for cat in post.categories %}
-        {% if site.jekyll-archives %}
-        <a href="{{ site.baseurl }}/category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
-        {% else %}
-        <a href="{{ site.baseurl }}/posts/#{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
-        {% endif %}
-      {% endfor %}{% endif %}
-      </div>
-    </section>
-  </li>
-  {% if forloop.last == false %}
-  <hr>
-  {% endif %}
-  {% endfor %}
-</ul>
-
-<nav class="pagination" role="navigation">
-	<p>
-    {% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-			<a class="newer-posts" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-			{% else %}
-			<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-square fa-stack-2x"></i>
-					<i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-				</span>
-			</a>
-			{% endif %}
-		{% else %}
-		<span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-    </span>
-		{% endif %}
-		<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-		{% if paginator.next_page %}
-		<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-square fa-stack-2x"></i>
-        <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-		{% else %}
-		<span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-    </span>
-		{% endif %}
-	</p>
-</nav>
-
-</div>
-</div>
+</body>
+</html>
