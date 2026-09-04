@@ -32,4 +32,3 @@ footer a span { margin-left: 4px; }
 .theme-moon { display: none; }
 :root[data-theme="light"] .theme-sun { display: none; }
 :root[data-theme="light"] .theme-moon { display: inline; }
-
