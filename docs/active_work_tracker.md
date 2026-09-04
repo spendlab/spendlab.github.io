@@ -52,3 +52,6 @@ Updated: 2026-09-05
 - English-only commit complete: `824c2f6`; push/deployment verification next.
 - Push complete: origin/master `264aab3f584c093b541c7d966d06197d4cc80d36`; Pages building exact commit with no error. This final English-only version includes all current branding requests.
 - COMPLETE — Final English-only branding deployment verified: Pages built `264aab3` with no error. Public root has one English article, no Korean, SPEND title, Hi, SPENDER, SVG favicon and versioned theme.js; public CSS/theme.js/favicon.svg match source bytes. All current branding, icon-only theme and English-only requests complete.
+
+- IN PROGRESS — USER REVISED header balance: remove Hi, SPENDER and retain SPEND left / theme icon right. Current cosmetic website deployment; safe post-production. English-only remains unconditional including old #ko links; no language controls or state.
+- Implementation and source verification complete: greeting and unused CSS removed, one-wordmark header preserved, stylesheet URL versioned. English policy/theme unchanged, no hash-dependent code. Diff hygiene passed.
