@@ -73,3 +73,4 @@ Updated: 2026-09-05
 
 - IN PROGRESS — USER CORRECTION: restore the immediately preceding responsive1 design (source `5068228`) and remove only Hi, SPENDER and its separator. Undo the final1 font/width/palette/eyebrow changes. Preserve prior dark/icon/English-only behavior. Current final cosmetic deployment; no further redesign.
 - Implementation complete: restored index/style/theme from `5068228`, removing only the greeting wrapper/dot/CSS plus refreshing asset versions. Original 34px/750 SPEND, 760px width, green-gray palette, system body font and eyebrow restored exactly. JS syntax and diff hygiene pass. Rounded favicon/English content unchanged.
+- Commit complete: `7d677eb` restores the selected previous design with only greeting removed. Push/public verification next.
