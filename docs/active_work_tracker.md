@@ -78,9 +78,9 @@ Updated: 2026-09-05
 - COMPLETE — User-requested previous design minus greeting deployed: Pages built `197fac7` without error; public HTML restores the prior title hierarchy without SPENDER, and restored1 CSS/theme bytes match source. Previous typography, dimensions and palette retained. No additional design changes pending.
 
 ## W-LANDING-20260907
-- Source: latest user decision uses app.spendlab.net; approved landing, integrated /privacy/, legacy blog links, 9 images and © 2017 SPEND.
-- Status: IN PROGRESS — app custom domain saved; deploy homepage and legacy redirect. Slot: current website delivery.
-- Implementation: approved steel-blue design, latest third image, Android availability and future features; preserve policy content. Canonical URLs now target app.spendlab.net.
-- Evidence: prepared source 02f7de6 pushed; source/image/route checks pass. Owner browser login verified; repository Pages controls available. Apex domain registration attempt failed as already taken; user superseded apex migration with app subdomain before any DNS change.
-- Domain: app.spendlab.net ownership and proxied CNAME verified; Pages custom domain saved, CNAME commit fc5cbef integrated. Earlier auto-review prerequisite resolved. Apex/mail unchanged; HTTPS enforcement and legacy blog redirect follow deployment.
-- Next: publish merged source, configure blog redirect, verify public app/privacy/assets and HTTPS, then tag/close delivery. Details: work_history/2026.09.07-app-introduction.md.
+- Source: user-approved app.spendlab.net landing, integrated privacy, nine final App Store images and © 2017 SPEND. Latest: remove the entire preview note, restore previously approved currency artwork, match privacy layout to home, repair blog 404 now.
+- Status: IN PROGRESS — current website delivery; owner this task. Existing app QA ownership is separate.
+- Implementation/evidence: c2b55de deployed, public app and privacy HTTPS 200. Steel-blue design accepted. Currency image now matches approved source07 b3fab5f442b5; entire preview note removed; privacy uses shared home page width/header/footer and heading font. Source checks passed: nine image hashes/originals, unchanged policy/date, shared footer/width, local routes, diff hygiene.
+- Domain: app CNAME/ownership verified. Blog CNAME remains proxied; deployed host-only301 to https://app.spendlab.net/privacy/, public301→200 verified2026-09-08. Apex/mail preserved.
+- Store: English support URL saved to app root; Korean support and localized privacy URL readback pending. App internal URL is post-production P24 in app tracker.
+- Next: push verified source; complete store URL readback, verify public delivery and close. Details: work_history/2026.09.07-app-introduction.md.
