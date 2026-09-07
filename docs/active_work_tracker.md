@@ -79,8 +79,8 @@ Updated: 2026-09-05
 
 ## W-LANDING-20260907
 - Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features, Home/Privacy navigation and copyright showing only the 2017 launch year (latest explicit user decision).
-- Status: QUEUED — muted steel blue verified; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
-- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; apply muted steel-blue accents inspired by the softness of the former gold, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Existing gallery/nav/policy remain.
-- Evidence: steel blue dark #9bb8d0 / light #466b88; contrast 9.58:1/5.65:1, local stylesheet bytes and diff hygiene pass. User-directed design choice, not an app brand-color claim. Only accent/version changes; content, © 2017 SPEND and base colors preserved.
+- Status: QUEUED — design approved and third image refreshed; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
+- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; apply muted steel-blue accents inspired by the softness of the former gold, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Refresh only gallery image 03 from the updated approved source. Existing nav/policy remain.
+- Evidence: steel blue revision 6253a68 pushed and accepted; latest image 03 visually inspected and copied exactly (939348a2d973…), versioned local image response matches. All 9 manifest hashes and diff hygiene pass. Copyright/policy/base colors preserved.
 - Domain: Cloudflare login verified. Existing apex has two proxied A records; blog CNAME already targets spendlab.github.io. GitHub CLI account has push, not admin; Pages still blog.spendlab.net.
 - Next: after GitHub administrator login, configure apex custom domain/DNS/legacy redirects, merge the prepared branch and verify deployment. Details: work_history/2026.09.07-app-introduction.md.
