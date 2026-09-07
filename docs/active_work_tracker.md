@@ -76,3 +76,10 @@ Updated: 2026-09-05
 - Commit complete: `7d677eb` restores the selected previous design with only greeting removed. Push/public verification next.
 - Push complete: origin/master `197fac72697c06d487882fcfbc92154d252fdd75`; Pages building exact commit with no error.
 - COMPLETE — User-requested previous design minus greeting deployed: Pages built `197fac7` without error; public HTML restores the prior title hierarchy without SPENDER, and restored1 CSS/theme bytes match source. Previous typography, dimensions and palette retained. No additional design changes pending.
+
+## W-ACCENT-20260907
+- Source: user requests restrained accent color while preserving current background and main text.
+- Status: IN PROGRESS. Slot: current website cosmetic follow-up, safe post-production; explicitly requested now.
+- Scope: change existing accent token only (eyebrow, contact link, keyboard focus); muted blue in dark/light modes. Preserve layout and all other colors.
+- Evidence: only accent CSS token changed (#93b4f4 dark / #365fb0 light); all other CSS identical. Contrast 9.50:1 dark / 6.14:1 light; diff check passed.
+- Next: commit/push and verify public delivery.
