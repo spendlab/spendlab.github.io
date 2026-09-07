@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SPEND Privacy Policy">
+  <meta name="description" content="Split group bills and track travel costs with SPEND for iPhone.">
   <meta name="theme-color" content="#0a0a0a">
   <title>SPEND</title>
-  <link rel="canonical" href="https://blog.spendlab.net/">
+  <link rel="canonical" href="https://spendlab.net/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/style.css?v=subtle-blue1">
   <script src="/theme.js?v=spend-neutral1" defer></script>
+  <link rel="stylesheet" href="/landing.css?v=intro1">
 </head>
-<body>
+<body class="landing">
   <div class="page">
     <header>
       <a class="wordmark" href="/" aria-label="SPEND">SPEND</a>
@@ -21,19 +22,25 @@
       </div>
     </header>
     <main>
-      <article id="en" lang="en">
-        <div class="eyebrow">PRIVACY POLICY</div>
-        <h1>Privacy Policy</h1>
-        <p class="date">Published <time datetime="2019-01-30">January 30, 2019</time></p>
-        <div class="policy">
-          <h2>There is no personal data.</h2>
-          <p>All your data is stored only on your device. No data is shared automatically or sent to server. Because we don't have a server or a remote database.</p>
-          <p>If you want to remove your data, Just remove [SPEND - Split bills].</p>
-          <p>That's all. Thank you.</p>
+      <section class="intro" aria-labelledby="intro-title">
+        <h1 id="intro-title">Split group bills.<br><span>Track travel costs.</span></h1>
+        <p class="intro-copy">From a quick bill split to a whole trip.<br class="desktop-break"> Keep track of what you spend together.</p>
+        <a class="store-link" href="https://apps.apple.com/app/id1208128587">View on the App Store <span aria-hidden="true">↗</span></a>
+        <p class="availability">For iPhone</p>
+      </section>
+      <section class="screens-section" aria-label="App preview">
+        <p class="preview-note">A preview of the next SPEND update</p>
+        <div class="screens" tabindex="0" aria-label="App screenshots. Scroll to view more on smaller screens.">
+          <img src="/images/quick-split.png" width="1320" height="2868" alt="Quick calculator: split a 60 dollar bill between three people, 20 dollars each.">
+          <img src="/images/group-expenses.png" width="1320" height="2868" alt="Group expenses: keep the spending from an evening meetup together.">
+          <img src="/images/travel-costs.png" width="1320" height="2868" alt="Travel costs: record a Sydney trip day by day, with dates, places and notes.">
         </div>
-        <footer><span>Privacy inquiries</span><a href="mailto:cs@spendlab.net">cs@spendlab.net <span aria-hidden="true">↗</span></a></footer>
-      </article>
+      </section>
     </main>
+    <footer class="site-footer">
+      <span>SPEND</span>
+      <nav aria-label="Footer"><a href="/privacy/">Privacy</a><a href="mailto:cs@spendlab.net">Contact <span aria-hidden="true">↗</span></a></nav>
+    </footer>
   </div>
 </body>
 </html>

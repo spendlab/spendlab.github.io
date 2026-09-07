@@ -1,17 +1,15 @@
-# SPEND privacy page
+# SPEND website
 
-One English privacy page at https://blog.spendlab.net/.
+A small English app introduction and privacy page for `spendlab.net`.
 
-Plain HTML, CSS and a small theme switch. No build dependencies, cookies, analytics or external page assets. The app’s Geist font is hosted locally with its OFL license. Without JavaScript, the policy remains readable in the default dark theme.
+- `/`: app introduction, three approved App Store images, current App Store listing link. Images are explicitly labeled as an upcoming update preview.
+- `/privacy/`: the existing policy, unchanged in content and design.
+- `/spend/2019/01/30/privacy-policy.html`: compatibility redirect to `/privacy/`.
 
-- `index.html`: existing policy and approved contact.
-- `style.css`: responsive styling.
-- `theme.js`: an icon-only dark/light toggle (dark on every load).
-- `/privacy/` and `/spend/2019/01/30/privacy-policy.html`: compatibility redirects.
-- `.nojekyll`: direct static publishing; old blog files remain in Git history.
-- `CNAME`: existing custom domain, unchanged.
+Plain HTML/CSS and `theme.js`; dark by default with an icon-only light switch. No build dependencies or external page assets. Geist and its OFL license are hosted locally. App Store artwork provenance is in `docs/work_history/landing-image-sources-2026.09.07.json`.
 
 Preview: `python3 -m http.server 4175 --bind 127.0.0.1`.
-Publish: push verified changes to `master`; GitHub Pages publishes the repository root without a Jekyll build.
 
-This September 2026 delivery changes presentation only. English retains the January 30, 2019 policy wording; The page is English-only. Review policy accuracy separately before releasing the new Flutter app. The publication date is not a new effective date.
+The active Pages host remains `blog.spendlab.net` until the apex-domain cutover is verified. The landing work is prepared on a separate branch; merging it alone does not finish the domain migration. See `docs/work_history/2026.09.07-app-introduction.md`.
+
+The privacy wording remains the January 30, 2019 policy. The ongoing app release owns policy-content updates; this website task preserves the requested existing text.

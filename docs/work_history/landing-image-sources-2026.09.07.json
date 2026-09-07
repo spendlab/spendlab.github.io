@@ -1,0 +1,14 @@
+{
+  "quick-split": {
+    "source": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.09.07/final-9/en-US/02.png",
+    "sha256": "e3b5b3fa884bd47f4e8bcc61404d3e2e71d37659232d969d9b722bf09ee86d60"
+  },
+  "group-expenses": {
+    "source": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.09.07/final-9/en-US/03.png",
+    "sha256": "37be6d27ae72deebd5431c7ffee0ee4e31eaf03427fa7457317e18d65340d21d"
+  },
+  "travel-costs": {
+    "source": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.09.07/final-9/en-US/06.png",
+    "sha256": "82c0b4f06c9a9df228de82498de02fb69ecde98d0823d9970fc1adb2d3a0c6a2"
+  }
+}

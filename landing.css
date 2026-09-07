@@ -1,0 +1,28 @@
+/* The privacy page retains its existing style.css layout. */
+.landing .page { width: min(100% - 48px, 1040px); }
+.landing main { padding: 64px 0 0; }
+.intro { text-align: center; padding-inline: 8px; }
+.intro h1 { font-family: Geist, sans-serif; font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 650; letter-spacing: -.055em; line-height: 1.08; }
+.intro h1 span { color: var(--accent); }
+.intro-copy { color: var(--muted); font-size: 18px; line-height: 1.65; margin: 24px auto 28px; max-width: 520px; }
+.store-link { display: inline-flex; align-items: center; justify-content: center; gap: 16px; min-height: 48px; padding: 12px 22px; border-radius: 10px; background: var(--foreground); color: var(--background); font-size: 15px; font-weight: 600; text-decoration: none; }
+.store-link:hover { opacity: .85; }
+.availability { margin: 12px 0 0; color: var(--muted); font-size: 13px; }
+.screens-section { margin-top: 60px; }
+.preview-note { margin: 0 0 16px; color: var(--muted); text-align: center; font-size: 14px; }
+.screens { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.screens img { display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--border); }
+.screens:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.site-footer { margin-top: 48px; padding-block: 24px 32px; }
+.site-footer nav { display: flex; gap: 24px; }
+@media (max-width: 640px) {
+  .landing main { padding-top: 48px; }
+  .intro { text-align: left; padding: 0; }
+  .intro-copy { margin-inline: 0; font-size: 16px; }
+  .desktop-break { display: none; }
+  .availability { padding-left: 2px; }
+  .screens-section { margin-top: 40px; }
+  .preview-note { text-align: left; }
+  .screens { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 78%; gap: 16px; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 12px; }
+  .screens img { scroll-snap-align: start; border-radius: 12px; }
+}
