@@ -78,9 +78,9 @@ Updated: 2026-09-05
 - COMPLETE — User-requested previous design minus greeting deployed: Pages built `197fac7` without error; public HTML restores the prior title hierarchy without SPENDER, and restored1 CSS/theme bytes match source. Previous typography, dimensions and palette retained. No additional design changes pending.
 
 ## W-LANDING-20260907
-- Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features, Home/Privacy navigation and copyright starting with the 2017 launch.
+- Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features, Home/Privacy navigation and copyright showing only the 2017 launch year (latest explicit user decision).
 - Status: QUEUED — teal accent verified; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
 - Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; replace the provisional amber with app transfer teal, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Existing gallery/nav/policy remain.
-- Evidence: teal #2a9d8f from app transfer icons, light variant #207b70; contrast 5.96:1/5.09:1, only accent/version changes and diff hygiene verified. Copyright remains © 2017–2026 SPEND; explained the optional range and meaningful first-publication year after user question. Existing routes/gallery/policy preserved.
+- Evidence: teal #2a9d8f from app transfer icons, light variant #207b70; contrast 5.96:1/5.09:1, only accent/version changes and diff hygiene verified. 20cdf50 teal revision pushed. Copyright simplified to © 2017 SPEND on both pages; SPEND Navy discussed as a potential accent, not applied. Existing routes/gallery/policy preserved.
 - Domain: Cloudflare login verified. Existing apex has two proxied A records; blog CNAME already targets spendlab.github.io. GitHub CLI account has push, not admin; Pages still blog.spendlab.net.
 - Next: after GitHub administrator login, configure apex custom domain/DNS/legacy redirects, merge the prepared branch and verify deployment. Details: work_history/2026.09.07-app-introduction.md.
