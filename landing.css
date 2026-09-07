@@ -8,7 +8,7 @@
 .availability-next { display: inline-flex; gap: 10px; }
 .availability-next > span { color: var(--accent); }
 .screens-section { margin-top: 60px; }
-.screens { display: grid; grid-auto-flow: column; grid-auto-columns: 31.5%; gap: 20px; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 16px; scrollbar-color: var(--muted) var(--background); }
+.screens { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 60px) / 3.2); gap: 20px; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 16px; scrollbar-color: var(--muted) var(--background); }
 .screens img { scroll-snap-align: start; display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--border); }
 .screens:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 @media (max-width: 640px) {
