@@ -40,3 +40,5 @@ footer a span { margin-left: 4px; }
 .primary-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 10px; color: var(--muted); text-decoration: none; font-size: 14px; }
 .primary-nav a[aria-current="page"] { color: var(--foreground); font-weight: 600; }
 .primary-nav a:hover { color: var(--accent); }
+
+.copyright { margin: 0; padding-bottom: 32px; color: var(--muted); font-size: 14px; line-height: 1.6; }
