@@ -78,12 +78,9 @@ Updated: 2026-09-05
 - COMPLETE — User-requested previous design minus greeting deployed: Pages built `197fac7` without error; public HTML restores the prior title hierarchy without SPENDER, and restored1 CSS/theme bytes match source. Previous typography, dimensions and palette retained. No additional design changes pending.
 
 ## W-LANDING-20260907
-- Source: user wants the existing privacy page inside the planned SPEND app-introduction website.
-- Status: IN PROGRESS. Slot: current independent website deployment; promotional work is safe post-production and user authorized implementation now.
-- Scope: `/` app introduction, `/privacy/` existing policy, footer privacy/contact links. Preserve established policy design/content, and continuity of old policy URLs.
-- Decision: user confirmed `spendlab.net` as the canonical host, with no `spend.` prefix. Root is the app introduction; `https://spendlab.net/privacy/` is the policy. Existing blog policy links must continue to resolve. No domain configuration or implementation has started.
-- Evidence: apex/blog both resolve through Cloudflare; Pages currently owns blog.spendlab.net. Existing app listing ID 1208128587 and approved screenshot materials available read-only.
-- Evidence: user explicitly permits App Store artwork; use final-9 English approved images/copy, with upcoming-update note because public listing is still 1.0.12. Apex currently serves different origin content; Pages admin=false, so domain changes need an authenticated owner surface.
-- Implementation: landing built with approved English copy and three exact App Store images; existing policy moved to /privacy/ unchanged, historical dated URL points there. Upcoming-update label distinguishes public 1.0.12 from preview.
-- Verification: HTTP 200 local preview; every local asset/route resolves; /privacy/ article and shared stylesheet equal prior source, exact approved screenshot hashes, JS syntax/diff hygiene pass.
-- Next: commit/push the ready landing branch; await Cloudflare login/Pages owner access for apex cutover and blog redirects. Current public site remains intact.
+- Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features and Home/Privacy navigation.
+- Status: IN PROGRESS. Slot: current website delivery; requested cosmetic/promotional scope.
+- Implementation: all 9 approved originals in horizontal gallery; trips/groups copy; future Android, sharing/sync, statistics and photos/maps; shared nav with active page.
+- Evidence: source links, image hashes and original policy article preservation pass; local routes/styles HTTP 200, JS syntax and diff hygiene pass. Public App Store remains 1.0.12; screenshot preview disclosure retained.
+- Domain: Cloudflare login verified. Existing apex has two proxied A records; blog CNAME already targets spendlab.github.io. GitHub CLI account has push, not admin; Pages still blog.spendlab.net.
+- Next: commit/push verified update; check GitHub browser access before domain changes. Details: work_history/2026.09.07-app-introduction.md.
