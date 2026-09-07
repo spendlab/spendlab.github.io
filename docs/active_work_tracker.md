@@ -77,10 +77,6 @@ Updated: 2026-09-05
 - Push complete: origin/master `197fac72697c06d487882fcfbc92154d252fdd75`; Pages building exact commit with no error.
 - COMPLETE — User-requested previous design minus greeting deployed: Pages built `197fac7` without error; public HTML restores the prior title hierarchy without SPENDER, and restored1 CSS/theme bytes match source. Previous typography, dimensions and palette retained. No additional design changes pending.
 
-## W-LANDING-20260907
-- Source: user-approved app.spendlab.net landing, integrated privacy, nine final App Store images and © 2017 SPEND. Latest: remove the entire preview note, restore previously approved currency artwork, match privacy layout to home, repair blog 404 now; show a visible slice of the next screenshot so the gallery is discoverable.
-- Status: IN PROGRESS — current website delivery; owner this task. Existing app QA ownership is separate.
-- Implementation/evidence: c2b55de deployed, public app and privacy HTTPS 200. Steel-blue design accepted. Currency image now matches approved source07 b3fab5f442b5; entire preview note removed; privacy uses shared home page width/header/footer and heading font. Source checks passed: nine image hashes/originals, unchanged policy/date, shared footer/width, local routes, diff hygiene.
-- Domain: app CNAME/ownership verified. Blog CNAME remains proxied; deployed host-only301 to https://app.spendlab.net/privacy/, public301→200 verified2026-09-08. Apex/mail preserved.
-- Store: English support URL saved to app root; Korean support and localized privacy URL readback pending. App internal URL is post-production P24 in app tracker.
-- Next: 3287d50 public assets verified. Next-image visibility implemented and width checks passed; push latest CSS, complete store URL readback and close. Details: work_history/2026.09.07-app-introduction.md.
+## Current work
+
+No active website delivery remains. W-LANDING-20260907 completed2026-09-08: [delivery evidence](work_history/2026.09.07-app-introduction.md#delivery-complete--2026-09-08), version web-2026.09.08.1, verified source2c560ef. App policy-content and post-release URL work remain in the app tracker (R05/P24).
