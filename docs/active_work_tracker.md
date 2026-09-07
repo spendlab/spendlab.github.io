@@ -79,8 +79,8 @@ Updated: 2026-09-05
 
 ## W-LANDING-20260907
 - Source: latest user decision uses app.spendlab.net; approved landing, integrated /privacy/, legacy blog links, 9 images and © 2017 SPEND.
-- Status: IN PROGRESS — connect app subdomain and deploy. Slot: current website delivery.
+- Status: IN PROGRESS — app custom domain saved; deploy homepage and legacy redirect. Slot: current website delivery.
 - Implementation: approved steel-blue design, latest third image, Android availability and future features; preserve policy content. Canonical URLs now target app.spendlab.net.
 - Evidence: prepared source 02f7de6 pushed; source/image/route checks pass. Owner browser login verified; repository Pages controls available. Apex domain registration attempt failed as already taken; user superseded apex migration with app subdomain before any DNS change.
-- Domain: app.spendlab.net Verified under spendlab; challenge TXT and proxied app CNAME→spendlab.github.io saved/read back and confirmed on authoritative DNS. HTTPS reaches GitHub (expected 404 until binding). Apex/mail/blog unchanged; retry Pages switch with prerequisite resolved.
-- Next: add TXT challenge and verify app domain, add/verify app DNS, retry Pages switch, integrate/push branch, preserve blog redirect and verify/tag delivery. Details: work_history/2026.09.07-app-introduction.md.
+- Domain: app.spendlab.net ownership and proxied CNAME verified; Pages custom domain saved, CNAME commit fc5cbef integrated. Earlier auto-review prerequisite resolved. Apex/mail unchanged; HTTPS enforcement and legacy blog redirect follow deployment.
+- Next: publish merged source, configure blog redirect, verify public app/privacy/assets and HTTPS, then tag/close delivery. Details: work_history/2026.09.07-app-introduction.md.
