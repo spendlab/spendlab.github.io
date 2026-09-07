@@ -79,8 +79,8 @@ Updated: 2026-09-05
 
 ## W-LANDING-20260907
 - Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features, Home/Privacy navigation and copyright showing only the 2017 launch year (latest explicit user decision).
-- Status: QUEUED — game-icon rose verified; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
-- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; apply app game-icon rose accents with readable dark/light variants, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Existing gallery/nav/policy remain.
-- Evidence: rose derived from appGameActionIconColor #e54666: dark #ed7890 / light #c73553; contrast 7.25:1/5.17:1, local stylesheet bytes and diff hygiene pass. Only accent tokens/asset versions changed; content, © 2017 SPEND, backgrounds and base text colors preserved.
+- Status: QUEUED — muted steel blue verified; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
+- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; apply muted steel-blue accents inspired by the softness of the former gold, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Existing gallery/nav/policy remain.
+- Evidence: steel blue dark #9bb8d0 / light #466b88; contrast 9.58:1/5.65:1, local stylesheet bytes and diff hygiene pass. User-directed design choice, not an app brand-color claim. Only accent/version changes; content, © 2017 SPEND and base colors preserved.
 - Domain: Cloudflare login verified. Existing apex has two proxied A records; blog CNAME already targets spendlab.github.io. GitHub CLI account has push, not admin; Pages still blog.spendlab.net.
 - Next: after GitHub administrator login, configure apex custom domain/DNS/legacy redirects, merge the prepared branch and verify deployment. Details: work_history/2026.09.07-app-introduction.md.
