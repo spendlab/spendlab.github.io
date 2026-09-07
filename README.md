@@ -1,6 +1,6 @@
 # SPEND website
 
-A small English app introduction and privacy page for `spendlab.net`.
+A small English app introduction and privacy page for `app.spendlab.net`.
 
 - `/`: app introduction, all nine approved App Store images, current App Store listing link. Images are explicitly labeled as an upcoming update preview. Android, live sharing/sync, advanced statistics and photos/maps appear separately as future plans.
 - `/privacy/`: the existing policy, unchanged in content and design.
@@ -10,6 +10,6 @@ Plain HTML/CSS and `theme.js`; dark by default with an icon-only light switch. N
 
 Preview: `python3 -m http.server 4175 --bind 127.0.0.1`.
 
-The active Pages host remains `blog.spendlab.net` until the apex-domain cutover is verified. The landing work is prepared on a separate branch; merging it alone does not finish the domain migration. See `docs/work_history/2026.09.07-app-introduction.md`.
+The active Pages host remains `blog.spendlab.net` until the app-subdomain cutover is verified. Existing apex services remain unchanged. The landing work is prepared on a separate branch; merging it alone does not finish the domain migration. See `docs/work_history/2026.09.07-app-introduction.md`.
 
 The privacy wording remains the January 30, 2019 policy. The ongoing app release owns policy-content updates; this website task preserves the requested existing text.

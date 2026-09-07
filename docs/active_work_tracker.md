@@ -78,9 +78,9 @@ Updated: 2026-09-05
 - COMPLETE — User-requested previous design minus greeting deployed: Pages built `197fac7` without error; public HTML restores the prior title hierarchy without SPENDER, and restored1 CSS/theme bytes match source. Previous typography, dimensions and palette retained. No additional design changes pending.
 
 ## W-LANDING-20260907
-- Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features, Home/Privacy navigation and copyright showing only the 2017 launch year (latest explicit user decision).
-- Status: QUEUED — design approved and third image refreshed; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
-- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; apply muted steel-blue accents inspired by the softness of the former gold, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Refresh only gallery image 03 from the updated approved source. Existing nav/policy remain.
-- Evidence: steel blue revision 6253a68 pushed and accepted; latest image 03 visually inspected and copied exactly (939348a2d973…), versioned local image response matches. All 9 manifest hashes and diff hygiene pass. Copyright/policy/base colors preserved.
-- Domain: Cloudflare login verified. Existing apex has two proxied A records; blog CNAME already targets spendlab.github.io. GitHub CLI account has push, not admin; Pages still blog.spendlab.net.
-- Next: after GitHub administrator login, configure apex custom domain/DNS/legacy redirects, merge the prepared branch and verify deployment. Details: work_history/2026.09.07-app-introduction.md.
+- Source: latest user decision uses app.spendlab.net; approved landing, integrated /privacy/, legacy blog links, 9 images and © 2017 SPEND.
+- Status: IN PROGRESS — connect app subdomain and deploy. Slot: current website delivery.
+- Implementation: approved steel-blue design, latest third image, Android availability and future features; preserve policy content. Canonical URLs now target app.spendlab.net.
+- Evidence: prepared source 02f7de6 pushed; source/image/route checks pass. Owner browser login verified; repository Pages controls available. Apex domain registration attempt failed as already taken; user superseded apex migration with app subdomain before any DNS change.
+- Domain: app.spendlab.net Verified under spendlab; challenge TXT and proxied app CNAME→spendlab.github.io saved/read back and confirmed on authoritative DNS. HTTPS reaches GitHub (expected 404 until binding). Apex/mail/blog unchanged; retry Pages switch with prerequisite resolved.
+- Next: add TXT challenge and verify app domain, add/verify app DNS, retry Pages switch, integrate/push branch, preserve blog redirect and verify/tag delivery. Details: work_history/2026.09.07-app-introduction.md.
