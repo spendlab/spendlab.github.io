@@ -79,8 +79,8 @@ Updated: 2026-09-05
 
 ## W-LANDING-20260907
 - Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features and Home/Privacy navigation.
-- Status: QUEUED — awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
-- Implementation: all 9 approved originals in horizontal gallery; trips/groups copy; future Android, sharing/sync, statistics and photos/maps; shared nav with active page.
-- Evidence: 3037340 committed/pushed to origin/codex/app-introduction; source links, 9 image hashes, policy preservation, local HTTP routes, JS syntax and diff hygiene pass. Upcoming-update disclosure retained.
+- Status: QUEUED — visual revision verified; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
+- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; replace blue accents with restrained amber, preserving background/body colors. Existing gallery/nav/policy remain.
+- Evidence: Android placement, three-row roadmap and amber accents verified; local routes/assets HTTP 200, policy/non-accent shared style preserved, dark/light accent contrast 9.92:1 and 5.62:1; diff hygiene passes. Nine originals unchanged.
 - Domain: Cloudflare login verified. Existing apex has two proxied A records; blog CNAME already targets spendlab.github.io. GitHub CLI account has push, not admin; Pages still blog.spendlab.net.
-- Next: user signs into GitHub with repository admin access at /spendlab/spendlab.github.io/settings/pages; then configure apex custom domain, DNS and legacy blog redirects, merge and verify deployment. Details: work_history/2026.09.07-app-introduction.md.
+- Next: after GitHub administrator login, configure apex custom domain/DNS/legacy redirects, merge the prepared branch and verify deployment. Details: work_history/2026.09.07-app-introduction.md.
