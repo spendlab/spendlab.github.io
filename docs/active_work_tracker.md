@@ -79,8 +79,8 @@ Updated: 2026-09-05
 
 ## W-LANDING-20260907
 - Source: user-approved spendlab.net introduction, integrated /privacy/, legacy blog links, all 9 images, planned features, Home/Privacy navigation and copyright showing only the 2017 launch year (latest explicit user decision).
-- Status: QUEUED — teal accent verified; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
-- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; replace the provisional amber with app transfer teal, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Existing gallery/nav/policy remain.
-- Evidence: teal #2a9d8f from app transfer icons, light variant #207b70; contrast 5.96:1/5.09:1, only accent/version changes and diff hygiene verified. 20cdf50 teal revision pushed. Copyright simplified to © 2017 SPEND on both pages; SPEND Navy discussed as a potential accent, not applied. Existing routes/gallery/policy preserved.
+- Status: QUEUED — SPEND Navy verified; awaiting GitHub Pages administrator login for domain cutover. Slot: current website delivery.
+- Scope update: move Android planned beside iPhone below Store CTA; refine the three remaining roadmap items with clear hierarchy and dividers; apply SPEND Navy accents with a readable dark-mode variant, preserving background/body colors. Advanced statistics includes both spending patterns and travel records. Existing gallery/nav/policy remain.
+- Evidence: SPEND Navy light #363e6c and adjusted dark #96a2c8 applied; contrast 10.18:1/7.82:1, local stylesheet bytes and diff hygiene pass. Only accent tokens/asset versions changed; content, © 2017 SPEND, backgrounds and base text colors preserved.
 - Domain: Cloudflare login verified. Existing apex has two proxied A records; blog CNAME already targets spendlab.github.io. GitHub CLI account has push, not admin; Pages still blog.spendlab.net.
 - Next: after GitHub administrator login, configure apex custom domain/DNS/legacy redirects, merge the prepared branch and verify deployment. Details: work_history/2026.09.07-app-introduction.md.
