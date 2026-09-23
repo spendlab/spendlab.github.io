@@ -6,7 +6,7 @@ A small English app introduction and privacy page for `app.spendlab.net`.
 - `/privacy/`: the existing policy, with preserved text and the shared home header, footer and page width.
 - `/spend/2019/01/30/privacy-policy.html`: compatibility redirect to `/privacy/`.
 
-Plain HTML/CSS and `theme.js`; dark by default with an icon-only light switch. No build dependencies or external page assets. Geist and its OFL license are hosted locally. App Store artwork provenance is in `docs/work_history/landing-image-sources-2026.09.07.json`.
+Plain HTML/CSS and `theme.js`; dark by default with an icon-only light switch. No build dependencies or external page assets. Geist and its OFL license are hosted locally. Current App Store artwork provenance is in `docs/work_history/landing-image-sources-2026.09.23.json`; the 2026-09-07 manifest remains as the prior approved snapshot.
 
 Preview: `python3 -m http.server 4175 --bind 127.0.0.1`.
 
