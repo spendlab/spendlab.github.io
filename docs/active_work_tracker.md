@@ -79,6 +79,6 @@ Updated: 2026-09-05
 
 ## Current work
 
-- **W-IMAGES-20260923 / USER / IN PROGRESS**: Replace the nine home-gallery images at app.spendlab.net with the final en-US images from the 2026-09-23 SPEND App Store package (product bf1a964e, iOS 16-locale package a9ed66ee). Keep site layout, policy and links; update descriptive alt text and cache-busting image URLs where the capture changed. Baseline: live home has nine earlier 2026-09-07 images and the site repo is clean at 7122f89 on origin/master. 9/9 exact bytes and hashes copied; nine versioned URLs and slide 03 alt text updated. Local browser preview shows unchanged home layout with new first three slides and nine gallery items; diff hygiene PASS. Next: commit/push to Pages branch, verify build and public image hashes. Risk: stale browser/CDN cache or misleading old alt text.
+No active website changes. W-IMAGES-20260923 completed 2026-09-23: [gallery delivery evidence](work_history/2026.09.23-gallery-refresh.md), public Pages commit `1551684`, 9/9 public image hashes verified.
 
 Prior W-LANDING-20260907 completed2026-09-08: [delivery evidence](work_history/2026.09.07-app-introduction.md#delivery-complete--2026-09-08), version web-2026.09.08.1, verified source2c560ef. App policy-content and post-release URL work remain in the app tracker (R05/P24).
