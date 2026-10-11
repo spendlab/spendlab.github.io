@@ -1,0 +1,1096 @@
+{
+  "status": "LOCAL_REVIEW_CANDIDATE_NOT_PUBLISHED",
+  "task": "STORE-REFRESH-1011.WEB",
+  "baselineCommit": "1885849054b19d273c4f0303fda7fda0d04a39ac",
+  "locale": "en-US",
+  "sourceManifest": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/manifest.json",
+  "sourceManifestSha256": "9e2eb02e12cecf8069ace5ed1b07350587961f9b10136059d708330bf57544c5",
+  "copySha256": "9f5b718a9c4bfc9b16c145869a295883b1d1338095df9a65cb77cf6788f0b2c0",
+  "galleryCount": 9,
+  "canvas": "1206x2622 iOS posters used without additional image editing",
+  "unreferencedPreservedFile": "images/travel-costs.png",
+  "images": [
+    {
+      "order": 1,
+      "key": "overview",
+      "path": "images/overview.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/01-overview.png",
+      "sha256": "06801966dcefff921b4d8176ee3e9f5e21474491ee6f196e3603d52906608bdd",
+      "width": 1206,
+      "height": 2622,
+      "cache": "06801966dcef",
+      "alt": "Split group bills. Track travel costs. A quick calculator and an expense book.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/search_sydney.png",
+        "sha256": "fc25d83b82c6e72a18b4dc513b514b901482800d20778946824c7e4cdadafb10",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-01-overview.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": true,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 102.39330543933055,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 40.2,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 120.60000000000001,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.12,
+          "marginTop": 78.57272727272728,
+          "marginBottom": 36.54545454545455
+        },
+        "caption": {
+          "size": 34.71818181818182,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 100.5,
+          "y": 859.3723849372385,
+          "width": 950.1818181818182,
+          "height": 2065.818181818182,
+          "radius": 65.78181818181818,
+          "rotation": -8,
+          "shadow": {
+            "x": 0,
+            "y": 36.54545454545455,
+            "blur": 100.5,
+            "color": "#0000003d"
+          },
+          "intentionalCanvasCrop": true
+        },
+        "colors": {
+          "background": "#171717",
+          "foreground": "#ffffff",
+          "supporting": "#d4d4d4"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 120.6,
+          "captionSize": 34.7182,
+          "wordsChanged": false,
+          "copyBottom": 578.140625,
+          "screenTop": 727.1210327148438
+        }
+      },
+      "headline": "Split group bills.\nTrack travel costs.",
+      "caption": "A quick calculator and an expense book."
+    },
+    {
+      "order": 2,
+      "key": "settlement",
+      "path": "images/settlement.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/02-settlement.png",
+      "sha256": "bcfc59ff17ad3685a9db27592687f7b73618c4f41a1dfd6c1d74e493dad94bc2",
+      "width": 1206,
+      "height": 2622,
+      "cache": "bcfc59ff17ad",
+      "alt": "Who owes whom? See it clearly. Member balances and suggested settlements.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/02_summary_context.png",
+        "sha256": "11ab43498857c7fdd25edf94498783d196448fc501b9fb8087be2984cc5eeb50",
+        "dimensions": [
+          1206,
+          3174
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "settlementDetail": {
+          "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/02_summary_top.png",
+          "sha256": "2ae8b52c839baa862239397befadc00b9fc6c98f6cd7bcfc1afb751ada10e5c8",
+          "dimensions": [
+            1206,
+            2622
+          ],
+          "captureOrigin": "flutter-render",
+          "sourcePlatform": "ios",
+          "scrollbarsHidden": true,
+          "promoTopInsetLogical": 12,
+          "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+          "rect": {
+            "left": 60,
+            "top": 1281,
+            "width": 1086,
+            "height": 819
+          },
+          "copiedCrop": "sources/ios-02-settlement-detail.png",
+          "cropSha256": "c4c0ecb0b0e01f41f07ccef9ce44908970c35515383e53e4c52255c4fe8f4640",
+          "pixelEdits": "None; exact actual card bitmap crop"
+        },
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-02-settlement.png",
+        "crop": "none",
+        "contextDimensions": {
+          "width": 1206,
+          "height": 3174
+        }
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "settlementDetail": {
+          "x": 93,
+          "y": 1133.6864663370102,
+          "width": 1020,
+          "height": 769.2265193370166,
+          "sourceRect": {
+            "left": 60,
+            "top": 1281,
+            "width": 1086,
+            "height": 819
+          },
+          "background": "Unmodified continuous actual Summary fitted inside the common outer frame",
+          "authorization": "User explicitly requested actual settlement card enlargement"
+        },
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 102.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 476.8125,
+          "screenTop": 616.1875
+        }
+      },
+      "headline": "Who owes whom?\nSee it clearly.",
+      "caption": "Member balances and suggested settlements."
+    },
+    {
+      "order": 3,
+      "key": "roles",
+      "path": "images/split-members.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/03-roles.png",
+      "sha256": "40dcfa35934b8db8e02214ced29d9dab9f8ccacc8f849fb48f45f2e9cf83699d",
+      "width": 1206,
+      "height": 2622,
+      "cache": "40dcfa35934b",
+      "alt": "This one for two. That one for everyone. Choose who paid and who shares each cost.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/03_roles_top.png",
+        "sha256": "0f65c1441f58c5b7496ae3f625cb7030dde3170f200651f3b263e1bfe1819137",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "rolesDetail": {
+          "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/03_roles_context.png",
+          "sha256": "58698f24494b52cd1a0bd86b22cb1fe5ede00a2e54e483dcb40dc1b857132ea5",
+          "dimensions": [
+            1206,
+            2622
+          ],
+          "captureOrigin": "flutter-render",
+          "sourcePlatform": "ios",
+          "scrollbarsHidden": true,
+          "promoTopInsetLogical": 12,
+          "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+          "rect": {
+            "left": 30,
+            "top": 801,
+            "width": 1146,
+            "height": 1026
+          },
+          "saveButtonTopRaster": 2424,
+          "copiedCrop": "sources/ios-03-roles-detail.png",
+          "cropSha256": "416d4511d152ddb9ea6cf890eb5b2980a7379a33fee85a7df6a2a7afb4ae0dd5"
+        },
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-03-roles.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "rolesDetail": {
+          "x": 118.77272727272725,
+          "y": 1458.8789556278243,
+          "width": 968.4545454545455,
+          "height": 867.0456925273679,
+          "sourceRect": {
+            "left": 30,
+            "top": 801,
+            "width": 1146,
+            "height": 1026
+          },
+          "authorization": "User explicitly requested actual payer/participants panel enlargement"
+        },
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 100.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 472.375,
+          "screenTop": 616.1875
+        }
+      },
+      "headline": "This one for two.\nThat one for everyone.",
+      "caption": "Choose who paid and who shares each cost."
+    },
+    {
+      "order": 4,
+      "key": "meetup",
+      "path": "images/group-expenses.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/04-meetup.png",
+      "sha256": "4c82f9890f7ac97b739f221e740c68a1c23f6d08cd5fc8b8b8744c6e4ca36370",
+      "width": 1206,
+      "height": 2622,
+      "cache": "4c82f9890f7a",
+      "alt": "Group expenses, all in one place. Record who paid. Keep each meetup together.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/04_meetup.png",
+        "sha256": "e3906b726f9edbe36ba3a79c7bc18719e0a0c080772f227c592b166386bd069b",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-04-meetup.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 102.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 476.8125,
+          "screenTop": 616.1875
+        }
+      },
+      "headline": "Group expenses,\nall in one place.",
+      "caption": "Record who paid. Keep each meetup together."
+    },
+    {
+      "order": 5,
+      "key": "receipt",
+      "path": "images/receipt.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/05-receipt.png",
+      "sha256": "cf8c89224290e0c78a14e9476d6060ae0e7e0bd25c3da89b8b4e9449d70612d6",
+      "width": 1206,
+      "height": 2622,
+      "cache": "cf8c89224290",
+      "alt": "Share a clear expense breakdown. Share expense items and the total as a receipt.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/05_expense_receipt.png",
+        "sha256": "08e50ac692944b4449bb30718aef4a4323f3fa2968bb4d57347e0dff74029305",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-05-receipt.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 102.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 476.8125,
+          "screenTop": 616.1875
+        }
+      },
+      "headline": "Share a clear\nexpense breakdown",
+      "caption": "Share expense items and the total as a receipt."
+    },
+    {
+      "order": 6,
+      "key": "fx",
+      "path": "images/currencies.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/06-fx.png",
+      "sha256": "4c0748a298173779f794d54e5a14486aff4ac6f260867c9b7ac07f1cbfa1e334",
+      "width": 1206,
+      "height": 2622,
+      "cache": "4c0748a29817",
+      "alt": "Record in local currency. Review in your currency. Tap the currency to adjust amounts and rates.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/06_fx_transaction.png",
+        "sha256": "d5457c284472ac7555c129009463a12ad77f5517c7d2ac9ae6fc24f9942f1783",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-06-fx.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 93.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 456.84375,
+          "screenTop": 616.1875
+        }
+      },
+      "headline": "Record in local currency.\nReview in your currency.",
+      "caption": "Tap the currency to adjust amounts and rates."
+    },
+    {
+      "order": 7,
+      "key": "insights",
+      "path": "images/insights.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/07-insights.png",
+      "sha256": "01732294d835f26462cd427fcfa40ac410dcf52c3fa63297515bb27883f20a51",
+      "width": 1206,
+      "height": 2622,
+      "cache": "01732294d835",
+      "alt": "See where your money went. Highlights, categories and tags in one summary.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/07_stats.png",
+        "sha256": "adeb6e4fa020e1895fae509a73c601d3069db6bcd3a596d96f08483a4f1b2b2d",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "summaryPanels": [
+          {
+            "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/07_stats_context.png",
+            "sha256": "b8ca148b89d85c90860e90cba3ad73a0d554a4a915de4d21cc0a7a4d755b5f1c",
+            "dimensions": [
+              1206,
+              3681
+            ],
+            "captureOrigin": "flutter-render",
+            "sourcePlatform": "ios",
+            "scrollbarsHidden": true,
+            "promoTopInsetLogical": 12,
+            "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+            "role": "largest-expense",
+            "rect": {
+              "left": 63,
+              "top": 204,
+              "width": 1080,
+              "height": 354
+            },
+            "copiedCrop": "sources/ios-07-insights-largest-expense.png",
+            "cropSha256": "54f7cc49f80fea8d459e4eb7e7e0a5d532e9e1f2905cdc1810110207c0030444"
+          },
+          {
+            "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/07_stats_context.png",
+            "sha256": "b8ca148b89d85c90860e90cba3ad73a0d554a4a915de4d21cc0a7a4d755b5f1c",
+            "dimensions": [
+              1206,
+              3681
+            ],
+            "captureOrigin": "flutter-render",
+            "sourcePlatform": "ios",
+            "scrollbarsHidden": true,
+            "promoTopInsetLogical": 12,
+            "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+            "role": "category-card",
+            "rect": {
+              "left": 63,
+              "top": 927,
+              "width": 1080,
+              "height": 1563
+            },
+            "copiedCrop": "sources/ios-07-insights-category-card.png",
+            "cropSha256": "55ebc133cc77b7b964e419d3e96474f10839badb993914be45dc0090aa0b016d"
+          },
+          {
+            "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/07_stats_context.png",
+            "sha256": "b8ca148b89d85c90860e90cba3ad73a0d554a4a915de4d21cc0a7a4d755b5f1c",
+            "dimensions": [
+              1206,
+              3681
+            ],
+            "captureOrigin": "flutter-render",
+            "sourcePlatform": "ios",
+            "scrollbarsHidden": true,
+            "promoTopInsetLogical": 12,
+            "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+            "role": "tag-card",
+            "rect": {
+              "left": 63,
+              "top": 2493,
+              "width": 1080,
+              "height": 1092
+            },
+            "copiedCrop": "sources/ios-07-insights-tag-card.png",
+            "cropSha256": "271c4fc2cd8009690684789e27d3cbf042c240b46701e84fda2de4dc71e9d9d5"
+          }
+        ],
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-07-insights.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "summaryPanels": [
+          {
+            "role": "largest-expense",
+            "x": 254.19044540020104,
+            "y": 566.8200836820084,
+            "width": 697.6191091995979,
+            "height": 228.6640413487571,
+            "sourceRect": {
+              "left": 63,
+              "top": 204,
+              "width": 1080,
+              "height": 354
+            }
+          },
+          {
+            "role": "category-card",
+            "x": 254.19044540020104,
+            "y": 819.253999507753,
+            "width": 697.6191091995979,
+            "height": 1009.6098774805292,
+            "sourceRect": {
+              "left": 63,
+              "top": 927,
+              "width": 1080,
+              "height": 1563
+            }
+          },
+          {
+            "role": "tag-card",
+            "x": 254.19044540020104,
+            "y": 1852.6337514652696,
+            "width": 697.6191091995979,
+            "height": 705.370432635149,
+            "sourceRect": {
+              "left": 63,
+              "top": 2493,
+              "width": 1080,
+              "height": 1092
+            }
+          }
+        ],
+        "summaryComposition": {
+          "top": 566.8200836820084,
+          "width": 697.6191091995979,
+          "height": 1991.18410041841,
+          "authorization": "User explicitly requests original3-card style with complete actual UI cards"
+        },
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 102.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 476.8125,
+          "screenTop": 566.8125
+        }
+      },
+      "headline": "See where\nyour money went",
+      "caption": "Highlights, categories and tags in one summary."
+    },
+    {
+      "order": 8,
+      "key": "quick",
+      "path": "images/quick-split.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/08-quick.png",
+      "sha256": "0f0eb78a5c96f65c2af6e98c152c92b1482c192eebbea591532e77bd2b0a3bd2",
+      "width": 1206,
+      "height": 2622,
+      "cache": "0f0eb78a5c96",
+      "alt": "Just need to split? Use the calculator. Amounts and a headcount. No event needed.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/08_quick.png",
+        "sha256": "2a4abde6a2219732601463060f61404896a8e1267dbb5586ead73376e6ad93c4",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-08-quick.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 102.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 476.8125,
+          "screenTop": 616.1875
+        }
+      },
+      "headline": "Just need to split?\nUse the calculator.",
+      "caption": "Amounts and a headcount. No event needed."
+    },
+    {
+      "order": 9,
+      "key": "games",
+      "path": "images/mini-games.png",
+      "sourceOutput": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/localized/en-US/posters/ios/09-games.png",
+      "sha256": "cccf4f44d8a44427ba0048bbaca2348f28a183d5062ef042b62efa8f258e9590",
+      "width": 1206,
+      "height": 2622,
+      "cache": "cccf4f44d8a4",
+      "alt": "Three mini games for your meetup. Finger, wheel and pinball. Start from a split.",
+      "posterSource": {
+        "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.10.11/capture-locales/en-US/raw/09_games_roulette.png",
+        "sha256": "041e71e255346d0173c1b29ec01aec9587367bcb53555a64b43eb657fbf3981c",
+        "dimensions": [
+          1206,
+          2622
+        ],
+        "captureOrigin": "flutter-render",
+        "sourcePlatform": "ios",
+        "scrollbarsHidden": true,
+        "promoTopInsetLogical": 12,
+        "captureFontPatch": "71306a32ccf984aa44858a021612e2f1e1a71bb339bc865c45ba9df8e1df1711",
+        "width": 1206,
+        "height": 2622,
+        "copiedSource": "sources/ios-09-games.png",
+        "crop": "none"
+      },
+      "posterGeometry": {
+        "platform": "ios",
+        "width": 1206,
+        "height": 2622,
+        "sx": 0.9136363636363637,
+        "sy": 0.9142259414225942,
+        "hero": false,
+        "sourceCrop": "none",
+        "copy": {
+          "x": 102.32727272727273,
+          "y": 87.76569037656904,
+          "width": 1001.3454545454546
+        },
+        "brand": {
+          "size": 36.54545454545455,
+          "weight": 820,
+          "gap": 20.1,
+          "markWidth": 10.963636363636365,
+          "markHeight": 31.97727272727273
+        },
+        "headline": {
+          "size": 102.32727272727273,
+          "weight": 760,
+          "tracking": -3.837272727272728,
+          "lineHeight": 1.11,
+          "marginTop": 50.25,
+          "marginBottom": 27.40909090909091
+        },
+        "caption": {
+          "size": 32.89090909090909,
+          "weight": 470,
+          "tracking": -0.6395454545454545,
+          "lineHeight": 1.45
+        },
+        "screen": {
+          "x": 173.59090909090907,
+          "y": 616.1882845188285,
+          "width": 858.8181818181819,
+          "height": 1867.1818181818182,
+          "radius": 49.336363636363636,
+          "rotation": 0,
+          "shadow": {
+            "x": 0,
+            "y": 18.272727272727273,
+            "blur": 63.95454545454546,
+            "color": "#17171724"
+          },
+          "intentionalCanvasCrop": false
+        },
+        "colors": {
+          "background": "#eff0f3",
+          "foreground": "#171717",
+          "supporting": "#666666"
+        },
+        "intendedDifferences": [
+          "User restores original introduction copy/Sydney hero; settlement moves to ordinary second slide.",
+          "Play uses original iPhone app images in a new1080×1920 composition, with original tall aspect preserved.",
+          "Play ordinary top/height/bottom are common; width follows original iPhone aspect.",
+          "One flush image and one outer clip; old hero padding/inner radius and outline omitted."
+        ],
+        "localizedTypography": {
+          "fits": true,
+          "headlineSize": 102.327,
+          "captionSize": 32.8909,
+          "wordsChanged": false,
+          "copyBottom": 476.8125,
+          "screenTop": 616.1875
+        }
+      },
+      "headline": "Three mini games\nfor your meetup",
+      "caption": "Finger, wheel and pinball. Start from a split."
+    }
+  ],
+  "limits": "Root package review and store stage must finish before this candidate is published."
+}
