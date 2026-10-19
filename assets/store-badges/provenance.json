@@ -1,0 +1,74 @@
+{
+  "retrievedOn": "2026-10-19",
+  "assets": [
+    {
+      "file": "app-store-en.svg",
+      "publisher": "Apple",
+      "sourceURL": "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg",
+      "sourceContext": "Public image embedded in Apple App Store Marketing Resources and Identity Guidelines",
+      "guidelineURL": "https://developer.apple.com/app-store/marketing/guidelines/",
+      "bytes": 10804,
+      "sha256": "a26fc5b38380272c92e9019a2eb8b45542a66814b3e2b203772db8904b9fb99f",
+      "nativeWidth": 119.66407,
+      "nativeHeight": 40,
+      "displayHeightCSSPx": 48,
+      "outerPaddingCSSPx": 12,
+      "minimumOnscreenHeightCSSPx": 40,
+      "requiredClearSpace": "One-quarter badge height, 12px at 48px",
+      "attribution": "Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc., registered in the U.S. and other countries.",
+      "mobileMaxWidthCSSPx": 640,
+      "mobileDisplayHeightCSSPx": 40,
+      "mobileOuterPaddingCSSPx": 10,
+      "mobileRequiredClearSpaceCSSPx": 10
+    },
+    {
+      "file": "google-play-en.png",
+      "publisher": "Google",
+      "sourceURL": "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png",
+      "finalURL": "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png",
+      "sourceContext": "Public official Google Play badge image endpoint; no login or agreement interaction",
+      "guidelineURL": "https://partnermarketinghub.withgoogle.com/brands/google-play/google-play/lockups-icons-badges/?folder=86718",
+      "responseLastModified": "2026-09-10T14:48:00Z",
+      "bytes": 4904,
+      "sha256": "f72611e2df8e88204009fd896d05d5e8e83c77009c63943bbffa169559934849",
+      "nativeWidth": 646,
+      "nativeHeight": 250,
+      "alphaBoundingBoxExclusive": [
+        41,
+        41,
+        605,
+        209
+      ],
+      "visibleNativeWidth": 564,
+      "visibleNativeHeight": 168,
+      "displayImageHeightCSSPx": 72,
+      "displayVisibleHeightCSSPx": 48.384,
+      "displayTransparentPaddingCSSPx": 11.808,
+      "outerPaddingCSSPx": 1,
+      "minimumTotalClearSpaceCSSPx": 12.808,
+      "minimumRequiredClearSpaceCSSPx": 12.096,
+      "minimumOnscreenHeightCSSPx": 28,
+      "versionLimitation": "Public official badge bytes, not compared byte-for-byte with the current gated Partner Marketing Hub asset kit.",
+      "mobileMaxWidthCSSPx": 640,
+      "mobileDisplayImageHeightCSSPx": 60,
+      "mobileDisplayVisibleHeightCSSPx": 40.32,
+      "mobileDisplayTransparentPaddingCSSPx": 9.84,
+      "mobileOuterPaddingCSSPx": 1,
+      "mobileMinimumTotalClearSpaceCSSPx": 10.84,
+      "mobileMinimumRequiredClearSpaceCSSPx": 10.08
+    }
+  ],
+  "layout": {
+    "order": [
+      "App Store",
+      "Google Play"
+    ],
+    "desktop": "Centered flex row, ordinary wrapping",
+    "mobile": "At viewport widths up to 640px, left-aligned flex row using 40px Apple artwork and 60px original Google PNG (visible 40.32px); ordinary wrapping if needed.",
+    "visibleHorizontalGapCSSPx": 24.808,
+    "appearance": "Preferred original black badges; no cropping, recoloring, distortion, filter, opacity change or artwork recreation",
+    "mobileVisibleHorizontalGapCSSPx": 20.84,
+    "mobileCombinedOuterWidthCSSPx": 296.70407
+  },
+  "agreementInteraction": "No license/confidentiality checkbox accepted; no account created, login or gated signed download used."
+}

@@ -2,9 +2,13 @@
 .intro h1 { font-family: Geist, sans-serif; font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 650; letter-spacing: -.055em; line-height: 1.08; }
 .intro h1 span { color: var(--accent); }
 .intro-copy { color: var(--muted); font-size: 18px; line-height: 1.65; margin: 24px auto 28px; max-width: 520px; }
-.store-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
-.store-link { display: inline-flex; align-items: center; justify-content: center; gap: 16px; min-height: 48px; padding: 12px 22px; border-radius: 10px; background: var(--foreground); color: var(--background); font-size: 15px; font-weight: 600; text-decoration: none; }
-.store-link:hover { opacity: .85; }
+.store-links { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0; }
+.store-link { display: inline-flex; flex: 0 0 auto; padding: 12px; }
+.store-link img { display: block; width: auto; height: 48px; }
+/* The original Google PNG includes transparent clear space around the badge. */
+.store-link--google { padding: 1px; }
+.store-link--google img { height: 72px; }
+.store-trademarks { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .availability { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 10px; margin: 14px 0 0; color: var(--muted); font-size: .875rem; line-height: 1.5; }
 .availability-next { display: inline-flex; gap: 10px; }
 .availability-next > span { color: var(--accent); }
@@ -17,6 +21,10 @@
   .intro-copy { margin-inline: 0; font-size: 16px; }
   .desktop-break { display: none; }
   .store-links, .availability { justify-content: flex-start; }
+  .store-link { padding: 10px; }
+  .store-link img { height: 40px; }
+  .store-link--google { padding: 1px; }
+  .store-link--google img { height: 60px; }
   .screens-section { margin-top: 40px; }
   .screens { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 78%; gap: 16px; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 12px; }
   .screens img { scroll-snap-align: start; border-radius: 12px; }
