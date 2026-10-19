@@ -2,7 +2,7 @@
 
 A small English app introduction and privacy page for `app.spendlab.net`.
 
-- `/`: app introduction, all nine approved App Store images, current App Store listing link. Android, live sharing/sync, advanced statistics and photos/maps appear separately as future plans.
+- `/`: app introduction, all nine approved App Store images, current App Store and Google Play listing links for iPhone and Android. Live sharing/sync, advanced statistics and photos/maps appear separately as future plans.
 - `/privacy/`: the existing policy, with preserved text and the shared home header, footer and page width.
 - `/spend/2019/01/30/privacy-policy.html`: compatibility redirect to `/privacy/`.
 
