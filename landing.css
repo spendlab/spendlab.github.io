@@ -9,7 +9,7 @@
 .store-link--google { padding: 1px; }
 .store-link--google img { height: 72px; }
 .store-trademarks { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
-.availability { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 10px; margin: 14px 0 0; color: var(--muted); font-size: .875rem; line-height: 1.5; }
+.availability { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 10px; margin: 0; color: var(--muted); font-size: .875rem; line-height: 1.5; }
 .availability-next { display: inline-flex; gap: 10px; }
 .availability-next > span { color: var(--accent); }
 .screens-section { margin-top: 60px; }
