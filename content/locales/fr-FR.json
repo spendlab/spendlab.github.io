@@ -1,0 +1,147 @@
+{
+  "locale": "fr-FR",
+  "languageName": "Français",
+  "htmlLang": "fr",
+  "metaTitle": "SPEND: Partagez les frais de groupe et suivez vos dépenses de voyage",
+  "metaDescription": "Notez les dépenses communes, choisissez qui a payé et qui partage chaque dépense, puis consultez les remboursements suggérés. SPEND est disponible sur iPhone et Android.",
+  "nav": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "guides": "Mode d’emploi",
+    "language": "Langue",
+    "contact": "Contact",
+    "main": "Navigation principale",
+    "footer": "Pied de page"
+  },
+  "hero": {
+    "title": [
+      "Partagez les frais du groupe.",
+      "Suivez vos dépenses de voyage."
+    ],
+    "body": "D’une courte sortie à un voyage entier. Notez les dépenses communes et voyez qui doit combien à qui."
+  },
+  "availability": "Pour iPhone et Android",
+  "storeAlts": [
+    "Télécharger sur l’App Store",
+    "Télécharger sur Google Play"
+  ],
+  "screensTitle": "Aperçu de l’app",
+  "screensLabel": "Neuf captures d’écran de l’app. Faites défiler horizontalement pour les parcourir.",
+  "screensNote": "Les captures d’écran sont en anglais.",
+  "screenshotAlts": [
+    "Partager les frais de groupe et suivre les dépenses de voyage.",
+    "Soldes des participants et remboursements suggérés.",
+    "Choisir qui a payé et qui partage chaque dépense.",
+    "Regrouper les dépenses dans un événement.",
+    "Partager les postes de dépense et le total sous forme de reçu.",
+    "Enregistrer dans la devise locale et consulter dans une autre devise.",
+    "Consulter les dépenses par catégorie et par étiquette.",
+    "Répartir des montants sans créer d’événement.",
+    "Mini-jeux Doigts, Roue et Flipper."
+  ],
+  "featuresTitle": "Les dépenses communes au même endroit",
+  "featuresIntro": "Gardez des comptes clairs, de la première dépense au dernier règlement.",
+  "features": [
+    {
+      "title": "Certains frais à deux, d’autres pour tous",
+      "body": "Choisissez les participants pour chaque dépense. Partagez à parts égales, répartissez selon les proportions de votre choix ou saisissez un montant par personne. Vous pouvez aussi enregistrer les dépenses payées par plusieurs personnes."
+    },
+    {
+      "title": "Qui doit combien à qui ?",
+      "body": "Consultez les soldes de chacun et les remboursements suggérés en un coup d’œil. Partagez le résultat pour que chacun puisse retrouver les comptes à régler, même après la sortie ou le voyage."
+    },
+    {
+      "title": "Les dépenses à l’étranger, dans votre devise habituelle",
+      "body": "Enregistrez les dépenses dans la devise locale et consultez les montants dans celle que vous utilisez au quotidien. Saisissez le taux de change ou recherchez-en un."
+    },
+    {
+      "title": "Des comptes séparés pour chaque voyage et sortie",
+      "body": "Un week-end, une sortie entre amis ou un repas partagé : classez les dépenses dans des événements distincts et ajoutez des dates, des lieux et des notes. Retrouvez les dépenses souhaitées à l’aide des catégories et des étiquettes."
+    },
+    {
+      "title": "Faites le point sur vos dépenses et conservez vos données",
+      "body": "Consultez l’évolution des dépenses par date ainsi que leur répartition par catégorie et par étiquette. Exportez les transactions en CSV pour les consulter dans Excel, ou sauvegardez et restaurez l’ensemble de vos données."
+    },
+    {
+      "title": "Juste un calcul ? Utilisez Partage express",
+      "body": "Saisissez les montants et le nombre de personnes sans créer d’événement. Additionnez plusieurs montants, puis répartissez le total. Rouvrez vos calculs récents pour les modifier. Pour continuer à suivre les dépenses, transférez le calcul dans un nouvel événement."
+    },
+    {
+      "title": "Des mini-jeux pour vos sorties",
+      "body": "Lancez les jeux Doigts, Roue et Flipper depuis Partage express ou la liste des transactions."
+    }
+  ],
+  "guidesTitle": "Comment partager les dépenses du quotidien",
+  "guidesIntro": "Trois situations courantes pour garder une trace de qui a payé et de qui partage les frais.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Seules deux personnes partagent cette dépense",
+      "body": "Voyager en groupe ne signifie pas que chaque dépense concerne tout le monde. Choisissez les participants pour chaque dépense.",
+      "steps": [
+        "Ajoutez la dépense à votre événement et indiquez qui a payé.",
+        "Sélectionnez uniquement les personnes qui partagent cette dépense. Répartissez à parts égales, selon des proportions ou avec des montants individuels.",
+        "Consultez les soldes de l’événement après avoir ajouté les autres dépenses."
+      ],
+      "exampleTitle": "Exemple",
+      "example": "4 amis voyagent ensemble. Seuls deux partagent une dépense de 60. Avec un partage égal, ces deux personnes prennent chacune 30 à leur charge ; la part de chacun des deux autres pour cette dépense est de 0."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Plusieurs personnes ont payé à tour de rôle",
+      "body": "Notez chaque paiement au lieu de régler les comptes après chaque dépense. SPEND utilise les paiements et les parts de chacun pour afficher les soldes.",
+      "steps": [
+        "Créez un événement et ajoutez les membres du groupe.",
+        "Pour chaque dépense, indiquez qui a payé et qui y participe. Si plusieurs personnes ont payé une même dépense, notez leurs contributions respectives.",
+        "Vérifiez les soldes et les remboursements suggérés, puis partagez le résultat."
+      ],
+      "exampleTitle": "Exemple",
+      "example": "4 personnes partagent 180 à parts égales, soit 45 chacune. A a payé 120 et B a payé 60. Les soldes sont A +75, B +15, C −45 et D −45. Les remboursements suggérés indiquent comment équilibrer les comptes ; SPEND n’effectue aucun transfert d’argent."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Notez les frais de voyage dans la devise locale",
+      "body": "Enregistrez les montants réellement dépensés dans la devise locale et consultez les frais dans votre devise habituelle.",
+      "steps": [
+        "Choisissez la devise au moment de saisir une dépense.",
+        "Saisissez un taux de change ou recherchez-en un dans l’app. Vérifiez le montant et le taux utilisés pour votre enregistrement.",
+        "Consultez les montants convertis et les soldes du groupe dans la devise choisie."
+      ],
+      "exampleTitle": "Vérifiez aussi le taux",
+      "example": "Si votre voyage comprend plusieurs devises, conservez la devise d’origine de chaque dépense et vérifiez sa conversion. Les taux peuvent changer : vérifiez le taux utilisé plutôt que de considérer un montant converti comme un cours en temps réel."
+    }
+  ],
+  "faqTitle": "Quelques points à connaître",
+  "faqs": [
+    {
+      "question": "SPEND permet-il d’envoyer de l’argent ?",
+      "answer": "Non. SPEND enregistre les dépenses et affiche les soldes et les remboursements suggérés. Les paiements réels se font séparément."
+    },
+    {
+      "question": "Tout le monde peut-il modifier le même groupe en temps réel ?",
+      "answer": "Le partage et la synchronisation en temps réel sont des fonctionnalités prévues. Vous pouvez actuellement partager les détails des dépenses et les résultats des comptes, mais il ne s’agit pas d’une modification collaborative en temps réel."
+    },
+    {
+      "question": "Puis-je conserver une copie de mes données ?",
+      "answer": "Vous pouvez exporter les transactions en CSV pour les consulter dans Excel et sauvegarder et restaurer l’ensemble de vos données."
+    }
+  ],
+  "roadmapTitle": "Fonctionnalités prévues",
+  "roadmapIntro": "Prévues pour de futures mises à jour.",
+  "roadmapItems": [
+    {
+      "title": "Partage et synchronisation en temps réel",
+      "body": "Tenir les comptes du groupe ensemble et synchroniser les données de chacun."
+    },
+    {
+      "title": "Statistiques détaillées",
+      "body": "Explorer les habitudes de dépense et les données de voyage."
+    },
+    {
+      "title": "Photos et cartes",
+      "body": "Faire vivre chaque voyage avec des photos et des lieux sur une carte."
+    }
+  ],
+  "themeLight": "Passer au mode clair",
+  "themeDark": "Passer au mode sombre"
+}

@@ -1,0 +1,147 @@
+{
+  "locale": "it-IT",
+  "languageName": "Italiano",
+  "htmlLang": "it",
+  "metaTitle": "SPEND: Dividi le spese di gruppo e registra i costi di viaggio",
+  "metaDescription": "Registra le spese condivise, scegli chi ha pagato e chi partecipa a ogni spesa e consulta i pagamenti suggeriti. SPEND è disponibile per iPhone e Android.",
+  "nav": {
+    "home": "Home",
+    "features": "Funzioni",
+    "guides": "Come funziona",
+    "language": "Lingua",
+    "contact": "Contatti",
+    "main": "Navigazione principale",
+    "footer": "Piè di pagina"
+  },
+  "hero": {
+    "title": [
+      "Dividi le spese di gruppo.",
+      "Registra i costi di viaggio."
+    ],
+    "body": "Da un incontro veloce a un intero viaggio. Registra le spese condivise e scopri chi deve quanto a chi."
+  },
+  "availability": "Per iPhone e Android",
+  "storeAlts": [
+    "Scarica dall’App Store",
+    "Scarica da Google Play"
+  ],
+  "screensTitle": "Anteprima dell’app",
+  "screensLabel": "Nove schermate dell’app. Scorri in orizzontale per esplorarle.",
+  "screensNote": "Le schermate sono in inglese.",
+  "screenshotAlts": [
+    "Dividere le spese di gruppo e registrare i costi di viaggio.",
+    "Saldi dei partecipanti e pagamenti suggeriti.",
+    "Scegliere chi ha pagato e chi partecipa a ogni spesa.",
+    "Raccogliere le spese del gruppo in un evento.",
+    "Condividere le voci di spesa e il totale come ricevuta.",
+    "Registrare nella valuta locale e controllare in un’altra valuta.",
+    "Esaminare le spese per categoria e tag.",
+    "Dividere importi senza creare un evento.",
+    "Minigiochi Dita, Ruota e Flipper."
+  ],
+  "featuresTitle": "Un unico posto per le spese condivise",
+  "featuresIntro": "Tieni i conti in ordine, dalla prima spesa al saldo finale.",
+  "features": [
+    {
+      "title": "Alcune spese in due, altre con tutti",
+      "body": "Scegli chi partecipa a ogni spesa. Dividi in parti uguali, stabilisci le proporzioni tra i partecipanti o inserisci gli importi individuali. Puoi anche registrare le spese pagate da più persone."
+    },
+    {
+      "title": "Chi deve quanto e a chi?",
+      "body": "Controlla a colpo d’occhio i saldi dei partecipanti e i pagamenti suggeriti. Condividi il risultato per ritrovare facilmente i conti da regolare anche dopo un incontro o un viaggio."
+    },
+    {
+      "title": "Spese all’estero, nella tua valuta abituale",
+      "body": "Registra le spese nella valuta locale e visualizza gli importi nella valuta che usi ogni giorno. Inserisci il tasso di cambio o cercane uno."
+    },
+    {
+      "title": "Uno spazio per ogni viaggio e incontro",
+      "body": "Un fine settimana fuori, un incontro tra amici o un pasto condiviso: organizza le spese in eventi separati e aggiungi date, luoghi e note. Trova i movimenti che cerchi usando categorie e tag."
+    },
+    {
+      "title": "Rivedi le spese e conserva i tuoi dati",
+      "body": "Osserva l’andamento delle spese per data e gli importi per categoria e tag. Esporta le transazioni in CSV per consultarle in Excel, oppure esegui il backup e il ripristino di tutti i dati."
+    },
+    {
+      "title": "Ti serve solo un calcolo? Usa Divisione rapida",
+      "body": "Inserisci gli importi e il numero di persone senza creare un evento. Somma più importi e dividi il totale. Riapri i calcoli recenti per modificarli. Se vuoi continuare a registrare le spese, trasferisci il calcolo in un nuovo evento."
+    },
+    {
+      "title": "Minigiochi per il gruppo",
+      "body": "Apri i giochi Dita, Ruota e Flipper da Divisione rapida o dall’elenco delle transazioni."
+    }
+  ],
+  "guidesTitle": "Come dividere le spese nella vita di tutti i giorni",
+  "guidesIntro": "Tre situazioni comuni per annotare con chiarezza chi ha pagato e chi divide il costo.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Questa spesa riguarda solo due persone",
+      "body": "Un viaggio di gruppo non significa che ogni spesa debba essere divisa tra tutti. Scegli chi ha partecipato a ogni spesa.",
+      "steps": [
+        "Aggiungi la spesa all’evento e registra chi ha pagato.",
+        "Seleziona solo i partecipanti che dividono questa spesa. Dividi in parti uguali, usa proporzioni o inserisci importi individuali.",
+        "Controlla i saldi dell’evento dopo aver aggiunto le altre spese."
+      ],
+      "exampleTitle": "Esempio",
+      "example": "4 amici viaggiano insieme. Solo due condividono una spesa di 60. Dividendola in parti uguali, la quota dei due partecipanti è di 30 ciascuno; la quota degli altri due per questa spesa è 0."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Persone diverse hanno pagato lungo il percorso",
+      "body": "Registra ogni pagamento invece di regolare i conti subito dopo ogni spesa. SPEND usa i pagamenti e le quote per mostrare il saldo di ciascun partecipante.",
+      "steps": [
+        "Crea un evento e aggiungi le persone del gruppo.",
+        "Registra per ogni spesa chi ha pagato e chi partecipa. Se una spesa è stata pagata da più persone, annota il contributo di ciascuna.",
+        "Controlla i saldi e i pagamenti suggeriti, poi condividi il risultato."
+      ],
+      "exampleTitle": "Esempio",
+      "example": "4 persone dividono 180 in parti uguali, quindi la quota di ciascuna è 45. A ha pagato 120 e B ha pagato 60. I saldi sono A +75, B +15, C −45 e D −45. I pagamenti suggeriti mostrano come pareggiare i conti; SPEND non trasferisce denaro."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Registra i costi di viaggio nella valuta locale",
+      "body": "Registra quanto hai effettivamente speso nella valuta locale e controlla le spese nella tua valuta abituale.",
+      "steps": [
+        "Scegli la valuta quando registri una spesa.",
+        "Inserisci un tasso di cambio o cercane uno nell’app. Controlla l’importo e il tasso usati per la registrazione.",
+        "Consulta gli importi convertiti e i saldi del gruppo nella valuta scelta."
+      ],
+      "exampleTitle": "Controlla anche il tasso",
+      "example": "Se durante un viaggio usi più valute, mantieni la valuta originale di ogni spesa e controlla la conversione. I tassi di cambio possono variare: verifica il tasso utilizzato invece di considerare un importo convertito come una quotazione in tempo reale."
+    }
+  ],
+  "faqTitle": "Alcune cose da sapere",
+  "faqs": [
+    {
+      "question": "SPEND invia denaro?",
+      "answer": "No. SPEND registra le spese e mostra i saldi e i pagamenti suggeriti. I pagamenti effettivi vanno effettuati separatamente."
+    },
+    {
+      "question": "Tutti possono modificare lo stesso gruppo in tempo reale?",
+      "answer": "La condivisione e la sincronizzazione in tempo reale sono funzioni previste. Al momento puoi condividere i dettagli delle spese e i risultati dei conti, ma non modificarli insieme in tempo reale."
+    },
+    {
+      "question": "Posso conservare una copia dei miei dati?",
+      "answer": "Puoi esportare le transazioni in CSV per consultarle in Excel ed eseguire il backup e il ripristino di tutti i dati."
+    }
+  ],
+  "roadmapTitle": "Funzioni previste",
+  "roadmapIntro": "Previste per i futuri aggiornamenti.",
+  "roadmapItems": [
+    {
+      "title": "Condivisione e sincronizzazione in tempo reale",
+      "body": "Registrare insieme le spese del gruppo e mantenere sincronizzati i dati di tutti."
+    },
+    {
+      "title": "Statistiche dettagliate",
+      "body": "Scoprire abitudini e tendenze nelle spese e nei dati di viaggio."
+    },
+    {
+      "title": "Foto e mappe",
+      "body": "Raccontare ogni viaggio con foto e luoghi su una mappa."
+    }
+  ],
+  "themeLight": "Passa alla modalità chiara",
+  "themeDark": "Passa alla modalità scura"
+}

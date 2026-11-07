@@ -1,0 +1,147 @@
+{
+  "locale": "vi",
+  "languageName": "Tiếng Việt",
+  "htmlLang": "vi",
+  "metaTitle": "SPEND: Chia tiền nhóm và ghi chép chi phí du lịch",
+  "metaDescription": "Ghi lại chi chung, chọn người trả và người cùng chia từng khoản, rồi xem gợi ý thanh toán. SPEND có trên iPhone và Android.",
+  "nav": {
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "guides": "Hướng dẫn sử dụng",
+    "language": "Ngôn ngữ",
+    "contact": "Liên hệ",
+    "main": "Điều hướng chính",
+    "footer": "Điều hướng cuối trang"
+  },
+  "hero": {
+    "title": [
+      "Chia tiền cùng nhóm.",
+      "Ghi chép chi phí du lịch."
+    ],
+    "body": "Từ buổi gặp ngắn đến cả chuyến đi. Ghi lại các khoản chi chung và xem ai cần trả ai."
+  },
+  "availability": "Dành cho iPhone và Android",
+  "storeAlts": [
+    "Tải về trên App Store",
+    "Tải về trên Google Play"
+  ],
+  "screensTitle": "Xem trước ứng dụng",
+  "screensLabel": "Chín ảnh chụp màn hình ứng dụng. Cuộn ngang để xem.",
+  "screensNote": "Ảnh chụp màn hình hiển thị bằng tiếng Anh.",
+  "screenshotAlts": [
+    "Chia tiền nhóm và ghi chép chi phí du lịch.",
+    "Số dư của thành viên và các khoản thanh toán được gợi ý.",
+    "Chọn người đã trả và những người cùng chia từng khoản chi.",
+    "Tập hợp chi tiêu nhóm trong một sự kiện.",
+    "Chia sẻ các mục chi và tổng tiền dưới dạng hóa đơn.",
+    "Ghi bằng tiền địa phương và xem bằng loại tiền khác.",
+    "Xem chi tiêu theo danh mục và thẻ.",
+    "Chia tiền mà không cần tạo sự kiện.",
+    "Trò chơi nhỏ Ngón tay, Vòng quay và Pinball."
+  ],
+  "featuresTitle": "Một nơi lưu các khoản chi chung",
+  "featuresIntro": "Giữ thông tin rõ ràng từ khoản chi đầu tiên đến khi hoàn tất thanh toán giữa các thành viên.",
+  "features": [
+    {
+      "title": "Khoản này chia hai, khoản kia chia cả nhóm",
+      "body": "Chọn những người cùng chia từng khoản chi. Chia đều, đặt tỷ lệ cho mỗi người hoặc nhập số tiền riêng. Bạn cũng có thể ghi nhận khoản chi do nhiều người cùng thanh toán."
+    },
+    {
+      "title": "Ai nợ ai bao nhiêu?",
+      "body": "Xem nhanh số dư của từng thành viên và các khoản thanh toán được gợi ý. Chia sẻ kết quả để mọi người dễ xem lại, ngay cả sau khi buổi gặp hay chuyến đi kết thúc."
+    },
+    {
+      "title": "Ghi bằng tiền địa phương, xem bằng tiền quen dùng",
+      "body": "Ghi chi tiêu bằng tiền địa phương và xem số tiền bằng loại tiền bạn thường dùng. Bạn có thể tự nhập hoặc tra tỷ giá."
+    },
+    {
+      "title": "Ghi riêng từng buổi gặp và chuyến đi",
+      "body": "Chuyến đi cuối tuần, buổi gặp bạn bè hay bữa ăn chung. Tách chi tiêu theo từng sự kiện, kèm ngày, địa điểm và ghi chú. Tìm lại các khoản chi theo danh mục hoặc thẻ."
+    },
+    {
+      "title": "Xem lại chi tiêu và lưu giữ dữ liệu",
+      "body": "Theo dõi chi tiêu theo ngày, danh mục và thẻ. Xuất giao dịch dưới dạng CSV để xem trong Excel, hoặc sao lưu và khôi phục toàn bộ dữ liệu."
+    },
+    {
+      "title": "Chỉ cần tính tiền? Dùng tính năng chia nhanh",
+      "body": "Nhập số tiền và số người mà không cần tạo sự kiện. Cộng nhiều khoản rồi chia tổng số tiền, hoặc mở lại phép tính gần đây để chỉnh sửa. Nếu muốn tiếp tục ghi chép, hãy chuyển phép tính sang một sự kiện mới."
+    },
+    {
+      "title": "Trò chơi nhỏ cho buổi gặp",
+      "body": "Mở trò Ngón tay, Vòng quay và Pinball từ màn hình chia nhanh hoặc danh sách giao dịch."
+    }
+  ],
+  "guidesTitle": "Cách chia tiền trong các tình huống thực tế",
+  "guidesIntro": "Ba tình huống thường gặp, với ghi chép rõ ràng về người đã trả và những người cùng chia chi phí.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Chỉ hai người cùng chia khoản này",
+      "body": "Đi du lịch cùng nhóm không có nghĩa là mọi khoản chi đều chia cho tất cả mọi người. Hãy chọn những thành viên thực sự tham gia từng khoản chi.",
+      "steps": [
+        "Thêm khoản chi vào sự kiện và ghi lại người đã trả.",
+        "Chỉ chọn những thành viên cùng chia khoản chi này. Bạn có thể chia đều, dùng tỷ lệ hoặc nhập số tiền riêng.",
+        "Sau khi thêm các khoản chi còn lại, xem số dư của từng thành viên trong sự kiện."
+      ],
+      "exampleTitle": "Ví dụ",
+      "example": "Bốn người bạn đi du lịch cùng nhau. Chỉ hai người cùng chia một khoản chi là 60. Nếu chia đều, mỗi người trong hai người đó chịu 30; phần của hai người còn lại trong khoản chi này là 0."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Nhiều người thay nhau trả tiền",
+      "body": "Ghi lại từng lần trả tiền thay vì phải thanh toán lại cho nhau ngay sau mỗi hóa đơn. SPEND dựa vào số tiền đã trả và phần chia để hiển thị số dư của từng thành viên.",
+      "steps": [
+        "Tạo sự kiện và thêm các thành viên trong nhóm.",
+        "Ghi người trả và những người cùng chia từng khoản chi. Nếu nhiều người cùng trả một khoản, hãy ghi số tiền mỗi người đã trả.",
+        "Kiểm tra số dư của thành viên và các khoản thanh toán được gợi ý, rồi chia sẻ kết quả."
+      ],
+      "exampleTitle": "Ví dụ",
+      "example": "Bốn người chia đều tổng số tiền 180, nên phần của mỗi người là 45. A đã trả 120 và B đã trả 60. Số dư lần lượt là A +75, B +15, C −45 và D −45. Các khoản thanh toán được gợi ý cho biết cách cân bằng ghi chép; SPEND không chuyển tiền."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Ghi chi phí du lịch bằng tiền địa phương",
+      "body": "Ghi số tiền thực tế đã chi bằng tiền địa phương và xem chi phí bằng loại tiền bạn thường dùng.",
+      "steps": [
+        "Chọn loại tiền khi ghi khoản chi.",
+        "Nhập tỷ giá hoặc tra tỷ giá trong ứng dụng. Kiểm tra số tiền và tỷ giá dùng cho bản ghi.",
+        "Xem số tiền đã quy đổi và số dư của nhóm bằng loại tiền bạn chọn."
+      ],
+      "exampleTitle": "Kiểm tra tỷ giá đã dùng",
+      "example": "Nếu chuyến đi sử dụng nhiều loại tiền, hãy giữ loại tiền gốc của từng khoản chi và xem cách quy đổi. Tỷ giá có thể thay đổi, vì vậy hãy kiểm tra tỷ giá đã dùng thay vì xem số tiền quy đổi là giá trị theo tỷ giá hiện tại."
+    }
+  ],
+  "faqTitle": "Một vài điều cần biết",
+  "faqs": [
+    {
+      "question": "SPEND có chuyển tiền không?",
+      "answer": "Không. SPEND ghi lại chi tiêu và hiển thị số dư cùng các khoản thanh toán được gợi ý. Việc trả tiền thực tế được thực hiện riêng."
+    },
+    {
+      "question": "Mọi người có thể cùng chỉnh sửa nhóm theo thời gian thực không?",
+      "answer": "Chia sẻ và đồng bộ theo thời gian thực là các tính năng dự kiến. Hiện tại, bạn có thể chia sẻ chi tiết khoản chi và kết quả thanh toán, nhưng chưa thể cùng chỉnh sửa theo thời gian thực."
+    },
+    {
+      "question": "Tôi có thể giữ một bản sao dữ liệu không?",
+      "answer": "Bạn có thể xuất giao dịch dưới dạng CSV để xem trong Excel, đồng thời sao lưu và khôi phục toàn bộ dữ liệu."
+    }
+  ],
+  "roadmapTitle": "Tính năng dự kiến",
+  "roadmapIntro": "Dự kiến có trong các bản cập nhật sau.",
+  "roadmapItems": [
+    {
+      "title": "Chia sẻ và đồng bộ theo thời gian thực",
+      "body": "Chia sẻ chi tiêu nhóm theo thời gian thực và đồng bộ ghi chép của mọi người."
+    },
+    {
+      "title": "Thống kê chi tiết",
+      "body": "Khám phá các xu hướng trong chi tiêu và ghi chép chuyến đi."
+    },
+    {
+      "title": "Ảnh và bản đồ",
+      "body": "Lưu lại chuyến đi bằng hình ảnh và địa điểm trên bản đồ."
+    }
+  ],
+  "themeLight": "Chuyển sang giao diện sáng",
+  "themeDark": "Chuyển sang giao diện tối"
+}

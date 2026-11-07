@@ -1,0 +1,156 @@
+{
+  "scope": "Selected reference-only Hallmark polish; existing system and layout preserved",
+  "contentChanges": [
+    {
+      "locale": "de-DE",
+      "field": "metaTitle",
+      "before": "SPEND — Gruppenkosten teilen und Reisekosten erfassen",
+      "after": "SPEND: Gruppenkosten teilen und Reisekosten erfassen",
+      "otherFieldsChanged": false,
+      "beforeSha256": "2ea24961ada5fe4d18cfe7eff7d60a5f917eadc015e68900043b360ddec7e159",
+      "afterSha256": "20a915f0b2a4f26a88e60635ae53ebfa43b590ecd3b24d6668597a3851886e3a"
+    },
+    {
+      "locale": "en-GB",
+      "field": "metaTitle",
+      "before": "SPEND — Split group bills and track travel costs",
+      "after": "SPEND: Split group bills and track travel costs",
+      "otherFieldsChanged": false,
+      "beforeSha256": "ae50cddc7e68f513825ebfede7eb6fe9ca42c51a9631d18cc7558930632709fd",
+      "afterSha256": "0af19f87cec346196574027fd316dadcc1b755a9a8d60286f5ea16b9f5f2e92a"
+    },
+    {
+      "locale": "en-US",
+      "field": "metaTitle",
+      "before": "SPEND — Split group bills and track travel costs",
+      "after": "SPEND: Split group bills and track travel costs",
+      "otherFieldsChanged": false,
+      "beforeSha256": "f1b783fc8cce6a1378042fa5c5d313d9fe8a80249a3caba79fe446b91b0901c5",
+      "afterSha256": "f189763f4d183fd5c507d2a11be56d13a04cdf678b796e22bda5b33f91b59309"
+    },
+    {
+      "locale": "es-ES",
+      "field": "metaTitle",
+      "before": "SPEND — Reparte gastos de grupo y registra los de viaje",
+      "after": "SPEND: Reparte gastos de grupo y registra los de viaje",
+      "otherFieldsChanged": false,
+      "beforeSha256": "d152f2a4bc73a9c7418abd9fbb21ac1940817cd2f19a60754a7de0914206fe34",
+      "afterSha256": "467ebc811a0bb396938befcc51620d9c2bd832da43e79370f86d80fb0e825db2"
+    },
+    {
+      "locale": "fr-FR",
+      "field": "metaTitle",
+      "before": "SPEND — Partagez les frais de groupe et suivez vos dépenses de voyage",
+      "after": "SPEND: Partagez les frais de groupe et suivez vos dépenses de voyage",
+      "otherFieldsChanged": false,
+      "beforeSha256": "6fbc86ca055e5efb5423169dd9d1fb73c035f574848250aee82bf5c06f517393",
+      "afterSha256": "25104112037a374db4049037aa5736f203e242445466e4c23e7ea3dfd2a59f8d"
+    },
+    {
+      "locale": "id",
+      "field": "metaTitle",
+      "before": "SPEND — Patungan dan catat biaya perjalanan",
+      "after": "SPEND: Patungan dan catat biaya perjalanan",
+      "otherFieldsChanged": false,
+      "beforeSha256": "6beedcc37486a9363bedddb7c3ab2c8b2924261d355dc42c4ae8a5f5fa09c3bc",
+      "afterSha256": "df0e934c79109af1f0a0416c965bb33f6695c1aa471d1e4b42b73e1b4c677d99"
+    },
+    {
+      "locale": "it-IT",
+      "field": "metaTitle",
+      "before": "SPEND — Dividi le spese di gruppo e registra i costi di viaggio",
+      "after": "SPEND: Dividi le spese di gruppo e registra i costi di viaggio",
+      "otherFieldsChanged": false,
+      "beforeSha256": "16af71954598ec7dfcc749b9ed9cd9550368761b7a06dc23cc700dfa0c15a69d",
+      "afterSha256": "27561e749fc20b9c5344db0859da73da1e73471d0bd5c169aee1268240a963ef"
+    },
+    {
+      "locale": "ja-JP",
+      "field": "metaTitle",
+      "before": "SPEND — 集まりの割り勘と旅行費用の記録",
+      "after": "SPEND: 集まりの割り勘と旅行費用の記録",
+      "otherFieldsChanged": false,
+      "beforeSha256": "7835a2ace7d0d11d5c85fead15fa2c035756b45f2ced961e5c0ce321a476f082",
+      "afterSha256": "d2f1698f4ee7ce5e0e07c1ce9241c6bff2355519b45f8c6c2ef97e8ae923a921"
+    },
+    {
+      "locale": "ko-KR",
+      "field": "metaTitle",
+      "before": "SPEND — 모임 지출과 여행 경비를 간편하게 정산하세요",
+      "after": "SPEND: 모임 지출과 여행 경비를 간편하게 정산하세요",
+      "otherFieldsChanged": false,
+      "beforeSha256": "65b77671cb645d5990fc4c916b66b71d0c47dcbd57925bed0db50fe5b9f8f674",
+      "afterSha256": "769f050b42018951d05b7e1415bd4091f9b20a2e03ce0dfb0637019ffc843550"
+    },
+    {
+      "locale": "nl-NL",
+      "field": "metaTitle",
+      "before": "SPEND — Deel groepskosten en houd reiskosten bij",
+      "after": "SPEND: Deel groepskosten en houd reiskosten bij",
+      "otherFieldsChanged": false,
+      "beforeSha256": "32e7db63caa8baa7545bcf182eec41d63d0634fee4d9f3e036509cbe6d0fa367",
+      "afterSha256": "6386304d9e1d675bf69f365de65a229c1499fdeed7ee1219f79e68b61a504b1b"
+    },
+    {
+      "locale": "pt-BR",
+      "field": "metaTitle",
+      "before": "SPEND — Divida gastos em grupo e registre despesas de viagem",
+      "after": "SPEND: Divida gastos em grupo e registre despesas de viagem",
+      "otherFieldsChanged": false,
+      "beforeSha256": "1b64488da95242394cfb4c24a4a8e652d3a57cc3a87cb506ec987e15d953616e",
+      "afterSha256": "79bad05189c61d011a53139a918db32bcb96dae9a16000739c72d82773e9b769"
+    },
+    {
+      "locale": "pt-PT",
+      "field": "metaTitle",
+      "before": "SPEND — Divida despesas de grupo e registe custos de viagem",
+      "after": "SPEND: Divida despesas de grupo e registe custos de viagem",
+      "otherFieldsChanged": false,
+      "beforeSha256": "75d821e3fa74778777287b7eb28fee153c71923e4625652c074a5c3e7f3c6afe",
+      "afterSha256": "a2a5fc624654e11e9f0cb77f8e4ee5b4edb9aaaea898d85803afcc3e03c81865"
+    },
+    {
+      "locale": "th",
+      "field": "metaTitle",
+      "before": "SPEND — หารบิลกับเพื่อนและจดค่าใช้จ่ายทริป",
+      "after": "SPEND: หารบิลกับเพื่อนและจดค่าใช้จ่ายทริป",
+      "otherFieldsChanged": false,
+      "beforeSha256": "eb79f134dcffb4790c940468808051356539000088c16fd94f1d872c76072363",
+      "afterSha256": "09f82ac3028c270e7bfc7eb95f2d26a3159f3ff6e01654628a9bfbb9e2dfb0e9"
+    },
+    {
+      "locale": "vi",
+      "field": "metaTitle",
+      "before": "SPEND — Chia tiền nhóm và ghi chép chi phí du lịch",
+      "after": "SPEND: Chia tiền nhóm và ghi chép chi phí du lịch",
+      "otherFieldsChanged": false,
+      "beforeSha256": "bf9479425d595acc5d7a583484537792a6f34a0d9b65b7f580ce67e76ec0b9ab",
+      "afterSha256": "a95502ba9927739d11dc36b65312cec4b46ca313f73c7a623df13883e2343255"
+    },
+    {
+      "locale": "zh-CN",
+      "field": "metaTitle",
+      "before": "SPEND — 聚会分账与旅行记账",
+      "after": "SPEND: 聚会分账与旅行记账",
+      "otherFieldsChanged": false,
+      "beforeSha256": "86502dfd3da2c26a15e0ab6c6dc6a79eda69e273be4a73e81c3f4db2b47e6052",
+      "afterSha256": "2fad9519669dcb946b6affb68af7bc0c7cf64be08583a52010ad1d8336875cc6"
+    },
+    {
+      "locale": "zh-TW",
+      "field": "metaTitle",
+      "before": "SPEND — 聚會分帳與旅遊記帳",
+      "after": "SPEND: 聚會分帳與旅遊記帳",
+      "otherFieldsChanged": false,
+      "beforeSha256": "b3c46ebbbce5fcac98fc96f085c0337bc091729f22c48e034029dd5f55c6e806",
+      "afterSha256": "f4495d043a8ef6b7c2548b876667593d301ed1d6550c547d02fd9ca6f229d818"
+    }
+  ],
+  "cssChanges": [
+    "Remove language-menu shadow and its literal color",
+    "Add balanced heading wrapping with normal minimum width",
+    "Keep language and theme controls in one right-aligned flex group at narrow widths"
+  ],
+  "rendering": "Root CUA checks, not a Hallmark render pass",
+  "fullHallmarkPassClaimed": false
+}

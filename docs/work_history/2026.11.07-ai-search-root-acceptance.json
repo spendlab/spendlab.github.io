@@ -1,0 +1,181 @@
+{
+  "status": "source and local UI accepted; publication pending",
+  "integrationOwner": "Root",
+  "baseline": "f1f33fbe38c1f4e64c05211f0ef86920568282bf",
+  "actualUI": {
+    "dedicatedLocalePages": 16,
+    "localeMenuBoundsAt320": [
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/en/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/en-gb/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/ko/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/ja/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/zh-hans/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/zh-hant/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/de/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/fr/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/es/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/it/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/nl/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/pt-br/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/pt-pt/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/id/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/vi/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      {
+        "left": 14,
+        "menuFits": true,
+        "path": "/th/",
+        "right": 244,
+        "scrollWidth": 320,
+        "width": 320
+      }
+    ],
+    "responsiveViews": [
+      "Korean 384x844 dark and light",
+      "English 1280x900 dark and light",
+      "all 16 dedicated pages at 320px"
+    ],
+    "manualPreferenceAndRoot": "actual Korean/English clicks, then root resolved to remembered /en/",
+    "fragmentAndQuery": "actual click from /en/?utm_source=qa#guides to /ko/?utm_source=qa#guides",
+    "keyboardFocus": "Tab from language summary reached theme button with instant visible 2px accent outline",
+    "privacy": "original English main body exact within captured baseline, original stylesheet and script only, no locale control"
+  },
+  "sourceChecks": {
+    "localizedPages": 16,
+    "guideSections": 48,
+    "alternatesPerPage": 17,
+    "protectedBaselineFilesByteExact": 35,
+    "languageBehaviorTests": 9,
+    "behaviorEvidenceReused": "site-language.js unchanged after hashchange regression passed; later changes only metadata/CSS/header wrapper"
+  },
+  "hallmark": {
+    "version": "2.0.0",
+    "source": "407fa689f4a276f2fd389208d271d0fef08f5058",
+    "scope": "reference-only existing-system audit and selected polish",
+    "staticAfter": {
+      "fails": 4,
+      "reflex": 12,
+      "warns": 2,
+      "render": "off"
+    },
+    "disposition": {
+      "26a": "scanner does not load linked CSS; focus rules in style.css and discovery.css, visible keyboard outline verified in UI",
+      "34": "existing styles preserved; actual documents and all menus fit at 320; no overflow masking added",
+      "24b": "retain reviewed project spacing rather than impose unrelated spacing scale",
+      "26b": "ordinary links and summary use hover/current/focus states; no disabled inputs exist and no synthetic disabled controls added",
+      "58": "retain authorized usage examples and factual content, grouped into sections"
+    },
+    "fullHallmarkPassClaimed": false,
+    "renderTierRun": false
+  },
+  "limits": [
+    "No native-speaker human review claimed",
+    "No AI-citation or acquisition increase measured",
+    "No browser preferred-language setting changed; regional matching and blocked storage covered by existing 9 behavior tests",
+    "Local screenshot surface had origin zoom scaling; actual CSS viewport dimensions measured from DOM"
+  ]
+}

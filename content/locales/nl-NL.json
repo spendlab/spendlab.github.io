@@ -1,0 +1,147 @@
+{
+  "locale": "nl-NL",
+  "languageName": "Nederlands",
+  "htmlLang": "nl",
+  "metaTitle": "SPEND: Deel groepskosten en houd reiskosten bij",
+  "metaDescription": "Houd gezamenlijke uitgaven bij, kies wie heeft betaald en wie elke uitgave deelt en bekijk voorgestelde verrekeningen. SPEND is er voor iPhone en Android.",
+  "nav": {
+    "home": "Start",
+    "features": "Functies",
+    "guides": "Zo werkt het",
+    "language": "Taal",
+    "contact": "Contact",
+    "main": "Hoofdnavigatie",
+    "footer": "Voettekst"
+  },
+  "hero": {
+    "title": [
+      "Deel groepskosten.",
+      "Houd reiskosten bij."
+    ],
+    "body": "Van een korte afspraak tot een hele reis. Houd gezamenlijke uitgaven bij en zie wie hoeveel aan wie moet betalen."
+  },
+  "availability": "Voor iPhone en Android",
+  "storeAlts": [
+    "Download in de App Store",
+    "Download op Google Play"
+  ],
+  "screensTitle": "Voorbeeld van de app",
+  "screensLabel": "Negen schermafbeeldingen van de app. Scrol horizontaal om ze te bekijken.",
+  "screensNote": "De schermafbeeldingen zijn in het Engels.",
+  "screenshotAlts": [
+    "Groepskosten delen en reiskosten bijhouden.",
+    "Saldi per deelnemer en voorgestelde verrekeningen.",
+    "Kiezen wie heeft betaald en wie elke uitgave deelt.",
+    "Groepsuitgaven samen in een activiteit bewaren.",
+    "Uitgavenposten en het totaal als bon delen.",
+    "In de lokale valuta vastleggen en in een andere valuta bekijken.",
+    "Uitgaven per categorie en label bekijken.",
+    "Bedragen verdelen zonder een activiteit te maken.",
+    "Minigames Vingers, Rad en Flipper."
+  ],
+  "featuresTitle": "Eén plek voor gezamenlijke kosten",
+  "featuresIntro": "Houd alles duidelijk bij, van de eerste uitgave tot de laatste afrekening.",
+  "features": [
+    {
+      "title": "Sommige kosten voor twee, andere voor iedereen",
+      "body": "Kies per uitgave wie meedeelt. Verdeel het bedrag gelijk, stel de verhoudingen per deelnemer in of voer de bedragen voor iedere persoon zelf in. Je kunt ook uitgaven vastleggen die door meerdere personen zijn betaald."
+    },
+    {
+      "title": "Wie moet wie hoeveel betalen?",
+      "body": "Bekijk de saldi per deelnemer en de voorgestelde verrekeningen in één oogopslag. Deel het resultaat, zodat jullie de afrekening ook na een uitje of reis makkelijk kunnen terugzien."
+    },
+    {
+      "title": "Buitenlandse uitgaven in je vertrouwde valuta",
+      "body": "Registreer uitgaven in de lokale valuta en bekijk de bedragen in de valuta die je gewend bent. Voer zelf een wisselkoers in of zoek er een op."
+    },
+    {
+      "title": "Een apart overzicht voor elke reis en bijeenkomst",
+      "body": "Een weekend weg, een afspraak met vrienden of een gezamenlijke maaltijd: houd uitgaven bij in aparte activiteiten en voeg datums, locaties en notities toe. Vind de gewenste uitgaven terug met categorieën en labels."
+    },
+    {
+      "title": "Bekijk je uitgaven en bewaar je gegevens",
+      "body": "Bekijk het verloop van je uitgaven per datum en de kosten per categorie en label. Exporteer transacties als CSV om ze in Excel te bekijken, of maak een back-up van al je gegevens en herstel ze."
+    },
+    {
+      "title": "Alleen even rekenen? Gebruik Snel splitsen",
+      "body": "Voer bedragen en het aantal personen in zonder een activiteit te maken. Tel meerdere bedragen op en verdeel het totaal. Open recente berekeningen opnieuw om ze aan te passen. Wil je de uitgaven verder bijhouden? Zet de berekening dan om in een nieuwe activiteit."
+    },
+    {
+      "title": "Minigames voor jullie groep",
+      "body": "Open Vingers, Rad en Flipper vanuit Snel splitsen of de transactielijst."
+    }
+  ],
+  "guidesTitle": "Zo verdeel je kosten uit het dagelijks leven",
+  "guidesIntro": "Drie alledaagse situaties waarin je duidelijk bijhoudt wie heeft betaald en wie de kosten deelt.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Deze uitgave is alleen voor twee personen",
+      "body": "Een groepsreis betekent niet dat elke uitgave voor iedereen is. Kies per uitgave de deelnemers die eraan meededen.",
+      "steps": [
+        "Voeg de uitgave aan je activiteit toe en leg vast wie heeft betaald.",
+        "Selecteer alleen de deelnemers die deze uitgave delen. Verdeel gelijk, gebruik verhoudingen of voer individuele bedragen in.",
+        "Bekijk de saldi van de activiteit nadat je de andere uitgaven hebt toegevoegd."
+      ],
+      "exampleTitle": "Voorbeeld",
+      "example": "4 vrienden reizen samen. Slechts twee delen een uitgave van 60. Bij een gelijke verdeling is hun aandeel ieder 30; het aandeel van de andere twee in deze uitgave is ieder 0."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Verschillende mensen hebben onderweg betaald",
+      "body": "Leg elke betaling vast in plaats van elke rekening meteen te verrekenen. SPEND gebruikt de betalingen en kostenverdeling om het saldo van iedere deelnemer te tonen.",
+      "steps": [
+        "Maak een activiteit en voeg de mensen uit je groep toe.",
+        "Leg bij elke uitgave de betaler en deelnemers vast. Hebben meerdere mensen één uitgave betaald? Noteer dan ieders bijdrage.",
+        "Controleer de saldi en voorgestelde verrekeningen en deel daarna het resultaat."
+      ],
+      "exampleTitle": "Voorbeeld",
+      "example": "4 personen delen 180 gelijk, dus ieders aandeel is 45. A heeft 120 betaald en B 60. Hun saldi zijn A +75, B +15, C −45 en D −45. De voorgestelde verrekeningen laten zien hoe je de saldi kunt vereffenen; SPEND maakt geen geld over."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Houd reiskosten bij in de lokale valuta",
+      "body": "Leg vast wat je daadwerkelijk in de lokale valuta hebt uitgegeven en bekijk de kosten in je gebruikelijke valuta.",
+      "steps": [
+        "Kies de valuta wanneer je een uitgave vastlegt.",
+        "Voer een wisselkoers in of zoek er een op in de app. Controleer het bedrag en de koers die voor je registratie worden gebruikt.",
+        "Bekijk de omgerekende bedragen en groepssaldi in de gekozen valuta."
+      ],
+      "exampleTitle": "Controleer ook de koers",
+      "example": "Gebruik je op reis meerdere valuta? Bewaar dan de oorspronkelijke valuta van elke uitgave en controleer de omrekening. Wisselkoersen kunnen veranderen. Controleer daarom de gebruikte koers en behandel een omgerekend bedrag niet als een actuele koersnotering."
+    }
+  ],
+  "faqTitle": "Goed om te weten",
+  "faqs": [
+    {
+      "question": "Maakt SPEND geld over?",
+      "answer": "Nee. SPEND houdt uitgaven bij en toont saldi en voorgestelde verrekeningen. Daadwerkelijke betalingen regel je apart."
+    },
+    {
+      "question": "Kan iedereen dezelfde groep in realtime bewerken?",
+      "answer": "In realtime delen en synchroniseren zijn geplande functies. Je kunt nu uitgavendetails en afrekeningen delen, maar dat is geen gezamenlijke bewerking in realtime."
+    },
+    {
+      "question": "Kan ik een kopie van mijn gegevens bewaren?",
+      "answer": "Je kunt transacties als CSV exporteren om ze in Excel te bekijken en een back-up van al je gegevens maken en herstellen."
+    }
+  ],
+  "roadmapTitle": "Geplande functies",
+  "roadmapIntro": "Gepland voor toekomstige updates.",
+  "roadmapItems": [
+    {
+      "title": "In realtime delen en synchroniseren",
+      "body": "Samen groepsuitgaven bijhouden en ieders gegevens synchroon houden."
+    },
+    {
+      "title": "Gedetailleerde statistieken",
+      "body": "Patronen ontdekken in je uitgaven en reisgegevens."
+    },
+    {
+      "title": "Foto’s en kaarten",
+      "body": "Elke reis tot leven brengen met foto’s en locaties op een kaart."
+    }
+  ],
+  "themeLight": "Overschakelen naar lichte modus",
+  "themeDark": "Overschakelen naar donkere modus"
+}

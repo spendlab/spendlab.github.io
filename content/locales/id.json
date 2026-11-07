@@ -1,0 +1,147 @@
+{
+  "locale": "id",
+  "languageName": "Bahasa Indonesia",
+  "htmlLang": "id",
+  "metaTitle": "SPEND: Patungan dan catat biaya perjalanan",
+  "metaDescription": "Catat pengeluaran bersama, pilih siapa yang membayar dan siapa yang berbagi setiap biaya, lalu lihat saran pelunasan. SPEND tersedia untuk iPhone dan Android.",
+  "nav": {
+    "home": "Beranda",
+    "features": "Fitur",
+    "guides": "Panduan penggunaan",
+    "language": "Bahasa",
+    "contact": "Hubungi kami",
+    "main": "Navigasi utama",
+    "footer": "Navigasi bawah"
+  },
+  "hero": {
+    "title": [
+      "Patungan lebih mudah.",
+      "Biaya perjalanan tercatat."
+    ],
+    "body": "Dari kumpul sebentar hingga liburan panjang. Catat pengeluaran bersama dan lihat siapa perlu membayar kepada siapa."
+  },
+  "availability": "Untuk iPhone dan Android",
+  "storeAlts": [
+    "Unduh di App Store",
+    "Dapatkan di Google Play"
+  ],
+  "screensTitle": "Pratinjau aplikasi",
+  "screensLabel": "Sembilan tangkapan layar aplikasi. Geser secara horizontal untuk melihatnya.",
+  "screensNote": "Tangkapan layar ditampilkan dalam bahasa Inggris.",
+  "screenshotAlts": [
+    "Patungan dan catat biaya perjalanan.",
+    "Saldo anggota dan saran pelunasan.",
+    "Pilih siapa yang membayar dan siapa yang berbagi setiap pengeluaran.",
+    "Kumpulkan pengeluaran bersama dalam satu acara.",
+    "Bagikan rincian pengeluaran dan totalnya dalam bentuk struk.",
+    "Catat dalam mata uang lokal dan lihat dalam mata uang lain.",
+    "Tinjau pengeluaran berdasarkan kategori dan tag.",
+    "Bagi jumlah uang tanpa membuat acara.",
+    "Minigame Jari, Roda, dan Pinball."
+  ],
+  "featuresTitle": "Satu tempat untuk pengeluaran bersama",
+  "featuresIntro": "Simpan catatan yang jelas, dari pengeluaran pertama hingga pelunasan terakhir.",
+  "features": [
+    {
+      "title": "Yang ini untuk berdua, yang itu untuk semua",
+      "body": "Pilih siapa saja yang berbagi setiap pengeluaran. Bagi rata, tentukan rasio tiap orang, atau masukkan jumlah masing-masing. Anda juga dapat mencatat pengeluaran yang dibayar oleh beberapa orang."
+    },
+    {
+      "title": "Siapa berutang berapa kepada siapa?",
+      "body": "Lihat saldo anggota dan saran pelunasan dalam satu tampilan. Bagikan hasilnya agar semua orang tetap mudah memeriksanya setelah acara atau perjalanan selesai."
+    },
+    {
+      "title": "Catat dalam mata uang lokal, lihat dalam mata uang Anda",
+      "body": "Catat pengeluaran dalam mata uang lokal dan lihat nilainya dalam mata uang yang biasa Anda gunakan. Masukkan kurs sendiri atau cari kurs."
+    },
+    {
+      "title": "Catatan terpisah untuk setiap acara dan perjalanan",
+      "body": "Liburan akhir pekan, kumpul bersama teman, atau makan bersama. Pisahkan pengeluaran berdasarkan acara, lengkap dengan tanggal, tempat, dan catatan. Temukan catatan berdasarkan kategori atau tag."
+    },
+    {
+      "title": "Tinjau pengeluaran dan simpan catatan Anda",
+      "body": "Lihat pengeluaran dari hari ke hari serta menurut kategori dan tag. Ekspor transaksi sebagai CSV untuk dibuka di Excel, atau cadangkan dan pulihkan seluruh catatan Anda."
+    },
+    {
+      "title": "Hanya perlu menghitung? Gunakan pembagian cepat",
+      "body": "Masukkan jumlah uang dan jumlah orang tanpa membuat acara. Jumlahkan beberapa nilai lalu bagi totalnya, atau buka kembali perhitungan terbaru untuk mengubahnya. Jika ingin melanjutkan pencatatan, pindahkan perhitungan ke acara baru."
+    },
+    {
+      "title": "Minigame untuk acara Anda",
+      "body": "Buka permainan Jari, Roda, dan Pinball dari pembagian cepat atau daftar transaksi."
+    }
+  ],
+  "guidesTitle": "Cara membagi pengeluaran sehari-hari",
+  "guidesIntro": "Tiga situasi sehari-hari dengan catatan yang jelas tentang siapa yang membayar dan siapa yang berbagi biaya.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Hanya dua orang yang berbagi biaya ini",
+      "body": "Bepergian bersama bukan berarti semua pengeluaran harus dibagi ke seluruh anggota. Pilih anggota yang ikut dalam setiap pengeluaran.",
+      "steps": [
+        "Tambahkan pengeluaran ke acara dan catat siapa yang membayar.",
+        "Pilih hanya anggota yang berbagi pengeluaran ini. Bagi rata, gunakan rasio, atau masukkan jumlah masing-masing.",
+        "Setelah mencatat pengeluaran lainnya, tinjau saldo anggota dalam acara."
+      ],
+      "exampleTitle": "Contoh",
+      "example": "Empat teman bepergian bersama. Hanya dua orang yang berbagi biaya sebesar 60. Jika dibagi rata, keduanya menanggung 30 per orang; bagian dua orang lainnya untuk pengeluaran ini adalah 0."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Beberapa orang bergantian membayar",
+      "body": "Catat setiap pembayaran tanpa perlu langsung membereskan patungan setiap kali ada tagihan. SPEND menggunakan catatan pembayaran dan pembagian biaya untuk menampilkan saldo setiap anggota.",
+      "steps": [
+        "Buat acara dan tambahkan anggota kelompok Anda.",
+        "Catat pembayar dan anggota yang berbagi setiap pengeluaran. Jika satu pengeluaran dibayar oleh beberapa orang, catat jumlah yang dibayar masing-masing.",
+        "Periksa saldo anggota dan saran pelunasan, lalu bagikan hasilnya."
+      ],
+      "exampleTitle": "Contoh",
+      "example": "Empat orang membagi rata total 180, sehingga bagian setiap orang adalah 45. A membayar 120 dan B membayar 60. Saldonya adalah A +75, B +15, C −45, dan D −45. Saran pelunasan menunjukkan cara menyeimbangkan catatan; SPEND tidak mentransfer uang."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Catat biaya perjalanan dalam mata uang lokal",
+      "body": "Catat pengeluaran sebenarnya dalam mata uang lokal dan tinjau nilainya dalam mata uang yang biasa Anda gunakan.",
+      "steps": [
+        "Pilih mata uang saat mencatat pengeluaran.",
+        "Masukkan kurs atau cari kurs di aplikasi. Periksa jumlah dan kurs yang digunakan dalam catatan Anda.",
+        "Tinjau hasil konversi dan saldo kelompok dalam mata uang pilihan Anda."
+      ],
+      "exampleTitle": "Periksa kurs yang digunakan",
+      "example": "Jika perjalanan menggunakan lebih dari satu mata uang, simpan mata uang asli setiap pengeluaran dan periksa hasil konversinya. Kurs dapat berubah, jadi periksa kurs yang digunakan dan jangan menganggap hasil konversi sebagai nilai tukar terkini."
+    }
+  ],
+  "faqTitle": "Hal yang perlu diketahui",
+  "faqs": [
+    {
+      "question": "Apakah SPEND bisa mengirim uang?",
+      "answer": "Tidak. SPEND mencatat pengeluaran serta menampilkan saldo dan saran pelunasan. Pembayaran sebenarnya dilakukan secara terpisah."
+    },
+    {
+      "question": "Bisakah semua orang mengedit kelompok yang sama secara real-time?",
+      "answer": "Berbagi dan sinkronisasi secara real-time adalah fitur yang direncanakan. Saat ini Anda dapat membagikan rincian pengeluaran dan hasil pelunasan, tetapi belum dapat mengedit catatan bersama secara real-time."
+    },
+    {
+      "question": "Bisakah saya menyimpan salinan catatan?",
+      "answer": "Anda dapat mengekspor transaksi sebagai CSV untuk dibuka di Excel, serta mencadangkan dan memulihkan seluruh catatan Anda."
+    }
+  ],
+  "roadmapTitle": "Fitur yang direncanakan",
+  "roadmapIntro": "Direncanakan untuk pembaruan mendatang.",
+  "roadmapItems": [
+    {
+      "title": "Berbagi dan sinkronisasi secara real-time",
+      "body": "Berbagi pengeluaran kelompok secara real-time dan menyinkronkan catatan semua anggota."
+    },
+    {
+      "title": "Statistik terperinci",
+      "body": "Temukan pola dalam pengeluaran dan catatan perjalanan Anda."
+    },
+    {
+      "title": "Foto dan peta",
+      "body": "Simpan momen perjalanan melalui foto dan tempat di peta."
+    }
+  ],
+  "themeLight": "Beralih ke mode terang",
+  "themeDark": "Beralih ke mode gelap"
+}

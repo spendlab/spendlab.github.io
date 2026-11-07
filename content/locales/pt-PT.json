@@ -1,0 +1,147 @@
+{
+  "locale": "pt-PT",
+  "languageName": "Português (Portugal)",
+  "htmlLang": "pt-PT",
+  "metaTitle": "SPEND: Divida despesas de grupo e registe custos de viagem",
+  "metaDescription": "Registe despesas partilhadas, escolha quem pagou e quem divide cada gasto e consulte os acertos sugeridos. O SPEND está disponível para iPhone e Android.",
+  "nav": {
+    "home": "Página inicial",
+    "features": "Funcionalidades",
+    "guides": "Como funciona",
+    "language": "Idioma",
+    "contact": "Contacto",
+    "main": "Navegação principal",
+    "footer": "Rodapé"
+  },
+  "hero": {
+    "title": [
+      "Divida as despesas do grupo.",
+      "Registe os gastos da viagem."
+    ],
+    "body": "De um encontro rápido a uma viagem inteira. Registe as despesas partilhadas e veja quem deve quanto a quem."
+  },
+  "availability": "Para iPhone e Android",
+  "storeAlts": [
+    "Descarregar na App Store",
+    "Obter no Google Play"
+  ],
+  "screensTitle": "Pré-visualização da aplicação",
+  "screensLabel": "Nove capturas de ecrã da aplicação. Desloque-se na horizontal para as explorar.",
+  "screensNote": "As capturas de ecrã são apresentadas em inglês.",
+  "screenshotAlts": [
+    "Dividir as despesas do grupo e registar os gastos da viagem.",
+    "Saldos dos membros e acertos de contas sugeridos.",
+    "Escolher quem pagou e quem partilha cada despesa.",
+    "Reunir as despesas do grupo num evento.",
+    "Partilhar os itens da despesa e o total num recibo.",
+    "Registar na moeda local e consultar noutra moeda.",
+    "Consultar as despesas por categoria e etiqueta.",
+    "Dividir valores sem criar um evento.",
+    "Minijogos Dedos, Roleta e Pinball."
+  ],
+  "featuresTitle": "Um só lugar para as despesas partilhadas",
+  "featuresIntro": "Mantenha os registos claros, da primeira despesa ao último acerto.",
+  "features": [
+    {
+      "title": "Uma despesa entre dois, outra entre todos",
+      "body": "Escolha quem participa em cada despesa. Divida em partes iguais, defina a proporção de cada pessoa ou introduza valores individuais. Também pode registar despesas pagas por várias pessoas."
+    },
+    {
+      "title": "Quem deve quanto a quem?",
+      "body": "Veja os saldos dos membros e os acertos de contas sugeridos num relance. Partilhe o resultado para que todos o possam consultar, mesmo depois do encontro ou da viagem."
+    },
+    {
+      "title": "Registe na moeda local, consulte na sua",
+      "body": "Registe as despesas na moeda local e consulte os valores na moeda que costuma usar. Introduza a taxa de câmbio ou consulte uma taxa."
+    },
+    {
+      "title": "Um registo para cada encontro e viagem",
+      "body": "Uma escapadinha de fim de semana, um encontro com amigos ou uma refeição partilhada. Separe as despesas por evento e acrescente datas, locais e notas. Encontre os registos por categoria ou etiqueta."
+    },
+    {
+      "title": "Reveja as despesas e guarde os seus registos",
+      "body": "Veja a evolução das despesas por data e os gastos por categoria e etiqueta. Exporte os movimentos em CSV para abrir no Excel ou faça uma cópia de segurança e restaure todos os seus registos."
+    },
+    {
+      "title": "Só precisa de calcular? Use a Divisão fácil",
+      "body": "Introduza os valores e o número de pessoas sem criar um evento. Some vários valores e divida o total, ou volte a abrir cálculos recentes para os alterar. Se quiser continuar a registar despesas, passe o cálculo para um novo evento."
+    },
+    {
+      "title": "Minijogos para o grupo",
+      "body": "Abra os jogos de Dedos, Roleta e Pinball na Divisão fácil ou na lista de movimentos."
+    }
+  ],
+  "guidesTitle": "Como dividir as despesas do dia a dia",
+  "guidesIntro": "Três situações comuns para registar com clareza quem pagou e quem partilha cada gasto.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Esta despesa foi partilhada só por duas pessoas",
+      "body": "Mesmo numa viagem de grupo, nem todas as despesas têm de ser divididas por todos. Escolha quem participou em cada despesa.",
+      "steps": [
+        "Adicione a despesa ao evento e registe quem pagou.",
+        "Selecione apenas os membros que partilham esta despesa. Divida em partes iguais, por proporções ou com valores individuais.",
+        "Consulte os saldos do evento depois de adicionar as restantes despesas."
+      ],
+      "exampleTitle": "Exemplo",
+      "example": "4 amigos viajam juntos. Apenas dois partilham uma despesa de 60. Numa divisão igual, cada um desses dois suporta 30; a parte dos outros dois nesta despesa é 0 para cada um."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Várias pessoas foram pagando despesas",
+      "body": "Registe cada pagamento em vez de acertar as contas a cada despesa. O SPEND usa os pagamentos e a divisão das despesas para mostrar o saldo de cada membro.",
+      "steps": [
+        "Crie um evento e adicione as pessoas do grupo.",
+        "Registe quem pagou e quem partilha cada despesa. Se várias pessoas pagaram a mesma despesa, indique a contribuição de cada uma.",
+        "Consulte os saldos e os acertos sugeridos e partilhe o resultado."
+      ],
+      "exampleTitle": "Exemplo",
+      "example": "4 pessoas dividem 180 em partes iguais, pelo que a parte de cada uma é 45. A pagou 120 e B pagou 60. Os saldos são A +75, B +15, C −45 e D −45. Os acertos sugeridos mostram como equilibrar os saldos; o SPEND não transfere dinheiro."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Registe as despesas na moeda local",
+      "body": "Registe o que realmente gastou na moeda local e consulte os custos na moeda que costuma usar.",
+      "steps": [
+        "Escolha a moeda ao registar uma despesa.",
+        "Introduza uma taxa de câmbio ou consulte uma na aplicação. Verifique o valor e a taxa usados no registo.",
+        "Consulte os valores convertidos e os saldos do grupo na moeda escolhida."
+      ],
+      "exampleTitle": "Confirme também a taxa de câmbio",
+      "example": "Se a viagem envolve mais de uma moeda, mantenha a moeda original de cada despesa e confira a conversão. As taxas de câmbio podem mudar. Verifique a taxa usada em vez de considerar o valor convertido uma cotação em tempo real."
+    }
+  ],
+  "faqTitle": "Alguns pontos a ter em conta",
+  "faqs": [
+    {
+      "question": "O SPEND envia dinheiro?",
+      "answer": "Não. O SPEND regista despesas e mostra saldos e acertos sugeridos. Os pagamentos reais são feitos separadamente."
+    },
+    {
+      "question": "Todos podem editar o mesmo grupo em tempo real?",
+      "answer": "A partilha e a sincronização em tempo real são funcionalidades planeadas. Atualmente pode partilhar detalhes de despesas e resultados dos acertos, mas isso não é uma edição conjunta em tempo real."
+    },
+    {
+      "question": "Posso guardar uma cópia dos meus registos?",
+      "answer": "Pode exportar os movimentos em CSV para abrir no Excel, bem como fazer uma cópia de segurança e restaurar todos os seus registos."
+    }
+  ],
+  "roadmapTitle": "Funcionalidades planeadas",
+  "roadmapIntro": "Planeadas para futuras atualizações.",
+  "roadmapItems": [
+    {
+      "title": "Partilha e sincronização em tempo real",
+      "body": "Registar as despesas do grupo em conjunto e manter os registos de todos sincronizados."
+    },
+    {
+      "title": "Estatísticas detalhadas",
+      "body": "Descobrir padrões nas suas despesas e nos registos de viagem."
+    },
+    {
+      "title": "Fotografias e mapas",
+      "body": "Dar vida a cada viagem com fotografias e locais num mapa."
+    }
+  ],
+  "themeLight": "Mudar para o modo claro",
+  "themeDark": "Mudar para o modo escuro"
+}

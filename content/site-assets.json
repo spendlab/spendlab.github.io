@@ -1,0 +1,20 @@
+{
+  "gallerySources": [
+    "/images/overview.png?v=8c007688df80",
+    "/images/settlement.png?v=b4d22a53fd3e",
+    "/images/split-members.png?v=5f6ef4652413",
+    "/images/group-expenses.png?v=5ac746e11dfd",
+    "/images/receipt.png?v=8a5f99bba314",
+    "/images/currencies.png?v=233bbb0f86c1",
+    "/images/insights.png?v=61979b645f53",
+    "/images/quick-split.png?v=e0cd4fdfcc9e",
+    "/images/mini-games.png?v=6fd19cef0772"
+  ],
+  "themeButton": "<button id=\"theme-toggle\" type=\"button\" aria-label=\"Switch to light mode\" hidden><svg class=\"theme-sun\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"/></svg><svg class=\"theme-moon\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z\"/></svg></button>",
+  "trademarks": "<p class=\"store-trademarks\">Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc., registered in the U.S. and other countries.</p>",
+  "roadmapIcons": [
+    "<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 9a8 8 0 0 1 13.7-3.7L20 8M20 3v5h-5M20 15a8 8 0 0 1-13.7 3.7L4 16M4 21v-5h5\"/></svg>",
+    "<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 4v16h16M9 15v-4M14 15V7M19 15V4\"/></svg>",
+    "<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z\"/><circle cx=\"12\" cy=\"10\" r=\"2.5\"/></svg>"
+  ]
+}

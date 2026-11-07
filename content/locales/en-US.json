@@ -1,0 +1,147 @@
+{
+  "locale": "en-US",
+  "languageName": "English (US)",
+  "htmlLang": "en-US",
+  "metaTitle": "SPEND: Split group bills and track travel costs",
+  "metaDescription": "Record shared expenses, choose who paid and who shares each cost, and review suggested settlements. SPEND is available for iPhone and Android.",
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "guides": "How it works",
+    "language": "Language",
+    "contact": "Contact",
+    "main": "Main navigation",
+    "footer": "Footer"
+  },
+  "hero": {
+    "title": [
+      "Split group bills.",
+      "Track travel costs."
+    ],
+    "body": "From a quick meetup to a whole trip. Record shared costs and see who owes whom."
+  },
+  "availability": "For iPhone and Android",
+  "storeAlts": [
+    "Download on the App Store",
+    "Get it on Google Play"
+  ],
+  "screensTitle": "App preview",
+  "screensLabel": "Nine app screenshots. Scroll horizontally to explore.",
+  "screensNote": "Screenshots are shown in English.",
+  "screenshotAlts": [
+    "Split group bills and track travel costs.",
+    "Member balances and suggested settlements.",
+    "Choose who paid and who shares each expense.",
+    "Keep group expenses together in an event.",
+    "Share expense items and the total as a receipt.",
+    "Record local currency and review another currency.",
+    "Review spending by category and tag.",
+    "Split amounts without creating an event.",
+    "Finger, wheel and pinball mini games."
+  ],
+  "featuresTitle": "One place for shared costs",
+  "featuresIntro": "Keep the record clear from the first expense to the final settlement.",
+  "features": [
+    {
+      "title": "Some costs for two, others for everyone",
+      "body": "Choose who shares each expense. Split equally, set member share ratios or enter individual amounts. Record costs paid by more than one person, too."
+    },
+    {
+      "title": "See who owes whom",
+      "body": "Review member balances and suggested settlements at a glance. Share the settlement results so your group can check them after a meetup or trip."
+    },
+    {
+      "title": "Local spending, familiar currency",
+      "body": "Record expenses in the local currency and review them in your usual currency. Enter an exchange rate yourself or look one up."
+    },
+    {
+      "title": "Keep each trip and meetup separate",
+      "body": "A weekend away, a gathering with friends or a shared meal. Organize expenses into separate events and add dates, places and notes. Find records by category or tag."
+    },
+    {
+      "title": "Look back at spending and keep your records",
+      "body": "Review spending over time and by category or tag. Export transactions as CSV to view them in Excel, or back up and restore all your records."
+    },
+    {
+      "title": "Just need to split a bill?",
+      "body": "Enter amounts and a headcount without creating an event. Add several amounts, reopen recent calculations and edit them. Move a calculation into a new event when you want to keep recording."
+    },
+    {
+      "title": "Mini games for your meetup",
+      "body": "Open the finger, wheel and pinball games from Easy Split or the transaction list."
+    }
+  ],
+  "guidesTitle": "How to split real-world expenses",
+  "guidesIntro": "Three everyday situations, with a clear record of who paid and who shares the cost.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Only two people shared this cost",
+      "body": "A group trip does not mean every expense belongs to everyone. Choose the members who took part in each expense.",
+      "steps": [
+        "Add the expense to your event and record who paid.",
+        "Select only the members who share this expense. Split equally, use ratios or enter individual amounts.",
+        "Review the event balances after adding the rest of your costs."
+      ],
+      "exampleTitle": "Example",
+      "example": "Four friends are traveling together. Only two share a cost of 60. With an equal split, those two share 30 each; the other two share 0 of this expense."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Different people paid along the way",
+      "body": "Record each payment instead of trying to settle every bill immediately. SPEND uses the payments and shares to show each member’s balance.",
+      "steps": [
+        "Create an event and add the people in your group.",
+        "Record each expense with its payer and participants. If more than one person paid a single expense, record their contributions.",
+        "Check member balances and suggested settlements, then share the result."
+      ],
+      "exampleTitle": "Example",
+      "example": "Four people share 180 equally, so each person’s share is 45. A paid 120 and B paid 60. Their balances are A +75, B +15, C −45 and D −45. Suggested settlements show how to balance the record; SPEND does not transfer money."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Keep travel costs in the local currency",
+      "body": "Record what you actually spent in the local currency and review costs in your usual currency.",
+      "steps": [
+        "Choose the currency when you record an expense.",
+        "Enter an exchange rate or retrieve one in the app. Check the amount and rate used for your record.",
+        "Review the converted amounts and group balances in your chosen currency."
+      ],
+      "exampleTitle": "Keep the rate clear",
+      "example": "If a trip includes more than one currency, keep each expense’s original currency and review its conversion. Exchange rates can change, so check the rate rather than treating a converted amount as a live quote."
+    }
+  ],
+  "faqTitle": "A few things to know",
+  "faqs": [
+    {
+      "question": "Does SPEND send money?",
+      "answer": "No. SPEND records expenses and shows balances and suggested settlements. You arrange any actual payment separately."
+    },
+    {
+      "question": "Can everyone edit the same group in real time?",
+      "answer": "Live sharing and sync are planned features. You can currently share expense details and settlement results, but this is not live shared editing."
+    },
+    {
+      "question": "Can I keep a copy of my records?",
+      "answer": "You can export transactions as CSV to view them in Excel, and back up and restore all your records."
+    }
+  ],
+  "roadmapTitle": "What’s next",
+  "roadmapIntro": "Planned for future updates.",
+  "roadmapItems": [
+    {
+      "title": "Live sharing and sync",
+      "body": "Share group expenses in real time. Keep everyone’s records in sync."
+    },
+    {
+      "title": "Advanced statistics",
+      "body": "Discover patterns in your spending and travel records."
+    },
+    {
+      "title": "Photos and maps",
+      "body": "Bring each trip to life with photos and places on a map."
+    }
+  ],
+  "themeLight": "Switch to light mode",
+  "themeDark": "Switch to dark mode"
+}

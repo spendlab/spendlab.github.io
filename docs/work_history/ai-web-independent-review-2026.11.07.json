@@ -1,0 +1,2096 @@
+{
+  "schemaVersion": 1,
+  "task": "AI-WEB-1107",
+  "reviewType": "fresh independent multilingual website content review",
+  "completedAtUTC": "2026-11-07T06:58:22.615282+00:00",
+  "reviewer": {
+    "agent": "fresh_translation_audit",
+    "independentOfWebsiteCopyAuthors": true,
+    "humanNativeSpeakerReview": false
+  },
+  "scope": {
+    "siteRepository": "/private/tmp/spend-ai-web-20261107",
+    "baseline": "f1f33fbe",
+    "canonicalNewContent": [
+      "content/locales/en-US.json",
+      "content/locales/ko-KR.json"
+    ],
+    "locales": [
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "id",
+      "it-IT",
+      "ja-JP",
+      "ko-KR",
+      "nl-NL",
+      "pt-BR",
+      "pt-PT",
+      "th",
+      "vi",
+      "zh-CN",
+      "zh-TW"
+    ],
+    "newContent": "hero/meta/UI/English screenshot note and 9 alts/3 guides with 3 steps and examples each/3 FAQs/3 planned-feature cards",
+    "existingFeatureCopy": "7 titles and bodies per locale reused exactly from independently reviewed approved store descriptions; compare exact only",
+    "excluded": [
+      "Privacy Policy translation/legal rewrite",
+      "site source edits",
+      "live browser/console operations",
+      "commit/push",
+      "shared tracker edits"
+    ]
+  },
+  "guidelines": {
+    "revision": "348fde197f24e78e97f8479f85e851b513f12f53",
+    "refreshAttempt": "새 작업 시작에 지정 refresh를 실행했으나 loader state lock 실패로 주입되지 않았다. 로컬 origin/main revision을 확인했고 해당 revision의 이미 직접 읽은 core/task-results/collaboration 본문을 적용했다. 원격 최신 revision을 확인했다는 주장은 하지 않는다.",
+    "projectInstructionsRead": "프로젝트 AGENTS, 앱 원장의 AI-WEB-1107 항목, 사이트 원장의 Current work를 확인했다."
+  },
+  "independenceAndAuthority": {
+    "otherAuthorsReviewConclusionsRead": false,
+    "reviewedActualJsonRatherThanCompletionClaims": true,
+    "europeanSevenReadOnlyAfterCompletionNotice": true,
+    "reviewerFileWrites": [
+      "/private/tmp/spend-ai-web-20261107/docs/work_history/ai-web-independent-review-2026.11.07.json"
+    ],
+    "reviewerLocaleWrites": 0,
+    "reviewerBrowserConsoleWrites": 0,
+    "reviewerPolicySiteCodeTrackerWrites": 0,
+    "reviewerCommitPush": 0
+  },
+  "summary": {
+    "closure": "accepted after two minimal corrections",
+    "all16LocalesReviewedDirectly": true,
+    "allNewCopyFieldsRead": true,
+    "featureSetsReusedByExactEquality": 16,
+    "featurePairsExactlyReused": 112,
+    "initialMustFixFindings": 2,
+    "resolvedMustFixFindings": 2,
+    "openMustFixFindings": 0,
+    "optionalImprovementFindings": 0,
+    "newFindingsAfterCorrection": 0,
+    "verdict": "16언어 새 문구를 직접 대조했다. fr-FR/it-IT 검색 설명 각 한 단어 교정 후 수용했다. 모든 수치/부호, 현재 송금 실행 부재, 현재 결과 공유와 예정 공동편집 구분, 환율 주의, 영어 스크린샷 안내와 9개 alt를 확인했다. 기능 7개는 승인본 exact라 기존 의미 검수 근거를 재사용했다.",
+    "performanceClaims": "검색용 기능어와 사용 목적이 문장으로 설명돼 있다. AI 검색 인용/검색순위/전환율 개선을 측정하거나 보장하지 않는다.",
+    "all16FinalTitlePrefixChangesAccepted": true,
+    "finalSourceHashesIncludeTitlePrefixPolish": true
+  },
+  "canonicalArithmetic": {
+    "guide1": {
+      "expense": 60,
+      "participants": 2,
+      "eachParticipant": 30,
+      "eachOtherMember": 0,
+      "groupSize": 4,
+      "proof": "2 * 30 + 2 * 0 = 60"
+    },
+    "guide2": {
+      "totalPaid": 180,
+      "groupSize": 4,
+      "equalShare": 45,
+      "payments": {
+        "A": 120,
+        "B": 60,
+        "C": 0,
+        "D": 0
+      },
+      "balances": {
+        "A": 75,
+        "B": 15,
+        "C": -45,
+        "D": -45
+      },
+      "proof": "180 / 4 = 45; balance = paid - 45; 75 + 15 - 45 - 45 = 0"
+    },
+    "unicodeMinus": "U+2212 in C −45 and D −45 is permitted, not one of the four forbidden separators."
+  },
+  "featureReuseSource": {
+    "path": "/Users/jaegeun/workspace/spend/docs/store_listing/2026.11.07/google-copy/approved.json",
+    "sha256": "f58f03ef0f85d45e3b74416bfb52221d455c39694acbf94bcb758a96fe1d801e",
+    "proofs": [
+      {
+        "locale": "de-DE",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "8a3141998a4d6109c86d3acafc03f9e903cb54b189ca7c12025f4c5a3c50541a",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "en-GB",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "3e7e2a935f0ca15598d03e353c24d01d114862d11d94f5c1d3d7cd6107436e59",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "en-US",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "41f2438c721cafc02b2966272d2ebf6ea57b9838199773e29be0a7edaab49414",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "es-ES",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "f5282651e12f4c230d6298eed509e44e106c72bc6c24a9989be484acacdcc0fe",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "fr-FR",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "495a8e2fa6fba1dcf78ea568bf24a6337b98c093b842631018368320f622d14a",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "id",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "aa216329d50dc5eccd9f8a88b800a03b4b18a14cca9f2eb196a773002ec01dde",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "it-IT",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "55296bff19d021e827961c6a11aa61a7bb3107772ed76b131cfc9d76858c42d5",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "ja-JP",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "8f149b0044df2a7edb4c2f9b56bdd38687d3e532ebf1727df4becda04af61aaa",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "ko-KR",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "c3e605a4d441307a97403c602ce02fd99b5f1fd68f895b746d4d3b0c776e79d3",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "nl-NL",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "f5d437063bfc8f5caaf55026902d98bd814c4a673c68c0953c8e81ea6b3140ef",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "pt-BR",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "b9726b5dde4d6a850c86fec0ec6f2939b07f7e68e91f3d6cead0d21c14dbccae",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "pt-PT",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "1834592d208b40b41584dfaff02fa74f09a2a8592ece825ce9ea7e574c33c748",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "th",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "0e54a91e7f5f45fb25559aeed69302c5ac380eeb998e391e0610b9eb3abbcfc5",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "vi",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "38ae11dbab042505810fcd74e8b3337712cf102d80cddf3ffe97b59d67bdb305",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "zh-CN",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "9f487c997a0811f0a131958cf9c1f16460d6a38e21a425b80c1312bfb86ca631",
+        "semanticReReviewRepeated": false
+      },
+      {
+        "locale": "zh-TW",
+        "sevenFeatureTitlesAndBodiesExact": true,
+        "featureObjectSha256": "18bc310b2b078fb0b759173809dc925f8a2e948c7a8c44315873e3005db03921",
+        "semanticReReviewRepeated": false
+      }
+    ]
+  },
+  "sharedSourceChecks": {
+    "basis": "read-only source checks, not rendered browser QA",
+    "englishScreenshotNoticeInsertedByRenderer": true,
+    "allLocalizedAltsInsertedByRenderer": true,
+    "plannedIntroInsertedAboveRoadmapCards": true,
+    "badgeDestinationsSameInBaselineHtmlAndCurrentRenderer": [
+      "https://apps.apple.com/app/id1208128587",
+      "https://play.google.com/store/apps/details?id=net.spendlab.spend"
+    ],
+    "privacyAndSharedStyleThemeDiffAgainstBaseline": [],
+    "privacyTranslationPerformedByReviewer": false,
+    "rendererSource": "/private/tmp/spend-ai-web-20261107/scripts/build_site.py",
+    "rendererSha256AtObservation": "c452567d4f870be60111761d3316e0b7b9198b7303d62d8d2c11b94bbfa20745"
+  },
+  "findings": [
+    {
+      "id": "WEB01",
+      "locale": "fr-FR",
+      "field": "metaDescription",
+      "observedStage": "initial source before correction",
+      "exactQuote": "Notez les dépenses communes, choisissez qui a payé et qui partage chaque frais, puis consultez les remboursements suggérés. SPEND est disponible sur iPhone et Android.",
+      "problemQuote": "qui partage chaque frais",
+      "problem": "공식 홈페이지 검색 설명의 문법/뜻읽기 품질 문제",
+      "severity": "must_fix",
+      "riskClass": "copy accuracy; no runtime or financial-data impact",
+      "suggestedReplacement": "Notez les dépenses communes, choisissez qui a payé et qui partage chaque dépense, puis consultez les remboursements suggérés. SPEND est disponible sur iPhone et Android.",
+      "minimalReplacement": {
+        "from": "qui partage chaque frais",
+        "to": "qui partage chaque dépense"
+      },
+      "reason": "frais는 비용의 의미에서 복수 명사이므로 chaque frais가 문법에 맞지 않는다. 같은 의미의 단수 dépense를 쓰는 최소 교정이 필요하다.",
+      "correctionOwner": "competitor_store_cases",
+      "status": "resolved_and_independently_accepted",
+      "actualFinalText": "Notez les dépenses communes, choisissez qui a payé et qui partage chaque dépense, puis consultez les remboursements suggérés. SPEND est disponible sur iPhone et Android.",
+      "finalTextMatchesRecommendedReplacement": true,
+      "initialFileSha256": "6422f4e9ca351d36271e465e426f29b3469e7048b571944c42ece384372eb8b8",
+      "finalFileSha256": "25104112037a374db4049037aa5736f203e242445466e4c23e7ea3dfd2a59f8d",
+      "preservationProof": "copyCorrectionOnlySha256는 metaDescription 교정 후/제목 접두 변경 전이다. 그 단계 파일에서 metaDescription을 원래 문구로 역치환하면 initialFileSha256와 exact였다. 이후 finalTitlePrefixReview에서 승인된 metaTitle 접두 변경만 추가됐음을 각각 exact 역산했다.",
+      "newConcernAfterCorrection": false,
+      "copyCorrectionOnlySha256": "6fbc86ca055e5efb5423169dd9d1fb73c035f574848250aee82bf5c06f517393"
+    },
+    {
+      "id": "WEB02",
+      "locale": "it-IT",
+      "field": "metaDescription",
+      "observedStage": "initial source before correction",
+      "exactQuote": "Registra le spese condivise, scegli chi ha pagato e chi partecipa a ogni costo e consulta i pagamenti suggeriti. SPEND è disponibile per iPhone e Android.",
+      "problemQuote": "chi partecipa a ogni costo",
+      "problem": "공식 홈페이지 검색 설명의 문법/뜻읽기 품질 문제",
+      "severity": "must_fix",
+      "riskClass": "copy accuracy; no runtime or financial-data impact",
+      "suggestedReplacement": "Registra le spese condivise, scegli chi ha pagato e chi partecipa a ogni spesa e consulta i pagamenti suggeriti. SPEND è disponibile per iPhone e Android.",
+      "minimalReplacement": {
+        "from": "chi partecipa a ogni costo",
+        "to": "chi partecipa a ogni spesa"
+      },
+      "reason": "a ogni costo는 무슨 수를 써서라도라는 관용구로 읽혀 비용 분담 뜻이 부자연스럽다. spesa는 같은 파일의 screenshotAlts[2]와도 일치하며 각 지출 참여자라는 뜻이 분명해진다.",
+      "correctionOwner": "competitor_store_cases",
+      "status": "resolved_and_independently_accepted",
+      "actualFinalText": "Registra le spese condivise, scegli chi ha pagato e chi partecipa a ogni spesa e consulta i pagamenti suggeriti. SPEND è disponibile per iPhone e Android.",
+      "finalTextMatchesRecommendedReplacement": true,
+      "initialFileSha256": "6d7233182c57fdec8cd2d0920549c3bf67c399ec9cf20ecbb107f023b28a9602",
+      "finalFileSha256": "27561e749fc20b9c5344db0859da73da1e73471d0bd5c169aee1268240a963ef",
+      "preservationProof": "copyCorrectionOnlySha256는 metaDescription 교정 후/제목 접두 변경 전이다. 그 단계 파일에서 metaDescription을 원래 문구로 역치환하면 initialFileSha256와 exact였다. 이후 finalTitlePrefixReview에서 승인된 metaTitle 접두 변경만 추가됐음을 각각 exact 역산했다.",
+      "newConcernAfterCorrection": false,
+      "copyCorrectionOnlySha256": "16af71954598ec7dfcc749b9ed9cd9550368761b7a06dc23cc700dfa0c15a69d"
+    }
+  ],
+  "localeReviews": [
+    {
+      "locale": "de-DE",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/de-DE.json",
+      "sourceSha256": "20a915f0b2a4f26a88e60635ae53ebfa43b590ecd3b24d6668597a3851886e3a",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4 Freunde reisen gemeinsam. Nur zwei teilen eine Ausgabe von 60. Bei gleichmäßiger Aufteilung tragen diese beiden jeweils 30; die anderen beiden tragen jeweils 0 dieser Ausgabe.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 Personen teilen 180 gleichmäßig, also trägt jede Person 45. A hat 120 und B hat 60 bezahlt. Die Salden sind A +75, B +15, C −45 und D −45. Vorgeschlagene Ausgleichszahlungen zeigen, wie sich die Salden ausgleichen lassen; SPEND überweist kein Geld.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Wenn du auf einer Reise mehrere Währungen verwendest, behalte die ursprüngliche Währung jeder Ausgabe bei und prüfe die Umrechnung. Wechselkurse können sich ändern. Prüfe deshalb den verwendeten Kurs, statt einen umgerechneten Betrag als Echtzeitkurs zu verstehen.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "Nein. SPEND erfasst Ausgaben und zeigt Salden und vorgeschlagene Ausgleichszahlungen. Tatsächliche Zahlungen erledigst du separat.",
+        "currentVsPlannedFAQ": "Teilen und Synchronisieren in Echtzeit sind geplante Funktionen. Derzeit kannst du Ausgabendetails und Abrechnungsergebnisse teilen. Eine gemeinsame Bearbeitung in Echtzeit ist das nicht.",
+        "preservationFAQ": "Du kannst Transaktionen als CSV exportieren, um sie in Excel anzusehen, und deine gesamten Aufzeichnungen sichern und wiederherstellen.",
+        "plannedHeading": "Geplante Funktionen",
+        "plannedIntro": "Für künftige Updates geplant.",
+        "plannedFeatureTitles": [
+          "Teilen und Synchronisieren in Echtzeit",
+          "Detaillierte Statistiken",
+          "Fotos und Karten"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Die Screenshots sind auf Englisch.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Ausgabenposten und Gesamtsumme als Beleg teilen.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "Gemeinsame Ausgaben, Kostenanteile, Salden, Ausgleichszahlungen으로 분담과 잔액을 구분한다. du 명령형이 일관되고 이체하지 않는다는 FAQ가 분명하다.",
+      "regionalUsageAssessment": "Gruppenkosten/Reisekosten, Landeswährung, Wechselkurs, Fußzeile가 독일어 문맥에 맞는다. Ereignis는 기존 앱/승인본문의 용어다.",
+      "languageSpecificLimit": "0 dieser Ausgabe는 다소 압축됐으나 해당 지출 부담0이라는 뜻이 명료해 문체 재작성으로 올리지 않았다. 원어민 사람 검수는 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Gruppenkosten teilen und Reisekosten erfassen"
+    },
+    {
+      "locale": "en-GB",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/en-GB.json",
+      "sourceSha256": "0af19f87cec346196574027fd316dadcc1b755a9a8d60286f5ea16b9f5f2e92a",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "Four friends are travelling together. Only two share a cost of 60. With an equal split, those two share 30 each; the other two share 0 of this expense.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "Four people share 180 equally, so each person’s share is 45. A paid 120 and B paid 60. Their balances are A +75, B +15, C −45 and D −45. Suggested settlements show how to balance the record; SPEND does not transfer money.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "If a trip includes more than one currency, keep each expense’s original currency and review its conversion. Exchange rates can change, so check the rate rather than treating a converted amount as a live quote.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "No. SPEND records expenses and shows balances and suggested settlements. You arrange any actual payment separately.",
+        "currentVsPlannedFAQ": "Live sharing and sync are planned features. You can currently share expense details and settlement results, but this is not live shared editing.",
+        "preservationFAQ": "You can export transactions as CSV to view them in Excel, and back up and restore all your records.",
+        "plannedHeading": "What’s next",
+        "plannedIntro": "Planned for future updates.",
+        "plannedFeatureTitles": [
+          "Live sharing and sync",
+          "Advanced statistics",
+          "Photos and maps"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Screenshots are shown in English.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Share expense items and the total as a receipt.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "get-together / whole holiday가 영국 독자의 모임/여행 맥락에 맞는다. 단계와 수치 예시가 자연스럽고 송금/현재 공동편집을 약속하지 않는다.",
+      "regionalUsageAssessment": "travelling 두 l, holiday, Organise를 사용한다. travel costs도 영국에서 자연스러워 모든 travel을 holiday로 강제하지 않았다.",
+      "languageSpecificLimit": "영국 원어민 사람 검수나 검색 성과 실험은 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Split group bills and track travel costs"
+    },
+    {
+      "locale": "en-US",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/en-US.json",
+      "sourceSha256": "f189763f4d183fd5c507d2a11be56d13a04cdf678b796e22bda5b33f91b59309",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "Four friends are traveling together. Only two share a cost of 60. With an equal split, those two share 30 each; the other two share 0 of this expense.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "Four people share 180 equally, so each person’s share is 45. A paid 120 and B paid 60. Their balances are A +75, B +15, C −45 and D −45. Suggested settlements show how to balance the record; SPEND does not transfer money.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "If a trip includes more than one currency, keep each expense’s original currency and review its conversion. Exchange rates can change, so check the rate rather than treating a converted amount as a live quote.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "No. SPEND records expenses and shows balances and suggested settlements. You arrange any actual payment separately.",
+        "currentVsPlannedFAQ": "Live sharing and sync are planned features. You can currently share expense details and settlement results, but this is not live shared editing.",
+        "preservationFAQ": "You can export transactions as CSV to view them in Excel, and back up and restore all your records.",
+        "plannedHeading": "What’s next",
+        "plannedIntro": "Planned for future updates.",
+        "plannedFeatureTitles": [
+          "Live sharing and sync",
+          "Advanced statistics",
+          "Photos and maps"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Screenshots are shown in English.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Share expense items and the total as a receipt.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "Split group bills / Track travel costs가 용도를 직접 전달한다. payer/participants, payments/shares를 구분하고 actual payment separately로 실제 지급 역할을 분리한다. 단계와 nav/theme/alt 문체가 일관된다.",
+      "regionalUsageAssessment": "traveling 한 l, meetup, Organize를 사용한다. en-GB의 travelling과 구별된다.",
+      "languageSpecificLimit": "미국 검색량이나 설치/사이트 전환율은 측정하지 않았다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Split group bills and track travel costs"
+    },
+    {
+      "locale": "es-ES",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/es-ES.json",
+      "sourceSha256": "467ebc811a0bb396938befcc51620d9c2bd832da43e79370f86d80fb0e825db2",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4 amigos viajan juntos. Solo dos comparten un gasto de 60. Si lo reparten a partes iguales, cada uno de esos dos asume 30; los otros dos asumen 0 de este gasto.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 personas reparten 180 a partes iguales, por lo que a cada una le corresponden 45. A pagó 120 y B pagó 60. Los saldos son A +75, B +15, C −45 y D −45. Las propuestas para saldar cuentas muestran cómo equilibrar los saldos; SPEND no transfiere dinero.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Si en un viaje usas varias monedas, conserva la moneda original de cada gasto y revisa su conversión. Los tipos de cambio pueden variar: comprueba el tipo utilizado en lugar de tratar el importe convertido como una cotización en tiempo real.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "No. SPEND registra gastos y muestra saldos y propuestas para saldar cuentas. Los pagos reales se hacen por separado.",
+        "currentVsPlannedFAQ": "El uso compartido y la sincronización en tiempo real son funciones previstas. Actualmente puedes compartir los detalles de los gastos y los resultados de las cuentas, pero no editarlos conjuntamente en tiempo real.",
+        "preservationFAQ": "Puedes exportar los movimientos en CSV para verlos en Excel y hacer una copia de seguridad de todos tus registros y restaurarlos.",
+        "plannedHeading": "Funciones previstas",
+        "plannedIntro": "Previstas para futuras actualizaciones.",
+        "plannedFeatureTitles": [
+          "Uso compartido y sincronización en tiempo real",
+          "Estadísticas detalladas",
+          "Fotos y mapas"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Las capturas se muestran en inglés.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Compartir los conceptos del gasto y el total como recibo.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "gastos compartidos, importes, saldos, propuestas para saldar cuentas로 기능이 명확하다. tú 명령형이 일관되고 예시의 부담/납부/잔액을 혼동하지 않는다.",
+      "regionalUsageAssessment": "Añade, introduce, tipo de cambio, copia de seguridad, etiqueta가 스페인용 문맥에 맞는다. 실제 지급은 por separado로 분리한다.",
+      "languageSpecificLimit": "스페인 검색 성과나 모든 문체 선호는 확인하지 않았다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Reparte gastos de grupo y registra los de viaje"
+    },
+    {
+      "locale": "fr-FR",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/fr-FR.json",
+      "sourceSha256": "25104112037a374db4049037aa5736f203e242445466e4c23e7ea3dfd2a59f8d",
+      "status": "accepted_after_minimal_correction",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4 amis voyagent ensemble. Seuls deux partagent une dépense de 60. Avec un partage égal, ces deux personnes prennent chacune 30 à leur charge ; la part de chacun des deux autres pour cette dépense est de 0.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 personnes partagent 180 à parts égales, soit 45 chacune. A a payé 120 et B a payé 60. Les soldes sont A +75, B +15, C −45 et D −45. Les remboursements suggérés indiquent comment équilibrer les comptes ; SPEND n’effectue aucun transfert d’argent.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Si votre voyage comprend plusieurs devises, conservez la devise d’origine de chaque dépense et vérifiez sa conversion. Les taux peuvent changer : vérifiez le taux utilisé plutôt que de considérer un montant converti comme un cours en temps réel.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "Non. SPEND enregistre les dépenses et affiche les soldes et les remboursements suggérés. Les paiements réels se font séparément.",
+        "currentVsPlannedFAQ": "Le partage et la synchronisation en temps réel sont des fonctionnalités prévues. Vous pouvez actuellement partager les détails des dépenses et les résultats des comptes, mais il ne s’agit pas d’une modification collaborative en temps réel.",
+        "preservationFAQ": "Vous pouvez exporter les transactions en CSV pour les consulter dans Excel et sauvegarder et restaurer l’ensemble de vos données.",
+        "plannedHeading": "Fonctionnalités prévues",
+        "plannedIntro": "Prévues pour de futures mises à jour.",
+        "plannedFeatureTitles": [
+          "Partage et synchronisation en temps réel",
+          "Statistiques détaillées",
+          "Photos et cartes"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Les captures d’écran sont en anglais.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Partager les postes de dépense et le total sous forme de reçu.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [
+        "WEB01"
+      ],
+      "naturalnessAssessment": "공동 비용과 remboursements suggérés를 구분하고 vous 문체를 유지한다. 최초 chaque frais는 교정했고 최종 chaque dépense를 직접 수용했다.",
+      "regionalUsageAssessment": "captures d’écran, à parts égales, devise, sauvegarder/restaurer, mode clair/sombre가 적절하다. 물음표/콜론 앞 공백도 유지한다.",
+      "languageSpecificLimit": "WEB01과 교정 범위를 보존했다. 원어민 사람 감수를 했다는 주장은 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Partagez les frais de groupe et suivez vos dépenses de voyage"
+    },
+    {
+      "locale": "id",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/id.json",
+      "sourceSha256": "df0e934c79109af1f0a0416c965bb33f6695c1aa471d1e4b42b73e1b4c677d99",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "Empat teman bepergian bersama. Hanya dua orang yang berbagi biaya sebesar 60. Jika dibagi rata, keduanya menanggung 30 per orang; bagian dua orang lainnya untuk pengeluaran ini adalah 0.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "Empat orang membagi rata total 180, sehingga bagian setiap orang adalah 45. A membayar 120 dan B membayar 60. Saldonya adalah A +75, B +15, C −45, dan D −45. Saran pelunasan menunjukkan cara menyeimbangkan catatan; SPEND tidak mentransfer uang.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Jika perjalanan menggunakan lebih dari satu mata uang, simpan mata uang asli setiap pengeluaran dan periksa hasil konversinya. Kurs dapat berubah, jadi periksa kurs yang digunakan dan jangan menganggap hasil konversi sebagai nilai tukar terkini.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "Tidak. SPEND mencatat pengeluaran serta menampilkan saldo dan saran pelunasan. Pembayaran sebenarnya dilakukan secara terpisah.",
+        "currentVsPlannedFAQ": "Berbagi dan sinkronisasi secara real-time adalah fitur yang direncanakan. Saat ini Anda dapat membagikan rincian pengeluaran dan hasil pelunasan, tetapi belum dapat mengedit catatan bersama secara real-time.",
+        "preservationFAQ": "Anda dapat mengekspor transaksi sebagai CSV untuk dibuka di Excel, serta mencadangkan dan memulihkan seluruh catatan Anda.",
+        "plannedHeading": "Fitur yang direncanakan",
+        "plannedIntro": "Direncanakan untuk pembaruan mendatang.",
+        "plannedFeatureTitles": [
+          "Berbagi dan sinkronisasi secara real-time",
+          "Statistik terperinci",
+          "Foto dan peta"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Tangkapan layar ditampilkan dalam bahasa Inggris.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Bagikan rincian pengeluaran dan totalnya dalam bentuk struk.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "patungan, pengeluaran bersama, pembayar, pembagian biaya가 비용 분담을 전달한다. Anda 문체가 일관되고 실제 송금/현재 공동편집을 부정하는 FAQ가 분명하다.",
+      "regionalUsageAssessment": "tangkapan layar, struk, kurs, cadangkan/pulihkan, mode terang/gelap가 인도네시아어 앱 문맥에 적절하다.",
+      "languageSpecificLimit": "모델 검수이며 현지인의 세밀한 어감이나 검색 행동을 측정하지 않았다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Patungan dan catat biaya perjalanan"
+    },
+    {
+      "locale": "it-IT",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/it-IT.json",
+      "sourceSha256": "27561e749fc20b9c5344db0859da73da1e73471d0bd5c169aee1268240a963ef",
+      "status": "accepted_after_minimal_correction",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4 amici viaggiano insieme. Solo due condividono una spesa di 60. Dividendola in parti uguali, la quota dei due partecipanti è di 30 ciascuno; la quota degli altri due per questa spesa è 0.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 persone dividono 180 in parti uguali, quindi la quota di ciascuna è 45. A ha pagato 120 e B ha pagato 60. I saldi sono A +75, B +15, C −45 e D −45. I pagamenti suggeriti mostrano come pareggiare i conti; SPEND non trasferisce denaro.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Se durante un viaggio usi più valute, mantieni la valuta originale di ogni spesa e controlla la conversione. I tassi di cambio possono variare: verifica il tasso utilizzato invece di considerare un importo convertito come una quotazione in tempo reale.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "No. SPEND registra le spese e mostra i saldi e i pagamenti suggeriti. I pagamenti effettivi vanno effettuati separatamente.",
+        "currentVsPlannedFAQ": "La condivisione e la sincronizzazione in tempo reale sono funzioni previste. Al momento puoi condividere i dettagli delle spese e i risultati dei conti, ma non modificarli insieme in tempo reale.",
+        "preservationFAQ": "Puoi esportare le transazioni in CSV per consultarle in Excel ed eseguire il backup e il ripristino di tutti i dati.",
+        "plannedHeading": "Funzioni previste",
+        "plannedIntro": "Previste per i futuri aggiornamenti.",
+        "plannedFeatureTitles": [
+          "Condivisione e sincronizzazione in tempo reale",
+          "Statistiche dettagliate",
+          "Foto e mappe"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Le schermate sono in inglese.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Condividere le voci di spesa e il totale come ricevuta.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [
+        "WEB02"
+      ],
+      "naturalnessAssessment": "spese condivise, quote, saldi, pagamenti suggeriti로 역할을 전달한다. 최초 a ogni costo의 관용구 오독을 피하도록 ogni spesa로 교정했고 최종 문장을 수용했다.",
+      "regionalUsageAssessment": "parti uguali, valuta/tasso di cambio, ricevuta, modalità chiara/scura, Flipper가 적절하다.",
+      "languageSpecificLimit": "WEB02와 교정 범위를 보존했다. 원어민 사람 감수라는 주장은 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Dividi le spese di gruppo e registra i costi di viaggio"
+    },
+    {
+      "locale": "ja-JP",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/ja-JP.json",
+      "sourceSha256": "d2f1698f4ee7ce5e0e07c1ce9241c6bff2355519b45f8c6c2ef97e8ae923a921",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4人で旅行中、2人だけで使った費用が60だったとします。均等に割る場合、その2人の負担はそれぞれ30です。残りの2人の、この支出に対する負担は0です。",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4人で合計180を均等に割ると、1人の負担は45です。Aが120、Bが60を支払った場合、残高はA +75、B +15、C −45、D −45となります。おすすめの精算方法では残高を合わせる方法を確認できますが、SPENDが実際に送金することはありません。",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "旅行中に複数の通貨を使う場合は、各支出の元の通貨を残し、換算内容を確認しましょう。為替レートは変動するため、換算額を現在の相場とみなさず、記録に使ったレートを確認してください。",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "いいえ。SPENDは支出を記録し、残高とおすすめの精算方法を表示するアプリです。実際のお支払いは別の方法で行ってください。",
+        "currentVsPlannedFAQ": "リアルタイム共有と同期は今後追加予定の機能です。現在は支出の詳細や精算結果を共有できますが、複数人でのリアルタイム編集には対応していません。",
+        "preservationFAQ": "取引記録をCSVで書き出してExcelで開けるほか、全記録をバックアップして復元できます。",
+        "plannedHeading": "今後追加予定の機能",
+        "plannedIntro": "今後のアップデートで追加する予定です。",
+        "plannedFeatureTitles": [
+          "リアルタイム共有と同期",
+          "詳細な統計",
+          "写真と地図"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "スクリーンショットは英語で表示しています。",
+        "allNineAltsRead": true,
+        "receiptAlt": "支出項目と合計をレシート形式で共有。",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "割り勘/精算/支払額/負担額 구분이 명확하고 です/ます 및 단계 문체가 일관된다. 송금 불가, 계획 공동편집, 환율 변동 주의가 직접 표현돼 있다.",
+      "regionalUsageAssessment": "スクリーンショット, 現地通貨, 為替レート, CSVで書き出す, ライト/ダークモード가 자연스럽다. 금지 가운데점 없이 게임을 나열한다.",
+      "languageSpecificLimit": "일본 검색 순위나 현지 사용자 행동을 측정하지 않았다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: 集まりの割り勘と旅行費用の記録"
+    },
+    {
+      "locale": "ko-KR",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/ko-KR.json",
+      "sourceSha256": "769f050b42018951d05b7e1415bd4091f9b20a2e03ce0dfb0637019ffc843550",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "네 명이 여행 중이고 둘만 함께 쓴 지출이 60이라면, 똑같이 나눌 때 두 사람은 각각 30을 부담해요. 나머지 두 사람의 이 지출 분담금은 0이에요.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "네 명이 총 180을 똑같이 나누면 한 사람의 분담금은 45예요. A가 120, B가 60을 냈다면 잔액은 A +75, B +15, C −45, D −45가 됩니다. 추천 정산 내역으로 잔액을 맞추는 방법을 확인할 수 있으며, SPEND가 실제 돈을 보내는 것은 아니에요.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "여러 통화를 쓰는 여행이라면 각 지출의 원래 통화를 남기고 환산 내역을 확인하세요. 환율은 바뀔 수 있으니 환산 금액을 현재 시세로 단정하지 말고 기록에 사용한 환율을 확인해 주세요.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "SPEND는 지출을 기록하고 잔액과 추천 정산 내역을 보여줘요. 실제 돈을 보내는 일은 별도로 진행해 주세요.",
+        "currentVsPlannedFAQ": "실시간 공유와 동기화는 앞으로 추가할 기능이에요. 현재는 지출 상세와 정산 결과를 공유할 수 있으며, 함께 실시간으로 편집하는 방식은 아니에요.",
+        "preservationFAQ": "거래 내역을 CSV로 내보내 엑셀에서 확인할 수 있고, 전체 기록을 백업하고 복원할 수 있어요.",
+        "plannedHeading": "앞으로 추가될 기능",
+        "plannedIntro": "이후 업데이트에서 선보일 계획이에요.",
+        "plannedFeatureTitles": [
+          "실시간 공유와 동기화",
+          "상세 통계",
+          "사진과 지도"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "미리보기 화면은 영어로 표시됩니다.",
+        "allNineAltsRead": true,
+        "receiptAlt": "지출 항목과 합계를 영수증 형태로 공유해요.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "해요체/명령형이 일관되며 낸 사람, 나눌 사람, 분담금, 잔액을 구분한다. 세 상황 제목에서 각 가이드의 사용 목적을 알 수 있다.",
+      "regionalUsageAssessment": "송금 실행과 추천 정산 내역 확인을 구분하며 영수증 형태 공유/가로로 넘기기/밝은 테마 안내가 문맥에 맞다.",
+      "languageSpecificLimit": "수용된 한국어 정본을 직접 읽어 기준으로 삼았다. 앱 기능을 새로 실행한 검증은 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: 모임 지출과 여행 경비를 간편하게 정산하세요"
+    },
+    {
+      "locale": "nl-NL",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/nl-NL.json",
+      "sourceSha256": "6386304d9e1d675bf69f365de65a229c1499fdeed7ee1219f79e68b61a504b1b",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4 vrienden reizen samen. Slechts twee delen een uitgave van 60. Bij een gelijke verdeling is hun aandeel ieder 30; het aandeel van de andere twee in deze uitgave is ieder 0.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 personen delen 180 gelijk, dus ieders aandeel is 45. A heeft 120 betaald en B 60. Hun saldi zijn A +75, B +15, C −45 en D −45. De voorgestelde verrekeningen laten zien hoe je de saldi kunt vereffenen; SPEND maakt geen geld over.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Gebruik je op reis meerdere valuta? Bewaar dan de oorspronkelijke valuta van elke uitgave en controleer de omrekening. Wisselkoersen kunnen veranderen. Controleer daarom de gebruikte koers en behandel een omgerekend bedrag niet als een actuele koersnotering.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "Nee. SPEND houdt uitgaven bij en toont saldi en voorgestelde verrekeningen. Daadwerkelijke betalingen regel je apart.",
+        "currentVsPlannedFAQ": "In realtime delen en synchroniseren zijn geplande functies. Je kunt nu uitgavendetails en afrekeningen delen, maar dat is geen gezamenlijke bewerking in realtime.",
+        "preservationFAQ": "Je kunt transacties als CSV exporteren om ze in Excel te bekijken en een back-up van al je gegevens maken en herstellen.",
+        "plannedHeading": "Geplande functies",
+        "plannedIntro": "Gepland voor toekomstige updates.",
+        "plannedFeatureTitles": [
+          "In realtime delen en synchroniseren",
+          "Gedetailleerde statistieken",
+          "Foto’s en kaarten"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "De schermafbeeldingen zijn in het Engels.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Uitgavenposten en het totaal als bon delen.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "kosten delen, uitgaven bijhouden, verrekeningen이 기록/분담/정산을 전달한다. betaler와 deelnemers를 구분하고 FAQ는 daadwerkelijke betalingen apart라고 설명한다.",
+      "regionalUsageAssessment": "schermafbeeldingen, scrol, bon, valuta, back-up, lichte/donkere modus가 적절하다. aandeel ieder 30/0은 압축된 수치 문장이지만 각자의 부담액이라는 뜻이 분명하다.",
+      "languageSpecificLimit": "독자 전체의 문체 선호나 검색량을 대표하는 검수는 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Deel groepskosten en houd reiskosten bij"
+    },
+    {
+      "locale": "pt-BR",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/pt-BR.json",
+      "sourceSha256": "79bad05189c61d011a53139a918db32bcb96dae9a16000739c72d82773e9b769",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4 amigos estão viajando juntos. Só dois dividem uma despesa de 60. Em uma divisão igual, cada um desses dois fica com uma parte de 30; a parte dos outros dois nesta despesa é 0 para cada um.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 pessoas dividem 180 igualmente, então a parte de cada uma é 45. A pagou 120 e B pagou 60. Os saldos são A +75, B +15, C −45 e D −45. Os acertos sugeridos mostram como equilibrar os saldos; o SPEND não transfere dinheiro.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Se a viagem envolve mais de uma moeda, mantenha a moeda original de cada despesa e confira sua conversão. As taxas de câmbio podem mudar. Por isso, confira a taxa usada em vez de considerar o valor convertido uma cotação em tempo real.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "Não. O SPEND registra despesas e mostra saldos e acertos sugeridos. Os pagamentos reais são feitos separadamente.",
+        "currentVsPlannedFAQ": "O compartilhamento e a sincronização em tempo real são recursos planejados. Atualmente você pode compartilhar detalhes de despesas e resultados dos acertos, mas isso não é uma edição conjunta em tempo real.",
+        "preservationFAQ": "Você pode exportar as transações em CSV para abrir no Excel, além de fazer backup e restaurar todos os seus registros.",
+        "plannedHeading": "Recursos planejados",
+        "plannedIntro": "Planejados para futuras atualizações.",
+        "plannedFeatureTitles": [
+          "Compartilhamento e sincronização em tempo real",
+          "Estatísticas detalhadas",
+          "Fotos e mapas"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "As capturas de tela são exibidas em inglês.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Compartilhar os itens da despesa e o total como recibo.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "despesas compartilhadas, integrantes, acertos sugeridos가 기록/분담/정산을 구분한다. 실제 송금 부재와 실시간 기능 계획을 명시한다.",
+      "regionalUsageAssessment": "registre/compartilhe/contato/capturas de tela/app/baixe/você/faça backup/recursos planejados는 브라질용 표현이다. 포르투갈본과 구별된다.",
+      "languageSpecificLimit": "브라질 검색량/전환이나 모든 지역 문체 선호를 검증하지 않았다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Divida gastos em grupo e registre despesas de viagem"
+    },
+    {
+      "locale": "pt-PT",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/pt-PT.json",
+      "sourceSha256": "a2a5fc624654e11e9f0cb77f8e4ee5b4edb9aaaea898d85803afcc3e03c81865",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "4 amigos viajam juntos. Apenas dois partilham uma despesa de 60. Numa divisão igual, cada um desses dois suporta 30; a parte dos outros dois nesta despesa é 0 para cada um.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 pessoas dividem 180 em partes iguais, pelo que a parte de cada uma é 45. A pagou 120 e B pagou 60. Os saldos são A +75, B +15, C −45 e D −45. Os acertos sugeridos mostram como equilibrar os saldos; o SPEND não transfere dinheiro.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Se a viagem envolve mais de uma moeda, mantenha a moeda original de cada despesa e confira a conversão. As taxas de câmbio podem mudar. Verifique a taxa usada em vez de considerar o valor convertido uma cotação em tempo real.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "Não. O SPEND regista despesas e mostra saldos e acertos sugeridos. Os pagamentos reais são feitos separadamente.",
+        "currentVsPlannedFAQ": "A partilha e a sincronização em tempo real são funcionalidades planeadas. Atualmente pode partilhar detalhes de despesas e resultados dos acertos, mas isso não é uma edição conjunta em tempo real.",
+        "preservationFAQ": "Pode exportar os movimentos em CSV para abrir no Excel, bem como fazer uma cópia de segurança e restaurar todos os seus registos.",
+        "plannedHeading": "Funcionalidades planeadas",
+        "plannedIntro": "Planeadas para futuras atualizações.",
+        "plannedFeatureTitles": [
+          "Partilha e sincronização em tempo real",
+          "Estatísticas detalhadas",
+          "Fotografias e mapas"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "As capturas de ecrã são apresentadas em inglês.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Partilhar os itens da despesa e o total num recibo.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "despesas partilhadas, membros, acertos de contas가 공동 비용을 설명한다. 숫자와 송금/공동편집/환율 경계를 보존한다.",
+      "regionalUsageAssessment": "registe/partilhe/contacto/capturas de ecrã/aplicação/descarregar/introduza/cópia de segurança/funcionalidades planeadas가 포르투갈용 표현이다.",
+      "languageSpecificLimit": "포르투갈 현지 사람 검수나 검색/전환 성과 측정은 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Divida despesas de grupo e registe custos de viagem"
+    },
+    {
+      "locale": "th",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/th.json",
+      "sourceSha256": "09f82ac3028c270e7bfc7eb95f2d26a3159f3ff6e01654628a9bfbb9e2dfb0e9",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "เพื่อน 4 คนไปเที่ยวด้วยกัน มีค่าใช้จ่าย 60 ที่ร่วมใช้กันแค่ 2 คน หากหารเท่ากัน สองคนนี้จะรับผิดชอบคนละ 30 ส่วนอีกสองคนมีส่วนแบ่งของรายการนี้เป็น 0",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "4 คนหารค่าใช้จ่ายรวม 180 เท่ากัน จึงมีส่วนแบ่งคนละ 45 โดย A จ่าย 120 และ B จ่าย 60 ยอดคงเหลือคือ A +75, B +15, C −45 และ D −45 รายการเคลียร์ยอดที่แนะนำจะแสดงวิธีปรับยอดในบันทึกให้สมดุล โดย SPEND ไม่ได้โอนเงินจริง",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "หากทริปใช้เงินมากกว่าหนึ่งสกุล ให้เก็บสกุลเงินเดิมของแต่ละรายการไว้และตรวจสอบยอดที่แปลง อัตราแลกเปลี่ยนอาจเปลี่ยนได้ จึงควรตรวจสอบอัตราที่ใช้ในบันทึก ไม่ถือว่ายอดที่แปลงเป็นมูลค่าตามอัตราปัจจุบัน",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "ไม่ได้ SPEND ใช้บันทึกค่าใช้จ่ายและแสดงยอดคงเหลือกับรายการเคลียร์ยอดที่แนะนำ ส่วนการจ่ายเงินจริงต้องทำแยกต่างหาก",
+        "currentVsPlannedFAQ": "การแชร์และซิงค์แบบเรียลไทม์เป็นฟีเจอร์ที่วางแผนไว้ ตอนนี้แชร์รายละเอียดค่าใช้จ่ายและผลสรุปการเคลียร์ยอดได้ แต่ยังไม่ได้แก้ไขข้อมูลร่วมกันแบบเรียลไทม์",
+        "preservationFAQ": "ส่งออกรายการเป็น CSV เพื่อเปิดดูใน Excel รวมถึงสำรองและกู้คืนข้อมูลทั้งหมดได้",
+        "plannedHeading": "ฟีเจอร์ที่วางแผนไว้",
+        "plannedIntro": "มีแผนจะเพิ่มในอัปเดตถัด ๆ ไป",
+        "plannedFeatureTitles": [
+          "แชร์และซิงค์แบบเรียลไทม์",
+          "สถิติแบบละเอียด",
+          "รูปภาพและแผนที่"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "ภาพหน้าจอแสดงเป็นภาษาอังกฤษ",
+        "allNineAltsRead": true,
+        "receiptAlt": "แชร์รายการค่าใช้จ่ายและยอดรวมในรูปแบบใบเสร็จ",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "หารบิล/ผู้จ่าย/ส่วนแบ่ง/ยอดคงเหลือ가 비용 분담 문맥에서 식별된다. 납부액/분담액/잔액 부호를 보존하고 송금 부재/공동편집 계획도 설명한다.",
+      "regionalUsageAssessment": "ทริป, แชร์, แท็ก, อัตราแลกเปลี่ยน, สำรอง/กู้คืน, โหมดสว่าง/มืด가 앱 문맥에서 일관된다.",
+      "languageSpecificLimit": "태국 현지인의 미세한 어감이나 화면 줄바꿈은 확인하지 않은 모델 검수다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: หารบิลกับเพื่อนและจดค่าใช้จ่ายทริป"
+    },
+    {
+      "locale": "vi",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/vi.json",
+      "sourceSha256": "a95502ba9927739d11dc36b65312cec4b46ca313f73c7a623df13883e2343255",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "Bốn người bạn đi du lịch cùng nhau. Chỉ hai người cùng chia một khoản chi là 60. Nếu chia đều, mỗi người trong hai người đó chịu 30; phần của hai người còn lại trong khoản chi này là 0.",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "Bốn người chia đều tổng số tiền 180, nên phần của mỗi người là 45. A đã trả 120 và B đã trả 60. Số dư lần lượt là A +75, B +15, C −45 và D −45. Các khoản thanh toán được gợi ý cho biết cách cân bằng ghi chép; SPEND không chuyển tiền.",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "Nếu chuyến đi sử dụng nhiều loại tiền, hãy giữ loại tiền gốc của từng khoản chi và xem cách quy đổi. Tỷ giá có thể thay đổi, vì vậy hãy kiểm tra tỷ giá đã dùng thay vì xem số tiền quy đổi là giá trị theo tỷ giá hiện tại.",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "Không. SPEND ghi lại chi tiêu và hiển thị số dư cùng các khoản thanh toán được gợi ý. Việc trả tiền thực tế được thực hiện riêng.",
+        "currentVsPlannedFAQ": "Chia sẻ và đồng bộ theo thời gian thực là các tính năng dự kiến. Hiện tại, bạn có thể chia sẻ chi tiết khoản chi và kết quả thanh toán, nhưng chưa thể cùng chỉnh sửa theo thời gian thực.",
+        "preservationFAQ": "Bạn có thể xuất giao dịch dưới dạng CSV để xem trong Excel, đồng thời sao lưu và khôi phục toàn bộ dữ liệu.",
+        "plannedHeading": "Tính năng dự kiến",
+        "plannedIntro": "Dự kiến có trong các bản cập nhật sau.",
+        "plannedFeatureTitles": [
+          "Chia sẻ và đồng bộ theo thời gian thực",
+          "Thống kê chi tiết",
+          "Ảnh và bản đồ"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "Ảnh chụp màn hình hiển thị bằng tiếng Anh.",
+        "allNineAltsRead": true,
+        "receiptAlt": "Chia sẻ các mục chi và tổng tiền dưới dạng hóa đơn.",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "người đã trả, phần chia, số dư로 납부/분담/잔액을 구분한다. 숫자 예시는 한국어 의미를 보존하고 송금하지 않는다는 부정도 분명하다.",
+      "regionalUsageAssessment": "ảnh chụp màn hình, tra tỷ giá, sao lưu/khôi phục, giao diện sáng/tối는 UI 문맥에 맞는다.",
+      "languageSpecificLimit": "cân bằng ghi chép는 다소 직역투이나 잔액 문맥이 분명해 의미 오류로 올리지 않았다. 원어민 사람 검수는 아니다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: Chia tiền nhóm và ghi chép chi phí du lịch"
+    },
+    {
+      "locale": "zh-CN",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/zh-CN.json",
+      "sourceSha256": "2fad9519669dcb946b6affb68af7bc0c7cf64be08583a52010ad1d8336875cc6",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "四位朋友一起旅行，只有两人参与了一笔60的支出。平均分摊时，这两人各承担30；另外两人在这笔支出中的分摊金额为0。",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "四人平均分摊总计180的费用，每人应承担45。A付了120，B付了60，则余额为A +75、B +15、C −45、D −45。建议结算方案会说明如何结清记录中的余额；SPEND不会实际转账。",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "如果旅途中使用多种货币，请保留每笔支出的原始货币，并核对换算结果。汇率可能变化，因此要确认记录使用的汇率，不要把换算金额当作实时汇价。",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "不能。SPEND用于记录支出，显示余额和建议结算方案。实际付款需要通过其他方式完成。",
+        "currentVsPlannedFAQ": "实时共享和同步是计划推出的功能。目前可以分享支出详情和结算结果，但还不支持多人实时共同编辑。",
+        "preservationFAQ": "可以将交易记录导出为CSV，用Excel查看，也可以备份和恢复全部记录。",
+        "plannedHeading": "计划推出的功能",
+        "plannedIntro": "计划在后续更新中推出。",
+        "plannedFeatureTitles": [
+          "实时共享和同步",
+          "详细统计",
+          "照片和地图"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "预览截图以英文显示。",
+        "allNineAltsRead": true,
+        "receiptAlt": "以收据形式分享支出明细和合计金额。",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "共同支出/付款人/分摊金额/余额 구분이 분명하다. 不会实际转账/还不支持多人实时共同编辑로 기능 경계를 명시한다.",
+      "regionalUsageAssessment": "简体, 分账, 应用, 导出/恢复, 实时, 标签, 浅色/深色를 사용해 대만 번체본과 구별한다.",
+      "languageSpecificLimit": "접근성/스토어 지역 제공 여부를 새로 조사한 것은 아니다. 승인된 플랫폼 문구와 콘텐츠 의미를 검수했다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: 聚会分账与旅行记账"
+    },
+    {
+      "locale": "zh-TW",
+      "source": "/private/tmp/spend-ai-web-20261107/content/locales/zh-TW.json",
+      "sourceSha256": "f4495d043a8ef6b7c2548b876667593d301ed1d6550c547d02fd9ca6f229d818",
+      "status": "accepted",
+      "allNewCopyReadDirectly": true,
+      "newCopyCoverage": [
+        "metaTitle/metaDescription",
+        "nav",
+        "hero/availability",
+        "storeAlts",
+        "screensTitle/screensLabel/screensNote/screenshotAlts9",
+        "featuresTitle/featuresIntro",
+        "guidesTitle/guidesIntro/guides3 including steps and examples",
+        "faqTitle/faqs3",
+        "roadmapTitle/roadmapIntro/roadmapItems3",
+        "themeLight/themeDark"
+      ],
+      "scenarioEvidence": {
+        "guide1ExactQuote": "四位朋友一起旅遊，只有兩人參與了一筆60的支出。平均分攤時，這兩人各負擔30；另外兩人在這筆支出中的分攤金額為0。",
+        "guide1MeaningChecked": {
+          "groupSize": 4,
+          "participants": 2,
+          "expense": 60,
+          "equalParticipantShare": 30,
+          "eachNonparticipantShare": 0,
+          "result": "correct; quantities include written-out words and were directly read"
+        },
+        "guide2ExactQuote": "四人平均分攤總計180的費用，每人的分攤金額是45。A付了120，B付了60，餘額就是A +75、B +15、C −45、D −45。建議結算方式會說明如何結清記錄中的餘額；SPEND不會實際轉帳。",
+        "guide2MeaningChecked": {
+          "groupSize": 4,
+          "total": 180,
+          "equalShare": 45,
+          "paid": {
+            "A": 120,
+            "B": 60,
+            "C": 0,
+            "D": 0
+          },
+          "balances": {
+            "A": 75,
+            "B": 15,
+            "C": -45,
+            "D": -45
+          },
+          "signedTokens": [
+            "A +75",
+            "B +15",
+            "C −45",
+            "D −45"
+          ],
+          "balanceSum": 0,
+          "result": "correct; no sign reversal or payer/participant confusion"
+        },
+        "guide3RateCaveatExactQuote": "如果旅途中使用多種貨幣，請保留每筆支出的原始貨幣，並確認換算結果。匯率可能變動，因此要確認記錄使用的匯率，不要把換算金額當作即時匯價。",
+        "guide3Result": "original currency and conversion retained; rate can change; no guaranteed/live quote claim"
+      },
+      "capabilityEvidence": {
+        "noActualTransferFAQ": "不行。SPEND用來記錄支出，顯示餘額與建議結算方式。實際付款需透過其他方式完成。",
+        "currentVsPlannedFAQ": "即時共享與同步是規劃中的功能。目前可以分享支出明細與結算結果，但尚未支援多人即時共同編輯。",
+        "preservationFAQ": "可以將交易記錄匯出為CSV，在Excel中開啟，也可以備份和還原所有記錄。",
+        "plannedHeading": "規劃中的功能",
+        "plannedIntro": "預計在之後的更新推出。",
+        "plannedFeatureTitles": [
+          "即時共享與同步",
+          "詳細統計",
+          "照片與地圖"
+        ],
+        "actualTransferClaimAdded": false,
+        "currentLiveCoeditingClaimAdded": false,
+        "guaranteedOptimalSettlementPathClaimAdded": false,
+        "freeOrUnlimitedClaimAdded": false,
+        "bankLinkingClaimAdded": false,
+        "newOperatorIdentityAdded": false
+      },
+      "screensAndUiEvidence": {
+        "englishScreenshotNotice": "預覽畫面以英文顯示。",
+        "allNineAltsRead": true,
+        "receiptAlt": "以收據形式分享支出項目與合計金額。",
+        "allNineAltsMatchApprovedScreenshotFunctionOrder": true,
+        "navAndThemeLabelsLocalized": true,
+        "properProductNamesRetained": true
+      },
+      "structureChecks": {
+        "featureCount": 7,
+        "guideCount": 3,
+        "guideStepCounts": [
+          3,
+          3,
+          3
+        ],
+        "faqCount": 3,
+        "plannedCount": 3,
+        "screenshotAltCount": 9,
+        "forbiddenU00B7U30FBU2022U2027Paths": []
+      },
+      "findingIds": [],
+      "naturalnessAssessment": "共同支出/付款人/分攤金額/餘額와 結算方式 관계를 보존한다. 不會實際轉帳/尚未支援多人即時共同編輯와 환율 안내가 분명하다.",
+      "regionalUsageAssessment": "繁體, 分帳/記帳, App, 匯出/還原, 即時, 標籤, 淺色/深色가 대만용 표현이다.",
+      "languageSpecificLimit": "현지 사람 검수나 검색 성과 실험은 아니다. 세부 문체 선호와 실제 줄바꿈은 범위 밖이다.",
+      "metaTitleAfterMechanicalPrefixChange": "SPEND: 聚會分帳與旅遊記帳"
+    }
+  ],
+  "limits": [
+    "모델 기반 의미/언어 검수이며 16언어 원어민 사람 검수라고 주장하지 않는다.",
+    "본문 JSON과 필요한 최소 생성 소스/보존 diff를 읽었고 브라우저 렌더, 첫 방문 언어 자동선택, 화면 크기/스크린리더 동작, 실제 공개 상태는 이 담당이 확인하지 않았다.",
+    "첫 방문/기억한 선택/미지원 fallback/Privacy 제외의 동작 검증은 통합 담당 범위다. 이 문구 검수가 그 PASS를 대신하지 않는다.",
+    "Privacy Policy 법적 정확성을 새로 감사하거나 번역하지 않았다. 해당 경로 및 공유 style/theme의 기준 대비 diff가 없는지만 읽기 확인했다.",
+    "배지 목적지는 소스의 기준/후보 문자열 일치를 확인했다. 실제 앱 제공 지역/다운로드 실행은 확인하지 않았다.",
+    "숫자 예시에 통화를 임의 부여하지 않고 한국어/영어 정본의 단위 없는 수치를 보존한다.",
+    "기능7 본문은 승인본 exact 범위만 기존 검수를 재사용했다. 앱 전체 구현/금융/데이터보존 QA를 새로 수행한 것은 아니다."
+  ],
+  "nextAction": "콘텐츠 검수 accepted. 두 메타 문구 교정과 16개 제목 접두의 승인된 기계 변경을 실제 파일에서 확인했고 최종16 source SHA를 기록했다. Root가 사이트 기능/렌더/공개 검증을 마무리한다. 이 보고서는 배포/공개 완료나 브라우저 언어 선택 동작 PASS를 주장하지 않는다.",
+  "finalTitlePrefixReview": {
+    "completedAtUTC": "2026-11-07T06:58:22.613696+00:00",
+    "authority": "Root relayed user-authorized Hallmark reference polish. Builder owned locale writes.",
+    "scope": "16 metaTitle prefixes only: SPEND em dash to SPEND colon. No semantic re-review repeated.",
+    "checks": [
+      {
+        "locale": "de-DE",
+        "field": "metaTitle",
+        "before": "SPEND — Gruppenkosten teilen und Reisekosten erfassen",
+        "after": "SPEND: Gruppenkosten teilen und Reisekosten erfassen",
+        "previousReviewedFileSha256": "2ea24961ada5fe4d18cfe7eff7d60a5f917eadc015e68900043b360ddec7e159",
+        "finalFileSha256": "20a915f0b2a4f26a88e60635ae53ebfa43b590ecd3b24d6668597a3851886e3a",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "en-GB",
+        "field": "metaTitle",
+        "before": "SPEND — Split group bills and track travel costs",
+        "after": "SPEND: Split group bills and track travel costs",
+        "previousReviewedFileSha256": "ae50cddc7e68f513825ebfede7eb6fe9ca42c51a9631d18cc7558930632709fd",
+        "finalFileSha256": "0af19f87cec346196574027fd316dadcc1b755a9a8d60286f5ea16b9f5f2e92a",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "en-US",
+        "field": "metaTitle",
+        "before": "SPEND — Split group bills and track travel costs",
+        "after": "SPEND: Split group bills and track travel costs",
+        "previousReviewedFileSha256": "f1b783fc8cce6a1378042fa5c5d313d9fe8a80249a3caba79fe446b91b0901c5",
+        "finalFileSha256": "f189763f4d183fd5c507d2a11be56d13a04cdf678b796e22bda5b33f91b59309",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "es-ES",
+        "field": "metaTitle",
+        "before": "SPEND — Reparte gastos de grupo y registra los de viaje",
+        "after": "SPEND: Reparte gastos de grupo y registra los de viaje",
+        "previousReviewedFileSha256": "d152f2a4bc73a9c7418abd9fbb21ac1940817cd2f19a60754a7de0914206fe34",
+        "finalFileSha256": "467ebc811a0bb396938befcc51620d9c2bd832da43e79370f86d80fb0e825db2",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "fr-FR",
+        "field": "metaTitle",
+        "before": "SPEND — Partagez les frais de groupe et suivez vos dépenses de voyage",
+        "after": "SPEND: Partagez les frais de groupe et suivez vos dépenses de voyage",
+        "previousReviewedFileSha256": "6fbc86ca055e5efb5423169dd9d1fb73c035f574848250aee82bf5c06f517393",
+        "finalFileSha256": "25104112037a374db4049037aa5736f203e242445466e4c23e7ea3dfd2a59f8d",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "id",
+        "field": "metaTitle",
+        "before": "SPEND — Patungan dan catat biaya perjalanan",
+        "after": "SPEND: Patungan dan catat biaya perjalanan",
+        "previousReviewedFileSha256": "6beedcc37486a9363bedddb7c3ab2c8b2924261d355dc42c4ae8a5f5fa09c3bc",
+        "finalFileSha256": "df0e934c79109af1f0a0416c965bb33f6695c1aa471d1e4b42b73e1b4c677d99",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "it-IT",
+        "field": "metaTitle",
+        "before": "SPEND — Dividi le spese di gruppo e registra i costi di viaggio",
+        "after": "SPEND: Dividi le spese di gruppo e registra i costi di viaggio",
+        "previousReviewedFileSha256": "16af71954598ec7dfcc749b9ed9cd9550368761b7a06dc23cc700dfa0c15a69d",
+        "finalFileSha256": "27561e749fc20b9c5344db0859da73da1e73471d0bd5c169aee1268240a963ef",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "ja-JP",
+        "field": "metaTitle",
+        "before": "SPEND — 集まりの割り勘と旅行費用の記録",
+        "after": "SPEND: 集まりの割り勘と旅行費用の記録",
+        "previousReviewedFileSha256": "7835a2ace7d0d11d5c85fead15fa2c035756b45f2ced961e5c0ce321a476f082",
+        "finalFileSha256": "d2f1698f4ee7ce5e0e07c1ce9241c6bff2355519b45f8c6c2ef97e8ae923a921",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "ko-KR",
+        "field": "metaTitle",
+        "before": "SPEND — 모임 지출과 여행 경비를 간편하게 정산하세요",
+        "after": "SPEND: 모임 지출과 여행 경비를 간편하게 정산하세요",
+        "previousReviewedFileSha256": "65b77671cb645d5990fc4c916b66b71d0c47dcbd57925bed0db50fe5b9f8f674",
+        "finalFileSha256": "769f050b42018951d05b7e1415bd4091f9b20a2e03ce0dfb0637019ffc843550",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "nl-NL",
+        "field": "metaTitle",
+        "before": "SPEND — Deel groepskosten en houd reiskosten bij",
+        "after": "SPEND: Deel groepskosten en houd reiskosten bij",
+        "previousReviewedFileSha256": "32e7db63caa8baa7545bcf182eec41d63d0634fee4d9f3e036509cbe6d0fa367",
+        "finalFileSha256": "6386304d9e1d675bf69f365de65a229c1499fdeed7ee1219f79e68b61a504b1b",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "pt-BR",
+        "field": "metaTitle",
+        "before": "SPEND — Divida gastos em grupo e registre despesas de viagem",
+        "after": "SPEND: Divida gastos em grupo e registre despesas de viagem",
+        "previousReviewedFileSha256": "1b64488da95242394cfb4c24a4a8e652d3a57cc3a87cb506ec987e15d953616e",
+        "finalFileSha256": "79bad05189c61d011a53139a918db32bcb96dae9a16000739c72d82773e9b769",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "pt-PT",
+        "field": "metaTitle",
+        "before": "SPEND — Divida despesas de grupo e registe custos de viagem",
+        "after": "SPEND: Divida despesas de grupo e registe custos de viagem",
+        "previousReviewedFileSha256": "75d821e3fa74778777287b7eb28fee153c71923e4625652c074a5c3e7f3c6afe",
+        "finalFileSha256": "a2a5fc624654e11e9f0cb77f8e4ee5b4edb9aaaea898d85803afcc3e03c81865",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "th",
+        "field": "metaTitle",
+        "before": "SPEND — หารบิลกับเพื่อนและจดค่าใช้จ่ายทริป",
+        "after": "SPEND: หารบิลกับเพื่อนและจดค่าใช้จ่ายทริป",
+        "previousReviewedFileSha256": "eb79f134dcffb4790c940468808051356539000088c16fd94f1d872c76072363",
+        "finalFileSha256": "09f82ac3028c270e7bfc7eb95f2d26a3159f3ff6e01654628a9bfbb9e2dfb0e9",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "vi",
+        "field": "metaTitle",
+        "before": "SPEND — Chia tiền nhóm và ghi chép chi phí du lịch",
+        "after": "SPEND: Chia tiền nhóm và ghi chép chi phí du lịch",
+        "previousReviewedFileSha256": "bf9479425d595acc5d7a583484537792a6f34a0d9b65b7f580ce67e76ec0b9ab",
+        "finalFileSha256": "a95502ba9927739d11dc36b65312cec4b46ca313f73c7a623df13883e2343255",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "zh-CN",
+        "field": "metaTitle",
+        "before": "SPEND — 聚会分账与旅行记账",
+        "after": "SPEND: 聚会分账与旅行记账",
+        "previousReviewedFileSha256": "86502dfd3da2c26a15e0ab6c6dc6a79eda69e273be4a73e81c3f4db2b47e6052",
+        "finalFileSha256": "2fad9519669dcb946b6affb68af7bc0c7cf64be08583a52010ad1d8336875cc6",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      },
+      {
+        "locale": "zh-TW",
+        "field": "metaTitle",
+        "before": "SPEND — 聚會分帳與旅遊記帳",
+        "after": "SPEND: 聚會分帳與旅遊記帳",
+        "previousReviewedFileSha256": "b3c46ebbbce5fcac98fc96f085c0337bc091729f22c48e034029dd5f55c6e806",
+        "finalFileSha256": "f4495d043a8ef6b7c2548b876667593d301ed1d6550c547d02fd9ca6f229d818",
+        "reversePrefixReconstructsPreviouslyReviewedFileExact": true,
+        "otherFieldsChanged": false
+      }
+    ],
+    "all16Accepted": true,
+    "newFindings": [],
+    "otherLocaleFieldsChanged": 0
+  }
+}

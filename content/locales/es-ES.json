@@ -1,0 +1,147 @@
+{
+  "locale": "es-ES",
+  "languageName": "Español",
+  "htmlLang": "es",
+  "metaTitle": "SPEND: Reparte gastos de grupo y registra los de viaje",
+  "metaDescription": "Registra gastos compartidos, elige quién pagó y quién participa en cada gasto y consulta las propuestas para saldar cuentas. SPEND está disponible para iPhone y Android.",
+  "nav": {
+    "home": "Inicio",
+    "features": "Funciones",
+    "guides": "Cómo funciona",
+    "language": "Idioma",
+    "contact": "Contacto",
+    "main": "Navegación principal",
+    "footer": "Pie de página"
+  },
+  "hero": {
+    "title": [
+      "Reparte gastos de grupo.",
+      "Registra los gastos de viaje."
+    ],
+    "body": "Desde una salida breve hasta un viaje completo. Registra los gastos compartidos y consulta quién debe cuánto a quién."
+  },
+  "availability": "Para iPhone y Android",
+  "storeAlts": [
+    "Descargar en el App Store",
+    "Descargar en Google Play"
+  ],
+  "screensTitle": "Vista previa de la app",
+  "screensLabel": "Nueve capturas de la app. Desplázate horizontalmente para verlas.",
+  "screensNote": "Las capturas se muestran en inglés.",
+  "screenshotAlts": [
+    "Repartir gastos de grupo y registrar los de viaje.",
+    "Saldos de los participantes y propuestas para saldar cuentas.",
+    "Elegir quién pagó y quién comparte cada gasto.",
+    "Reunir los gastos de grupo en un evento.",
+    "Compartir los conceptos del gasto y el total como recibo.",
+    "Registrar en moneda local y consultar en otra moneda.",
+    "Revisar los gastos por categoría y etiqueta.",
+    "Repartir importes sin crear un evento.",
+    "Minijuegos Dedos, Ruleta y Pinball."
+  ],
+  "featuresTitle": "Un lugar para los gastos compartidos",
+  "featuresIntro": "Lleva las cuentas claras desde el primer gasto hasta la última liquidación.",
+  "features": [
+    {
+      "title": "Unos gastos entre dos, otros entre todos",
+      "body": "Elige quién participa en cada gasto. Divide a partes iguales, asigna proporciones o introduce importes individuales. También puedes registrar gastos pagados entre varias personas."
+    },
+    {
+      "title": "¿Quién debe cuánto a quién?",
+      "body": "Consulta de un vistazo los saldos de cada persona y las propuestas para saldar cuentas. Comparte el resultado para que todos puedan revisarlo, incluso después del encuentro o del viaje."
+    },
+    {
+      "title": "Registra en moneda local, consulta en la tuya",
+      "body": "Anota los gastos en la moneda local y consulta los importes en tu moneda habitual. Puedes introducir el tipo de cambio o consultarlo."
+    },
+    {
+      "title": "Un registro para cada encuentro y viaje",
+      "body": "Una escapada de fin de semana, un encuentro con amigos o una comida compartida. Separa los gastos por evento y añade fechas, lugares y notas. Busca los registros por categoría o etiqueta."
+    },
+    {
+      "title": "Revisa los gastos y conserva tus registros",
+      "body": "Consulta cómo se distribuyen los gastos por fecha, categoría y etiqueta. Exporta los movimientos en CSV para verlos en Excel, o haz una copia de seguridad y restaura todos tus registros."
+    },
+    {
+      "title": "Si solo necesitas calcular, usa Reparto fácil",
+      "body": "Introduce los importes y el número de personas sin crear un evento. Suma varios importes y divídelos, o vuelve a abrir cálculos recientes para modificarlos. Si quieres seguir registrando gastos, pasa el cálculo a un evento nuevo."
+    },
+    {
+      "title": "Minijuegos para el grupo",
+      "body": "Abre los juegos de Dedos, Ruleta y Pinball desde Reparto fácil o la lista de movimientos."
+    }
+  ],
+  "guidesTitle": "Cómo repartir gastos en situaciones reales",
+  "guidesIntro": "Tres situaciones cotidianas para dejar claro quién pagó y quién comparte el gasto.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Este gasto solo lo comparten dos personas",
+      "body": "Viajar en grupo no significa que todos tengan que compartir cada gasto. Elige a los participantes de cada gasto.",
+      "steps": [
+        "Añade el gasto al evento e indica quién pagó.",
+        "Selecciona solo a quienes comparten este gasto. Reparte a partes iguales, por proporciones o con importes individuales.",
+        "Consulta los saldos del evento después de añadir el resto de los gastos."
+      ],
+      "exampleTitle": "Ejemplo",
+      "example": "4 amigos viajan juntos. Solo dos comparten un gasto de 60. Si lo reparten a partes iguales, cada uno de esos dos asume 30; los otros dos asumen 0 de este gasto."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Varias personas han ido pagando",
+      "body": "Registra cada pago en lugar de saldar cada cuenta al momento. SPEND usa los pagos y las partes de cada persona para mostrar sus saldos.",
+      "steps": [
+        "Crea un evento y añade a las personas del grupo.",
+        "Registra quién pagó y quién participa en cada gasto. Si varias personas pagaron un mismo gasto, indica cuánto aportó cada una.",
+        "Comprueba los saldos y las propuestas para saldar cuentas y comparte el resultado."
+      ],
+      "exampleTitle": "Ejemplo",
+      "example": "4 personas reparten 180 a partes iguales, por lo que a cada una le corresponden 45. A pagó 120 y B pagó 60. Los saldos son A +75, B +15, C −45 y D −45. Las propuestas para saldar cuentas muestran cómo equilibrar los saldos; SPEND no transfiere dinero."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Registra los gastos en la moneda local",
+      "body": "Registra lo que has gastado en la moneda local y consulta los gastos en tu moneda habitual.",
+      "steps": [
+        "Elige la moneda al registrar un gasto.",
+        "Introduce un tipo de cambio o consulta uno en la app. Comprueba el importe y el tipo usados para el registro.",
+        "Revisa los importes convertidos y los saldos del grupo en la moneda elegida."
+      ],
+      "exampleTitle": "Comprueba también el tipo de cambio",
+      "example": "Si en un viaje usas varias monedas, conserva la moneda original de cada gasto y revisa su conversión. Los tipos de cambio pueden variar: comprueba el tipo utilizado en lugar de tratar el importe convertido como una cotización en tiempo real."
+    }
+  ],
+  "faqTitle": "Conviene saberlo",
+  "faqs": [
+    {
+      "question": "¿SPEND envía dinero?",
+      "answer": "No. SPEND registra gastos y muestra saldos y propuestas para saldar cuentas. Los pagos reales se hacen por separado."
+    },
+    {
+      "question": "¿Todos pueden editar el mismo grupo en tiempo real?",
+      "answer": "El uso compartido y la sincronización en tiempo real son funciones previstas. Actualmente puedes compartir los detalles de los gastos y los resultados de las cuentas, pero no editarlos conjuntamente en tiempo real."
+    },
+    {
+      "question": "¿Puedo guardar una copia de mis registros?",
+      "answer": "Puedes exportar los movimientos en CSV para verlos en Excel y hacer una copia de seguridad de todos tus registros y restaurarlos."
+    }
+  ],
+  "roadmapTitle": "Funciones previstas",
+  "roadmapIntro": "Previstas para futuras actualizaciones.",
+  "roadmapItems": [
+    {
+      "title": "Uso compartido y sincronización en tiempo real",
+      "body": "Llevar los gastos de grupo entre todos y mantener sincronizados los registros de cada persona."
+    },
+    {
+      "title": "Estadísticas detalladas",
+      "body": "Descubrir patrones en tus gastos y registros de viaje."
+    },
+    {
+      "title": "Fotos y mapas",
+      "body": "Dar vida a cada viaje con fotos y lugares en un mapa."
+    }
+  ],
+  "themeLight": "Cambiar al modo claro",
+  "themeDark": "Cambiar al modo oscuro"
+}

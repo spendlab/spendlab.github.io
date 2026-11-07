@@ -1,0 +1,147 @@
+{
+  "locale": "de-DE",
+  "languageName": "Deutsch",
+  "htmlLang": "de",
+  "metaTitle": "SPEND: Gruppenkosten teilen und Reisekosten erfassen",
+  "metaDescription": "Erfasse gemeinsame Ausgaben, lege fest, wer bezahlt hat und wer die Kosten teilt, und sieh vorgeschlagene Abrechnungen. SPEND gibt es für iPhone und Android.",
+  "nav": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "guides": "Anleitungen",
+    "language": "Sprache",
+    "contact": "Kontakt",
+    "main": "Hauptnavigation",
+    "footer": "Fußzeile"
+  },
+  "hero": {
+    "title": [
+      "Gruppenkosten teilen.",
+      "Reisekosten erfassen."
+    ],
+    "body": "Vom kurzen Treffen bis zur ganzen Reise. Erfasse gemeinsame Ausgaben und sieh, wer wem wie viel schuldet."
+  },
+  "availability": "Für iPhone und Android",
+  "storeAlts": [
+    "Im App Store herunterladen",
+    "Bei Google Play herunterladen"
+  ],
+  "screensTitle": "App-Vorschau",
+  "screensLabel": "Neun App-Screenshots. Scrolle seitlich, um sie anzusehen.",
+  "screensNote": "Die Screenshots sind auf Englisch.",
+  "screenshotAlts": [
+    "Gruppenkosten teilen und Reisekosten erfassen.",
+    "Salden der Mitglieder und vorgeschlagene Ausgleichszahlungen.",
+    "Für jede Ausgabe festlegen, wer bezahlt hat und wer die Kosten teilt.",
+    "Gruppenausgaben in einem Ereignis sammeln.",
+    "Ausgabenposten und Gesamtsumme als Beleg teilen.",
+    "In der Landeswährung erfassen und in einer anderen Währung ansehen.",
+    "Ausgaben nach Kategorie und Tag ansehen.",
+    "Beträge ohne Ereignis nach Personenzahl aufteilen.",
+    "Minispiele Finger, Rad und Flipper."
+  ],
+  "featuresTitle": "Gemeinsame Ausgaben an einem Ort",
+  "featuresIntro": "Halte alles übersichtlich fest, von der ersten Ausgabe bis zur letzten Abrechnung.",
+  "features": [
+    {
+      "title": "Manche Ausgaben zu zweit, andere mit allen",
+      "body": "Wähle für jede Ausgabe, wer daran beteiligt ist. Teile den Betrag gleichmäßig oder im gewünschten Verhältnis auf. Du kannst die Beträge für jede Person auch selbst eingeben. Auch Ausgaben, die mehrere Personen gemeinsam bezahlt haben, kannst du erfassen."
+    },
+    {
+      "title": "Wer schuldet wem wie viel?",
+      "body": "Sieh die Salden aller Mitglieder und vorgeschlagene Ausgleichszahlungen auf einen Blick. Teile das Ergebnis, damit ihr die Abrechnung auch nach einem Treffen oder einer Reise gemeinsam nachvollziehen könnt."
+    },
+    {
+      "title": "Ausgaben im Ausland, in deiner vertrauten Währung",
+      "body": "Erfasse Ausgaben in der Landeswährung und sieh die Beträge in deiner üblichen Währung. Gib den Wechselkurs selbst ein oder rufe einen Kurs ab."
+    },
+    {
+      "title": "Eigene Aufzeichnungen für jede Reise und jedes Treffen",
+      "body": "Ein Wochenendtrip, ein Treffen mit Freunden oder ein gemeinsames Essen: Erfasse Ausgaben in getrennten Ereignissen und ergänze Datum, Ort und Notizen. Mit Kategorien und Tags findest du die gewünschten Einträge wieder."
+    },
+    {
+      "title": "Ausgaben ansehen und Aufzeichnungen aufbewahren",
+      "body": "Sieh dir den Verlauf deiner Ausgaben nach Datum sowie die Ausgaben nach Kategorie und Tag an. Exportiere Transaktionen als CSV, um sie in Excel anzusehen, oder sichere deine gesamten Aufzeichnungen und stelle sie wieder her."
+    },
+    {
+      "title": "Nur kurz rechnen? Nutze „Schnell teilen“",
+      "body": "Rechne mit Beträgen und Personenzahl, ohne ein Ereignis anzulegen. Addiere mehrere Beträge und teile die Summe auf. Öffne kürzlich erstellte Berechnungen erneut und passe sie an. Wenn du die Ausgaben weiter erfassen möchtest, übertrage die Berechnung in ein neues Ereignis."
+    },
+    {
+      "title": "Minispiele für eure Runde",
+      "body": "Öffne die Spiele Finger, Rad und Flipper über „Schnell teilen“ oder die Transaktionsliste."
+    }
+  ],
+  "guidesTitle": "So teilst du Ausgaben aus dem Alltag",
+  "guidesIntro": "Drei alltägliche Situationen: Halte fest, wer bezahlt hat und wer die Kosten teilt.",
+  "guides": [
+    {
+      "id": "different-participants",
+      "title": "Diese Ausgabe betrifft nur zwei Personen",
+      "body": "Bei einer Gruppenreise muss nicht jede Ausgabe alle betreffen. Wähle für jede Ausgabe die Mitglieder, die daran beteiligt sind.",
+      "steps": [
+        "Füge die Ausgabe zu deinem Ereignis hinzu und halte fest, wer bezahlt hat.",
+        "Wähle nur die Mitglieder, die diese Kosten teilen. Teile gleichmäßig, nach Verhältnis oder mit individuellen Beträgen.",
+        "Sieh dir die Salden im Ereignis an, nachdem du die übrigen Ausgaben erfasst hast."
+      ],
+      "exampleTitle": "Beispiel",
+      "example": "4 Freunde reisen gemeinsam. Nur zwei teilen eine Ausgabe von 60. Bei gleichmäßiger Aufteilung tragen diese beiden jeweils 30; die anderen beiden tragen jeweils 0 dieser Ausgabe."
+    },
+    {
+      "id": "multiple-payers",
+      "title": "Unterwegs haben verschiedene Personen bezahlt",
+      "body": "Erfasse jede Zahlung, statt jede Rechnung sofort auszugleichen. SPEND zeigt aus den Zahlungen und Kostenanteilen den Saldo jedes Mitglieds.",
+      "steps": [
+        "Lege ein Ereignis an und füge die Mitglieder deiner Gruppe hinzu.",
+        "Erfasse bei jeder Ausgabe, wer bezahlt hat und wer beteiligt ist. Haben mehrere Personen dieselbe Ausgabe bezahlt, erfasse ihre jeweiligen Beiträge.",
+        "Prüfe die Salden und vorgeschlagenen Ausgleichszahlungen und teile anschließend das Ergebnis."
+      ],
+      "exampleTitle": "Beispiel",
+      "example": "4 Personen teilen 180 gleichmäßig, also trägt jede Person 45. A hat 120 und B hat 60 bezahlt. Die Salden sind A +75, B +15, C −45 und D −45. Vorgeschlagene Ausgleichszahlungen zeigen, wie sich die Salden ausgleichen lassen; SPEND überweist kein Geld."
+    },
+    {
+      "id": "travel-currencies",
+      "title": "Reisekosten in der Landeswährung erfassen",
+      "body": "Erfasse deine tatsächlichen Ausgaben in der Landeswährung und sieh sie dir in deiner üblichen Währung an.",
+      "steps": [
+        "Wähle beim Erfassen einer Ausgabe die entsprechende Währung.",
+        "Gib einen Wechselkurs ein oder rufe einen in der App ab. Prüfe den Betrag und den Kurs, die für deinen Eintrag verwendet werden.",
+        "Sieh die umgerechneten Beträge und Gruppensalden in der gewählten Währung an."
+      ],
+      "exampleTitle": "Auch den Wechselkurs prüfen",
+      "example": "Wenn du auf einer Reise mehrere Währungen verwendest, behalte die ursprüngliche Währung jeder Ausgabe bei und prüfe die Umrechnung. Wechselkurse können sich ändern. Prüfe deshalb den verwendeten Kurs, statt einen umgerechneten Betrag als Echtzeitkurs zu verstehen."
+    }
+  ],
+  "faqTitle": "Gut zu wissen",
+  "faqs": [
+    {
+      "question": "Überweist SPEND Geld?",
+      "answer": "Nein. SPEND erfasst Ausgaben und zeigt Salden und vorgeschlagene Ausgleichszahlungen. Tatsächliche Zahlungen erledigst du separat."
+    },
+    {
+      "question": "Können alle dieselbe Gruppe in Echtzeit bearbeiten?",
+      "answer": "Teilen und Synchronisieren in Echtzeit sind geplante Funktionen. Derzeit kannst du Ausgabendetails und Abrechnungsergebnisse teilen. Eine gemeinsame Bearbeitung in Echtzeit ist das nicht."
+    },
+    {
+      "question": "Kann ich eine Kopie meiner Aufzeichnungen aufbewahren?",
+      "answer": "Du kannst Transaktionen als CSV exportieren, um sie in Excel anzusehen, und deine gesamten Aufzeichnungen sichern und wiederherstellen."
+    }
+  ],
+  "roadmapTitle": "Geplante Funktionen",
+  "roadmapIntro": "Für künftige Updates geplant.",
+  "roadmapItems": [
+    {
+      "title": "Teilen und Synchronisieren in Echtzeit",
+      "body": "Künftig Gruppenausgaben gemeinsam erfassen und alle Aufzeichnungen synchron halten."
+    },
+    {
+      "title": "Detaillierte Statistiken",
+      "body": "Muster in deinen Ausgaben und Reiseaufzeichnungen erkennen."
+    },
+    {
+      "title": "Fotos und Karten",
+      "body": "Reisemomente mit Fotos und Orten auf einer Karte festhalten."
+    }
+  ],
+  "themeLight": "Zum hellen Modus wechseln",
+  "themeDark": "Zum dunklen Modus wechseln"
+}

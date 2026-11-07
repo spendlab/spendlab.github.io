@@ -1,0 +1,57 @@
+{
+  "baseline": "f1f33fbe38c1f4e64c05211f0ef86920568282bf",
+  "scope": "Post French and Italian description corrections, 16 title-prefix corrections and selected Hallmark-reference typography/menu polish",
+  "staticValidation": {
+    "localizedPages": 16,
+    "guides": 48,
+    "protectedFiles": {
+      ".editorconfig": "bd8ac06912819ad36ffce37ef089551cad71e6f5f8206363d580269150a62740",
+      ".gitignore": "913a7ea14870f7808c9c1330fdbd419e7c582c73c64a54bbc4551a8fda94da75",
+      ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "CNAME": "eb9f5649f7bd8e54487b2ddc7af40d788884a95fe6c2cd073cfe52f55d7f9e39",
+      "LICENSE.md": "b569a8e2b7b3a62ae61146ae8e2da5ccc1c1aa2f078b84fc8102ee84b74c1203",
+      "apple-touch-icon.png": "fe168fe7b677d2d995ca02779269bc252208133d7101997ef8801b68729e010d",
+      "assets/store-badges/app-store-en.svg": "a26fc5b38380272c92e9019a2eb8b45542a66814b3e2b203772db8904b9fb99f",
+      "assets/store-badges/google-play-en.png": "f72611e2df8e88204009fd896d05d5e8e83c77009c63943bbffa169559934849",
+      "assets/store-badges/provenance.json": "7232339fc3feabf9271f3caf569247b8a5d657f505aaacb07d862c8b7a0082ec",
+      "docs/work_history/2026.09.07-app-introduction.md": "226ee4bdf90c21169996c776e9401025c6e10c13f178eabe26ffd210cd7015ef",
+      "docs/work_history/2026.09.07-color-alignment.md": "d168f254b200d40e267846a52b5e609395342beedd47994c709d84b8098e6a05",
+      "docs/work_history/2026.09.07-subtle-accent.md": "ba89dd90da9d394fa641d9275df825d61d34f66fc66273759ff87b632e9cf185",
+      "docs/work_history/2026.09.23-gallery-refresh.md": "5f4ea74b5c373773b3e115779715442e5d336fb7cb37e9ce07509158f2137528",
+      "docs/work_history/landing-image-sources-2026.09.07.json": "3bb287fa165280ddfaee50e33bde7a1777b0162d9814b6abc3e42a19123a9c13",
+      "docs/work_history/landing-image-sources-2026.09.23.json": "2b92c9494ba6afc6053dbb37b8f4f684ea8f3cdd7c91ccd395fa2294df0e232a",
+      "docs/work_history/landing-image-sources-2026.10.11.json": "c3eea2bd96ff7fbdd6666e517447879bd7f5bed161b29968c0ca486dcfd56f39",
+      "favicon.png": "24fc54c22ace6080fb3a9a8965ea89cc1f80bdb1d4aa6a600d812342067f7879",
+      "favicon.svg": "60cbad789b01f8bac6e88728bd296e24dc9f631faaff7bcca3f6944dfaf08cfa",
+      "fonts/Geist.ttf": "ab491eb63bca7372be9fa9e7cd511b2fe9d4a602ba59c1e978638ea49cf77461",
+      "fonts/OFL.txt": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90",
+      "images/currencies.png": "233bbb0f86c1eae5417a87fdeefe8b8e91811f43dd787fd8dd095d0238aa05ac",
+      "images/group-expenses.png": "5ac746e11dfd48803b3f1e19020fcf32a9bef9a67cfbb4e9cb4bc851c62ef7e3",
+      "images/insights.png": "61979b645f5332b6bf2d37bb10aea57c0134e0d57b933f2e1d0af8da8cd66887",
+      "images/mini-games.png": "6fd19cef077236680781a99bd434cf0a0d9b6c440445f76c63b3013e32195aaa",
+      "images/overview.png": "8c007688df80965da77d0ad74d90314790deccf536ccda992fe9f78674246eaa",
+      "images/quick-split.png": "e0cd4fdfcc9ef2a61bb7836fb373524e0df325656f62d9da9f03c392fce53e9e",
+      "images/receipt.png": "8a5f99bba314ff3dad6bccc8dcbd8d69dd1d84b87a48891a0d66346e85215b6f",
+      "images/settlement.png": "b4d22a53fd3e7369e37957aee75f70cc0f8ae9f54725bb4d6389abc5eeffc43b",
+      "images/split-members.png": "5f6ef46524135333ce39efed066e71a8486dc5e3d01d654805a04b675010d640",
+      "images/travel-costs.png": "66b439d54cc3b91776fc06b9eed9dbe3fb4d8db5fa578a50a4d04e8538143b66",
+      "landing.css": "075804436203f4673b3498fe5d5dba18c0f098f184e06f886f80217abe1fb7d0",
+      "privacy/index.html": "c61b518a427d5583edad81fe9d4ce2c919552f47d8e2eea293f62819e3166e76",
+      "spend/2019/01/30/privacy-policy.html": "ca10197a5b785f9706a9f1e1cb0988f2bdd76d916c74c0a74bfcfc74e40aadab",
+      "style.css": "d42e0049a9559c6a96121c9e106cd7315b7dabb46e7b61ed70444279c70373f0",
+      "theme.js": "2e6500e20b06bab60bc87fabf9ad6457c4024f8148a96750adf514e20210286c"
+    },
+    "neutralEnglishFallback": true
+  },
+  "languageBehaviorTests": {
+    "passed": 9,
+    "failed": 0,
+    "command": "node --test tests/site-language.test.js",
+    "reusedEvidence": "Last execution after actual hashchange regression correction; no later JavaScript changes. Later changes are headings/menu CSS, one markup wrapper and title prefixes only."
+  },
+  "artifactSha256": {
+    "site-language.js": "27cee1851da27f0c60e4d44eedf409254336a326f8e12f9763d181a80e8d2c93",
+    "discovery.css": "bcae426bad854b82a8720fb9e2391c2be13428cb38dea2aedb556e3c30d809c7",
+    "scripts/build_site.py": "c452567d4f870be60111761d3316e0b7b9198b7303d62d8d2c11b94bbfa20745"
+  }
+}
