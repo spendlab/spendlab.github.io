@@ -1,5 +1,5 @@
 {
-  "status": "final audits complete; public delivery pending",
+  "status": "verified public delivery",
   "sourceFingerprintSHA256": "3057d880e2946d93b010fc35df0b8e2806f9e37f7189e5fdf0230159f988ec5e",
   "runtimeEditorialFiles": 195,
   "aiSearchAudit": {
@@ -64,5 +64,14 @@
     "originalEnglishGalleryAndBadges": "unchanged bytes and destinations",
     "appStoreMetadataAppDataAnalyticsSecurityChanges": false
   },
-  "fullReports": "Retained in the app project docs/audits/2026.11.07; this website receipt records the accepted source and exact validation scope."
+  "fullReports": "Retained in the app project docs/audits/2026.11.07; this website receipt records the accepted source and exact validation scope.",
+  "publicDelivery": {
+    "sourceCommit": "579698a1e2d6459ed460d7abd81db744292b80a5",
+    "checkedAtUTC": "2026-11-07T07:46:08.996651+00:00",
+    "filesCompared": 166,
+    "publicNativeImagesByteExact": 135,
+    "localizedPages": 15,
+    "privacyVisibleBodyExactToBaseline": true,
+    "privacyHTMLNormalizedExactToProtectedSource": true
+  }
 }
