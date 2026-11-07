@@ -1,7 +1,7 @@
 {
   "locale": "en-US",
-  "languageName": "English (US)",
-  "htmlLang": "en-US",
+  "languageName": "English",
+  "htmlLang": "en",
   "metaTitle": "SPEND: Split group bills and track travel costs",
   "metaDescription": "Record shared expenses, choose who paid and who shares each cost, and review suggested settlements. SPEND is available for iPhone and Android.",
   "nav": {
@@ -18,7 +18,7 @@
       "Split group bills.",
       "Track travel costs."
     ],
-    "body": "From a quick meetup to a whole trip. Record shared costs and see who owes whom."
+    "body": "Choose who paid and who shares each expense, then see who owes whom."
   },
   "availability": "For iPhone and Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "App preview",
   "screensLabel": "Nine app screenshots. Scroll horizontally to explore.",
-  "screensNote": "Screenshots are shown in English.",
   "screenshotAlts": [
     "Split group bills and track travel costs.",
     "Member balances and suggested settlements.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Only two people shared this cost",
-      "body": "A group trip does not mean every expense belongs to everyone. Choose the members who took part in each expense.",
+      "body": "Choose who took part in each expense. A group trip can include costs shared by different people.",
       "steps": [
         "Add the expense to your event and record who paid.",
         "Select only the members who share this expense. Split equally, use ratios or enter individual amounts.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Different people paid along the way",
-      "body": "Record each payment instead of trying to settle every bill immediately. SPEND uses the payments and shares to show each member’s balance.",
+      "body": "Record each payment and each member’s share as you go. SPEND brings them together to show each member’s balance.",
       "steps": [
         "Create an event and add the people in your group.",
         "Record each expense with its payer and participants. If more than one person paid a single expense, record their contributions.",
         "Check member balances and suggested settlements, then share the result."
       ],
       "exampleTitle": "Example",
-      "example": "Four people share 180 equally, so each person’s share is 45. A paid 120 and B paid 60. Their balances are A +75, B +15, C −45 and D −45. Suggested settlements show how to balance the record; SPEND does not transfer money."
+      "example": "Four people share 180 equally, so each person’s share is 45. A paid 120 and B paid 60. Their balances are A +75, B +15, C −45 and D −45. Suggested settlements show how to balance the record."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Review the converted amounts and group balances in your chosen currency."
       ],
       "exampleTitle": "Keep the rate clear",
-      "example": "If a trip includes more than one currency, keep each expense’s original currency and review its conversion. Exchange rates can change, so check the rate rather than treating a converted amount as a live quote."
+      "example": "If a trip includes more than one currency, keep each expense’s original currency and review its conversion. Exchange rates can change, so check the rate used for each record."
     }
   ],
   "faqTitle": "A few things to know",
   "faqs": [
     {
-      "question": "Does SPEND send money?",
-      "answer": "No. SPEND records expenses and shows balances and suggested settlements. You arrange any actual payment separately."
+      "question": "Can each expense have different participants?",
+      "answer": "Choose the members who share each expense, then split equally, use ratios or enter individual amounts. You can record different participants for each cost within the same event."
     },
     {
-      "question": "Can everyone edit the same group in real time?",
-      "answer": "Live sharing and sync are planned features. You can currently share expense details and settlement results, but this is not live shared editing."
+      "question": "Can I share expenses and settlement results?",
+      "answer": "Share expense details and settlement results so your group can review them together. Live sharing and sync are planned for future updates."
     },
     {
       "question": "Can I keep a copy of my records?",

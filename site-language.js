@@ -57,8 +57,7 @@
 })(typeof window === 'undefined' ? null : window, function () {
   'use strict';
   const locales = {
-    'en-US': { path: '/en/', lang: 'en-US', name: 'English (US)' },
-    'en-GB': { path: '/en-gb/', lang: 'en-GB', name: 'English (UK)' },
+    'en-US': { path: '/en/', lang: 'en', name: 'English' },
     'ko-KR': { path: '/ko/', lang: 'ko', name: '한국어' },
     'ja-JP': { path: '/ja/', lang: 'ja', name: '日本語' },
     'zh-CN': { path: '/zh-hans/', lang: 'zh-Hans', name: '简体中文' },
@@ -87,11 +86,12 @@
       return parts.some(function (part) { return ['tw', 'hk', 'mo'].includes(part); }) ? 'zh-TW' : 'zh-CN';
     }
     if (language === 'pt') return parts.slice(1).some(function (part) { return ['pt', 'ao', 'mz', 'cv', 'gw', 'st', 'tl'].includes(part); }) ? 'pt-PT' : 'pt-BR';
-    if (language === 'en') return parts.slice(1).some(function (part) { return ['gb', 'uk', 'au', 'nz', 'ie', 'za', 'in', 'sg'].includes(part); }) ? 'en-GB' : 'en-US';
+    if (language === 'en') return 'en-US';
     return simpleLanguages[language] || null;
   }
 
   function preferredLocale(languages, remembered) {
+    if (remembered === 'en-GB') return 'en-US';
     if (Object.prototype.hasOwnProperty.call(locales, remembered)) return remembered;
     for (const language of Array.isArray(languages) ? languages : []) {
       const match = matchLanguage(language);
@@ -101,6 +101,9 @@
   }
 
   function redirectTarget(options) {
+    if (options && ['/en-gb/', '/en-gb/index.html'].includes(options.pathname)) {
+      return locales['en-US'].path + (options.search || '') + (options.hash || '');
+    }
     if (!options || !['/', '/index.html'].includes(options.pathname)) return null;
     const locale = preferredLocale(options.languages, options.remembered);
     return locales[locale].path + (options.search || '') + (options.hash || '');
@@ -109,6 +112,7 @@
   function readPreference(storage) {
     try {
       const value = storage && storage.getItem(preferenceKey);
+      if (value === 'en-GB') return 'en-US';
       return Object.prototype.hasOwnProperty.call(locales, value) ? value : null;
     } catch (_) { return null; }
   }

@@ -15,10 +15,10 @@
   },
   "hero": {
     "title": [
-      "Dividi le spese di gruppo.",
+      "Dividi le spese del gruppo.",
       "Registra i costi di viaggio."
     ],
-    "body": "Da un incontro veloce a un intero viaggio. Registra le spese condivise e scopri chi deve quanto a chi."
+    "body": "Scegli chi ha pagato e chi partecipa a ogni spesa, poi scopri chi deve quanto a chi."
   },
   "availability": "Per iPhone e Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "Anteprima dell’app",
   "screensLabel": "Nove schermate dell’app. Scorri in orizzontale per esplorarle.",
-  "screensNote": "Le schermate sono in inglese.",
   "screenshotAlts": [
     "Dividere le spese di gruppo e registrare i costi di viaggio.",
     "Saldi dei partecipanti e pagamenti suggeriti.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Questa spesa riguarda solo due persone",
-      "body": "Un viaggio di gruppo non significa che ogni spesa debba essere divisa tra tutti. Scegli chi ha partecipato a ogni spesa.",
+      "body": "Scegli chi ha partecipato a ogni spesa. Un viaggio di gruppo può includere spese condivise da persone diverse.",
       "steps": [
         "Aggiungi la spesa all’evento e registra chi ha pagato.",
         "Seleziona solo i partecipanti che dividono questa spesa. Dividi in parti uguali, usa proporzioni o inserisci importi individuali.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Persone diverse hanno pagato lungo il percorso",
-      "body": "Registra ogni pagamento invece di regolare i conti subito dopo ogni spesa. SPEND usa i pagamenti e le quote per mostrare il saldo di ciascun partecipante.",
+      "body": "Registra man mano ogni pagamento e la quota di ciascun partecipante. SPEND li combina per mostrare il saldo di ognuno.",
       "steps": [
         "Crea un evento e aggiungi le persone del gruppo.",
         "Registra per ogni spesa chi ha pagato e chi partecipa. Se una spesa è stata pagata da più persone, annota il contributo di ciascuna.",
         "Controlla i saldi e i pagamenti suggeriti, poi condividi il risultato."
       ],
       "exampleTitle": "Esempio",
-      "example": "4 persone dividono 180 in parti uguali, quindi la quota di ciascuna è 45. A ha pagato 120 e B ha pagato 60. I saldi sono A +75, B +15, C −45 e D −45. I pagamenti suggeriti mostrano come pareggiare i conti; SPEND non trasferisce denaro."
+      "example": "4 persone dividono 180 in parti uguali, quindi la quota di ciascuna è 45. A ha pagato 120 e B ha pagato 60. I saldi sono A +75, B +15, C −45 e D −45. I pagamenti suggeriti mostrano come pareggiare i conti."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Consulta gli importi convertiti e i saldi del gruppo nella valuta scelta."
       ],
       "exampleTitle": "Controlla anche il tasso",
-      "example": "Se durante un viaggio usi più valute, mantieni la valuta originale di ogni spesa e controlla la conversione. I tassi di cambio possono variare: verifica il tasso utilizzato invece di considerare un importo convertito come una quotazione in tempo reale."
+      "example": "Se durante un viaggio usi più valute, mantieni la valuta originale di ogni spesa e controlla la conversione. I tassi di cambio possono variare: verifica il tasso utilizzato per la registrazione."
     }
   ],
   "faqTitle": "Alcune cose da sapere",
   "faqs": [
     {
-      "question": "SPEND invia denaro?",
-      "answer": "No. SPEND registra le spese e mostra i saldi e i pagamenti suggeriti. I pagamenti effettivi vanno effettuati separatamente."
+      "question": "Posso scegliere partecipanti diversi per ogni spesa?",
+      "answer": "Scegli i partecipanti che condividono ogni spesa, poi dividi in parti uguali, stabilisci le proporzioni o inserisci importi individuali. Puoi registrare partecipanti diversi per ogni spesa all’interno dello stesso evento."
     },
     {
-      "question": "Tutti possono modificare lo stesso gruppo in tempo reale?",
-      "answer": "La condivisione e la sincronizzazione in tempo reale sono funzioni previste. Al momento puoi condividere i dettagli delle spese e i risultati dei conti, ma non modificarli insieme in tempo reale."
+      "question": "Posso condividere le spese e il riepilogo dei conti?",
+      "answer": "Condividi i dettagli delle spese e il riepilogo dei conti, così il gruppo può consultarli insieme. La condivisione e la sincronizzazione in tempo reale sono previste per i futuri aggiornamenti."
     },
     {
       "question": "Posso conservare una copia dei miei dati?",

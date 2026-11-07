@@ -1,0 +1,1905 @@
+{
+  "canonicalManifest": {
+    "path": "docs/store_listing/2026.10.17/english-fx-fit30/manifest.json",
+    "sha256": "c82f83602e3fac077007e3384a494e82b4589b68c38a6a4ede40f3194c59fe37"
+  },
+  "sourceAuthority": "docs/work_history/store_screenshot_visual_alignment_2026.10.17.md",
+  "scope": "15 website languages; original store catalogue remains 16 locales. Native artwork is copied without transformation.",
+  "format": "apple-medium",
+  "width": 1206,
+  "height": 2622,
+  "locales": {
+    "en-US": {
+      "sourceLocale": "en-US",
+      "hero": {
+        "sourceID": "en-US/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/en-US-apple-medium-01-phrase-flow.html",
+        "htmlSHA256": "afe4873cc15182031ac6bdab27180870edfa23d76ff7cbb269e8b2ddd5806f28",
+        "spans": [
+          "Split group bills.",
+          "Track travel costs."
+        ],
+        "title": [
+          "Split group bills.",
+          "Track travel costs."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "en-US/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/en-US-apple-medium-01-natural-wrap.png",
+          "sourceSHA256": "8c007688df80965da77d0ad74d90314790deccf536ccda992fe9f78674246eaa",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/overview.png",
+          "src": "/images/overview.png?v=8c007688df80",
+          "bytes": 482228,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/en-US-apple-medium-02-natural-wrap.png",
+          "sourceSHA256": "b4d22a53fd3e7369e37957aee75f70cc0f8ae9f54725bb4d6389abc5eeffc43b",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/settlement.png",
+          "src": "/images/settlement.png?v=b4d22a53fd3e",
+          "bytes": 316882,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/en-US-apple-medium-03-phrase-flow.png",
+          "sourceSHA256": "5f6ef46524135333ce39efed066e71a8486dc5e3d01d654805a04b675010d640",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/split-members.png",
+          "src": "/images/split-members.png?v=5f6ef4652413",
+          "bytes": 259605,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/en-US-apple-medium-04-caption18.png",
+          "sourceSHA256": "5ac746e11dfd48803b3f1e19020fcf32a9bef9a67cfbb4e9cb4bc851c62ef7e3",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/group-expenses.png",
+          "src": "/images/group-expenses.png?v=5ac746e11dfd",
+          "bytes": 199705,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-flow-preview/render/en-US-apple-medium-05-minimal-flow.png",
+          "sourceSHA256": "8a5f99bba314ff3dad6bccc8dcbd8d69dd1d84b87a48891a0d66346e85215b6f",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/receipt.png",
+          "src": "/images/receipt.png?v=8a5f99bba314",
+          "bytes": 262093,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/english-fx-fit30/render/en-US-apple-medium-06-fit30.png",
+          "sourceSHA256": "233bbb0f86c1eae5417a87fdeefe8b8e91811f43dd787fd8dd095d0238aa05ac",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/currencies.png",
+          "src": "/images/currencies.png?v=233bbb0f86c1",
+          "bytes": 213397,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/en-US-apple-medium-07-natural-wrap.png",
+          "sourceSHA256": "61979b645f5332b6bf2d37bb10aea57c0134e0d57b933f2e1d0af8da8cd66887",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/insights.png",
+          "src": "/images/insights.png?v=61979b645f53",
+          "bytes": 321235,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/en-US-apple-medium-08-natural-wrap.png",
+          "sourceSHA256": "e0cd4fdfcc9ef2a61bb7836fb373524e0df325656f62d9da9f03c392fce53e9e",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/quick-split.png",
+          "src": "/images/quick-split.png?v=e0cd4fdfcc9e",
+          "bytes": 203777,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "en-US/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/en-US-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "6fd19cef077236680781a99bd434cf0a0d9b6c440445f76c63b3013e32195aaa",
+          "order": 9,
+          "key": "games",
+          "destination": "images/mini-games.png",
+          "src": "/images/mini-games.png?v=6fd19cef0772",
+          "bytes": 209269,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "ko-KR": {
+      "sourceLocale": "ko",
+      "hero": {
+        "sourceID": "ko/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-01-caption18.html",
+        "htmlSHA256": "abc1cca66361b18614a50cb8ff1e949f80c25dcfaf3ef376abc8d6d73c8c355a",
+        "spans": [
+          "간단한 모임부터",
+          "여행 가계부까지"
+        ],
+        "title": [
+          "간단한 모임부터",
+          "여행 가계부까지"
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "ko/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-01-caption18.png",
+          "sourceSHA256": "8a4dd0d551fb0df3c7f3f5ee662121bc6b262b9e2e84d5553360943edac2f6d0",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/ko/01-overview.png",
+          "src": "/images/ko/01-overview.png?v=8a4dd0d551fb",
+          "bytes": 385855,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-02-caption18.png",
+          "sourceSHA256": "e07b59d604dc44160a7ca56d252eddd99bf2e95bfb74fe6cd4eaefc156630fd4",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/ko/02-settlement.png",
+          "src": "/images/ko/02-settlement.png?v=e07b59d604dc",
+          "bytes": 236161,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-03-caption18.png",
+          "sourceSHA256": "61afe8555252150e4429a1a86e230d8d1e1b93878d9bcded0cf78fde0654e01d",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/ko/03-roles.png",
+          "src": "/images/ko/03-roles.png?v=61afe8555252",
+          "bytes": 171013,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/ko-apple-medium-04-natural-wrap.png",
+          "sourceSHA256": "8ebf4f6666f9a9ec0c399d49338457eff9c679995d47282b196ef48e7553bbe7",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/ko/04-meetup.png",
+          "src": "/images/ko/04-meetup.png?v=8ebf4f6666f9",
+          "bytes": 204290,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-05-caption18.png",
+          "sourceSHA256": "1cdeedea5e21bcfe9071b282a906f28cb7691205b958e22a8e52e832ed82737b",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/ko/05-receipt.png",
+          "src": "/images/ko/05-receipt.png?v=1cdeedea5e21",
+          "bytes": 189006,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-06-caption18.png",
+          "sourceSHA256": "5d72cbacbbd56550d1e10ef3fe5974e55b719243736dbb79abf30e579af0366b",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/ko/06-fx.png",
+          "src": "/images/ko/06-fx.png?v=5d72cbacbbd5",
+          "bytes": 148996,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-preview/ko-apple-medium-07-caption18.png",
+          "sourceSHA256": "b2defe2a651102d740ce80104833dcd6bccb45acbbe8a3ba7ecca3778d782363",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/ko/07-insights.png",
+          "src": "/images/ko/07-insights.png?v=b2defe2a6511",
+          "bytes": 230421,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-08-caption18.png",
+          "sourceSHA256": "4b817225c93589e56cbf8f02dcd8e70bea9496fec0fb5c5d52e8689ce933976b",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/ko/08-quick.png",
+          "src": "/images/ko/08-quick.png?v=4b817225c935",
+          "bytes": 135338,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ko/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ko-apple-medium-09-caption18.png",
+          "sourceSHA256": "9b0b9ac953d2e0614871e43d3fb049caeb717b030f9e49f9a96f7ceb263b45ef",
+          "order": 9,
+          "key": "games",
+          "destination": "images/ko/09-games.png",
+          "src": "/images/ko/09-games.png?v=9b0b9ac953d2",
+          "bytes": 140197,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "ja-JP": {
+      "sourceLocale": "ja",
+      "hero": {
+        "sourceID": "ja/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/ja-apple-medium-01-phrase-flow.html",
+        "htmlSHA256": "8590cdc65de6b1f3e2b209a12dcf2fb74e5a9926052ebb9d88b475d6d9ee96be",
+        "spans": [
+          "割り勘も、旅行の出費も。",
+          "ひとつのアプリで。"
+        ],
+        "title": [
+          "割り勘も、旅行の出費も。",
+          "ひとつのアプリで。"
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "ja/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/ja-apple-medium-01-phrase-flow.png",
+          "sourceSHA256": "4162e2bec4da93093eea6671905e3a3629be8714b1e862e6760ae82036c65594",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/ja/01-overview.png",
+          "src": "/images/ja/01-overview.png?v=4162e2bec4da",
+          "bytes": 469877,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ja-apple-medium-02-caption18.png",
+          "sourceSHA256": "66e44df6378cd9a27e46535fc9f70bd66a7ebe404bdbf830c11df226a50da782",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/ja/02-settlement.png",
+          "src": "/images/ja/02-settlement.png?v=66e44df6378c",
+          "bytes": 308130,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/ja-apple-medium-03-natural-wrap.png",
+          "sourceSHA256": "24ab8a3936a21a9099b8c64261d7c7830e2a3a66606cab8a7bab3b1d2422a2c7",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/ja/03-roles.png",
+          "src": "/images/ja/03-roles.png?v=24ab8a3936a2",
+          "bytes": 269776,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/ja-apple-medium-04-natural-wrap.png",
+          "sourceSHA256": "2487cfcfdcb5f3a3d733190857d83bcaed2498cce455a3064f65e90dac48331a",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/ja/04-meetup.png",
+          "src": "/images/ja/04-meetup.png?v=2487cfcfdcb5",
+          "bytes": 237766,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/representatives-v1/ja-apple-medium-05-phrase-flow.png",
+          "sourceSHA256": "6b36327bcd23beae2180244104235dc02f55430c8f0a869b7d9e8844f788dbca",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/ja/05-receipt.png",
+          "src": "/images/ja/05-receipt.png?v=6b36327bcd23",
+          "bytes": 252562,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ja-apple-medium-06-caption18.png",
+          "sourceSHA256": "2c3969ed5d6da3972e53302d7ce130088fdb5c08dd0d29adcce1a4da052be39f",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/ja/06-fx.png",
+          "src": "/images/ja/06-fx.png?v=2c3969ed5d6d",
+          "bytes": 254348,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ja-apple-medium-07-caption18.png",
+          "sourceSHA256": "7db450526e234fc10d9d82790fe3187d1c9ffecdf97d9bf715834cb175eabfb2",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/ja/07-insights.png",
+          "src": "/images/ja/07-insights.png?v=7db450526e23",
+          "bytes": 299133,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/ja-apple-medium-08-phrase-flow.png",
+          "sourceSHA256": "9cf7b171a788db17c172dc6a9fe337b71ac80dff5089997acea9028ee62f04de",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/ja/08-quick.png",
+          "src": "/images/ja/08-quick.png?v=9cf7b171a788",
+          "bytes": 213896,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "ja/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/ja-apple-medium-09-caption18.png",
+          "sourceSHA256": "e9699e203338a4e2d24b9257ad70e1c0db5fa920d21d4462956bec9cf305fbcf",
+          "order": 9,
+          "key": "games",
+          "destination": "images/ja/09-games.png",
+          "src": "/images/ja/09-games.png?v=e9699e203338",
+          "bytes": 231094,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "zh-CN": {
+      "sourceLocale": "zh-Hans",
+      "hero": {
+        "sourceID": "zh-Hans/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-01-caption18.html",
+        "htmlSHA256": "7765c072d05366443f15fe23a92d20bd801964e0112dc1aeb1a813f348575033",
+        "spans": [
+          "聚会分账，",
+          "旅行记账"
+        ],
+        "title": [
+          "聚会分账，",
+          "旅行记账"
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "zh-Hans/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-01-caption18.png",
+          "sourceSHA256": "5363e3a774e76da5a51896a3e91f9093d5abb453e7409d421543c3f1a9e61d30",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/zh-hans/01-overview.png",
+          "src": "/images/zh-hans/01-overview.png?v=5363e3a774e7",
+          "bytes": 462692,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-02-caption18.png",
+          "sourceSHA256": "fb7ad637bb07048e567356ab58883e86ca6b90119318e18157e601112d3364cb",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/zh-hans/02-settlement.png",
+          "src": "/images/zh-hans/02-settlement.png?v=fb7ad637bb07",
+          "bytes": 311165,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-03-caption18.png",
+          "sourceSHA256": "36f71d817de8fcf41a69fd2d29b58d7102ef38d7da20779593ba5211e21baaf2",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/zh-hans/03-roles.png",
+          "src": "/images/zh-hans/03-roles.png?v=36f71d817de8",
+          "bytes": 266540,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-04-caption18.png",
+          "sourceSHA256": "61fa6273639e99a4e0c7c010da15e62f928ad55e52a404b7f4806c785149a5a1",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/zh-hans/04-meetup.png",
+          "src": "/images/zh-hans/04-meetup.png?v=61fa6273639e",
+          "bytes": 218076,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-05-caption18.png",
+          "sourceSHA256": "fc495f5996a8e2ec165dbe68780bc7582a9b78bacfa47627a1a12d0be630cd44",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/zh-hans/05-receipt.png",
+          "src": "/images/zh-hans/05-receipt.png?v=fc495f5996a8",
+          "bytes": 240606,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-06-caption18.png",
+          "sourceSHA256": "3ab9f49b0dc13f4aae62e7aa4a91367b43f06ad146bf87cb2158c2970f78c6d1",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/zh-hans/06-fx.png",
+          "src": "/images/zh-hans/06-fx.png?v=3ab9f49b0dc1",
+          "bytes": 220347,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-07-caption18.png",
+          "sourceSHA256": "f544ec91445e220ca2cdfaf22a200e032387d3de086d0761907f57581bf29c77",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/zh-hans/07-insights.png",
+          "src": "/images/zh-hans/07-insights.png?v=f544ec91445e",
+          "bytes": 300137,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hans-apple-medium-08-caption18.png",
+          "sourceSHA256": "6cf636e45206a70f2c24b8121aaca773a91a82fa8bbae8b73d56e60826fdccb4",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/zh-hans/08-quick.png",
+          "src": "/images/zh-hans/08-quick.png?v=6cf636e45206",
+          "bytes": 204707,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hans/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/zh-Hans-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "eeed8b247383c3a34314ba1f33b4ba1e592a4bdcbc05db102c758b1a1687f424",
+          "order": 9,
+          "key": "games",
+          "destination": "images/zh-hans/09-games.png",
+          "src": "/images/zh-hans/09-games.png?v=eeed8b247383",
+          "bytes": 223095,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "zh-TW": {
+      "sourceLocale": "zh-Hant",
+      "hero": {
+        "sourceID": "zh-Hant/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-01-caption18.html",
+        "htmlSHA256": "305091911ea102549855679860ff3dcf4c8695f8cfd1f6dd36395109ca63b4cb",
+        "spans": [
+          "聚會分帳，",
+          "旅遊記帳"
+        ],
+        "title": [
+          "聚會分帳，",
+          "旅遊記帳"
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "zh-Hant/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-01-caption18.png",
+          "sourceSHA256": "95d6ad4f511bdf53ee0f1501cd4dcf2144d74c920d29416d2d5b10fc7cf6b228",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/zh-hant/01-overview.png",
+          "src": "/images/zh-hant/01-overview.png?v=95d6ad4f511b",
+          "bytes": 487498,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-02-caption18.png",
+          "sourceSHA256": "c3fa4640ccb2b63a8edd98771ba7451bfd667842becedec63b3f2f6a670546bd",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/zh-hant/02-settlement.png",
+          "src": "/images/zh-hant/02-settlement.png?v=c3fa4640ccb2",
+          "bytes": 327224,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-03-caption18.png",
+          "sourceSHA256": "b47d65eb3098a1e984491613162dacfec58f786fe5f6f30dc03d4cf37ac80e84",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/zh-hant/03-roles.png",
+          "src": "/images/zh-hant/03-roles.png?v=b47d65eb3098",
+          "bytes": 269203,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-04-caption18.png",
+          "sourceSHA256": "6efff2afdaf35683269b658c7e40e23216d501b20a865136e803276ff736d9b4",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/zh-hant/04-meetup.png",
+          "src": "/images/zh-hant/04-meetup.png?v=6efff2afdaf3",
+          "bytes": 229769,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-05-caption18.png",
+          "sourceSHA256": "7174493ae3617d9835641af2bd1e96fb2d851e173b55564c8f3c42afa1ef5f21",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/zh-hant/05-receipt.png",
+          "src": "/images/zh-hant/05-receipt.png?v=7174493ae361",
+          "bytes": 259697,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-06-caption18.png",
+          "sourceSHA256": "6c482e4ba27655dabc9f548b2cddead16e6f6b21c0ead41bb341229c3a3fef6f",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/zh-hant/06-fx.png",
+          "src": "/images/zh-hant/06-fx.png?v=6c482e4ba276",
+          "bytes": 232602,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-07-caption18.png",
+          "sourceSHA256": "62c029b69dd13a3bc2c93a0628a10f6d2db0ec0ec29f62e7c80ceff36129a158",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/zh-hant/07-insights.png",
+          "src": "/images/zh-hant/07-insights.png?v=62c029b69dd1",
+          "bytes": 322560,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/zh-Hant-apple-medium-08-caption18.png",
+          "sourceSHA256": "5590bd329a3ce15642421f196d1ef69ea42b4196ee45d76810e05d38af2d8fd6",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/zh-hant/08-quick.png",
+          "src": "/images/zh-hant/08-quick.png?v=5590bd329a3c",
+          "bytes": 217475,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "zh-Hant/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/zh-Hant-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "8249d411dfd08544646fd872ebb0a52d8f90e594e70723296201d869b89ec395",
+          "order": 9,
+          "key": "games",
+          "destination": "images/zh-hant/09-games.png",
+          "src": "/images/zh-hant/09-games.png?v=8249d411dfd0",
+          "bytes": 225148,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "de-DE": {
+      "sourceLocale": "de-DE",
+      "hero": {
+        "sourceID": "de-DE/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/de-DE-apple-medium-01-phrase-flow.html",
+        "htmlSHA256": "ad69126baa5a5b6cb5c4235b2178775881ac134d2a410516192ee88b0c01a100",
+        "spans": [
+          "Ausgaben teilen.",
+          "Reisekosten",
+          "im Blick behalten."
+        ],
+        "title": [
+          "Ausgaben teilen.",
+          "Reisekosten im Blick behalten."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "de-DE/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/de-DE-apple-medium-01-natural-wrap.png",
+          "sourceSHA256": "80ba6327d7066da2a2d6c13ac288289d4c67035904072f286ffb4432d0270b43",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/de/01-overview.png",
+          "src": "/images/de/01-overview.png?v=80ba6327d706",
+          "bytes": 475933,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/de-DE-apple-medium-02-natural-wrap.png",
+          "sourceSHA256": "15951ebf76ae4a05b1a6c5ac0183bc0a3642789bebbdf127f79d24e297113167",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/de/02-settlement.png",
+          "src": "/images/de/02-settlement.png?v=15951ebf76ae",
+          "bytes": 325695,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/de-DE-apple-medium-03-phrase-flow.png",
+          "sourceSHA256": "27933a1a2fb02234d76dfeccdcb0fba4972885b03ece1458d89ac995414fab27",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/de/03-roles.png",
+          "src": "/images/de/03-roles.png?v=27933a1a2fb0",
+          "bytes": 273149,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/de-DE-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "e4fe9e4a14d35ae6490f4e98c265f39593c6a8e4ec08fe7d244e8c0ec56bb127",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/de/04-meetup.png",
+          "src": "/images/de/04-meetup.png?v=e4fe9e4a14d3",
+          "bytes": 236803,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/de-DE-apple-medium-05-caption18.png",
+          "sourceSHA256": "ae74faeaea2992662596219d704c47c97faf92307ca970f4879da267f78fcdd0",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/de/05-receipt.png",
+          "src": "/images/de/05-receipt.png?v=ae74faeaea29",
+          "bytes": 252686,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/de-DE-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "a9edad1814056b92db9f9df740eb2f0a5c8b0710da09f206de7cafc2b3cc6a70",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/de/06-fx.png",
+          "src": "/images/de/06-fx.png?v=a9edad181405",
+          "bytes": 257510,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/de-DE-apple-medium-07-natural-wrap.png",
+          "sourceSHA256": "e366ded5864bdd899739f2bc1d4e92431a2306ce22e74f8183b4f8609fb9f54a",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/de/07-insights.png",
+          "src": "/images/de/07-insights.png?v=e366ded5864b",
+          "bytes": 327720,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/de-DE-apple-medium-08-natural-wrap.png",
+          "sourceSHA256": "3ba05c0ac04bd9d605b1dd27b9b67ac2dd8f31f0742a0b0f5d1705993763273b",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/de/08-quick.png",
+          "src": "/images/de/08-quick.png?v=3ba05c0ac04b",
+          "bytes": 211933,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "de-DE/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/de-DE-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "398c3afc77fd5d5936db443cacdddb0463857233ae9828b2af3851835ad9c92b",
+          "order": 9,
+          "key": "games",
+          "destination": "images/de/09-games.png",
+          "src": "/images/de/09-games.png?v=398c3afc77fd",
+          "bytes": 204868,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "fr-FR": {
+      "sourceLocale": "fr-FR",
+      "hero": {
+        "sourceID": "fr-FR/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-01-caption18.html",
+        "htmlSHA256": "34de6fb1e9a7296f051c4a7fedaf033a51edefdb179d090c0c4f70c90861564a",
+        "spans": [
+          "Partagez les frais.",
+          "Suivez vos dépenses",
+          "de voyage."
+        ],
+        "title": [
+          "Partagez les frais.",
+          "Suivez vos dépenses de voyage."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "fr-FR/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-01-caption18.png",
+          "sourceSHA256": "42da99430c28ab02c0a029312327fcf831d3cecb6c341eb0bc9a90763469757c",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/fr/01-overview.png",
+          "src": "/images/fr/01-overview.png?v=42da99430c28",
+          "bytes": 490388,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-02-caption18.png",
+          "sourceSHA256": "73b5c6f8038a1c37ef4436f04852c36c6f424531a35b3d67eeae060e5f961e64",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/fr/02-settlement.png",
+          "src": "/images/fr/02-settlement.png?v=73b5c6f8038a",
+          "bytes": 321291,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-03-caption18.png",
+          "sourceSHA256": "5be4f304d354d87d01a5dfea6452c8ff55e435de872b54172afb895bba8b09bd",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/fr/03-roles.png",
+          "src": "/images/fr/03-roles.png?v=5be4f304d354",
+          "bytes": 276727,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/fr-FR-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "c820a2bd431e8f72df1dec28f5f610e51f05a90e0c697217b9be5ca140e6689b",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/fr/04-meetup.png",
+          "src": "/images/fr/04-meetup.png?v=c820a2bd431e",
+          "bytes": 245484,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-05-caption18.png",
+          "sourceSHA256": "ef6bd648299f954a92255d2a4750b29ccd00cfdbe912d4562650852298eb60e8",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/fr/05-receipt.png",
+          "src": "/images/fr/05-receipt.png?v=ef6bd648299f",
+          "bytes": 278526,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-06-caption18.png",
+          "sourceSHA256": "bcb18e6f4bd67657ea54f06e02492fee789c604a53eadf8eba275a265e291125",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/fr/06-fx.png",
+          "src": "/images/fr/06-fx.png?v=bcb18e6f4bd6",
+          "bytes": 264844,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-07-caption18.png",
+          "sourceSHA256": "a8d2f2430ebedad4031dcb8577a0326a60aaf3f37377491d0061ee568ba2545f",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/fr/07-insights.png",
+          "src": "/images/fr/07-insights.png?v=a8d2f2430ebe",
+          "bytes": 333932,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/fr-FR-apple-medium-08-caption18.png",
+          "sourceSHA256": "3998a28b1b900f4dc4aa364ab1641aff2b63eca157f5a0f49b84f9cd90ea0625",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/fr/08-quick.png",
+          "src": "/images/fr/08-quick.png?v=3998a28b1b90",
+          "bytes": 220673,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "fr-FR/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/fr-FR-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "bc38bc38d2e6581bf77959181def52f170f128df3ed9e5b524f5ca2d522086d6",
+          "order": 9,
+          "key": "games",
+          "destination": "images/fr/09-games.png",
+          "src": "/images/fr/09-games.png?v=bc38bc38d2e6",
+          "bytes": 218080,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "es-ES": {
+      "sourceLocale": "es-ES",
+      "hero": {
+        "sourceID": "es-ES/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/es-ES-apple-medium-01-caption18.html",
+        "htmlSHA256": "9f0ed5548c17005b131e978be652e22168683bf1509073f724c1b4f09bffe91b",
+        "spans": [
+          "Reparte gastos de grupo.",
+          "Controla los de viaje."
+        ],
+        "title": [
+          "Reparte gastos de grupo.",
+          "Controla los de viaje."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "es-ES/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/es-ES-apple-medium-01-caption18.png",
+          "sourceSHA256": "1f1ed1679617af00acfb35fa7d3188f0bd73e39382652d1eca26c4ea756192f7",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/es/01-overview.png",
+          "src": "/images/es/01-overview.png?v=1f1ed1679617",
+          "bytes": 481094,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/es-ES-apple-medium-02-natural-wrap.png",
+          "sourceSHA256": "c33828e19409e975cc7033ce58227701dc92d4ff3513ff485575b7c3da24da48",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/es/02-settlement.png",
+          "src": "/images/es/02-settlement.png?v=c33828e19409",
+          "bytes": 319346,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/es-ES-apple-medium-03-natural-wrap.png",
+          "sourceSHA256": "001d3b6b9b22e9a788a6a9ac35e17ff920173d6cfe300a984dfa2247cb2c9918",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/es/03-roles.png",
+          "src": "/images/es/03-roles.png?v=001d3b6b9b22",
+          "bytes": 271019,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/es-ES-apple-medium-04-caption18.png",
+          "sourceSHA256": "dc7c40d19b33454341e346a9f69bbe929ff3c61be70c21a5b8585d2b5a9e1d0a",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/es/04-meetup.png",
+          "src": "/images/es/04-meetup.png?v=dc7c40d19b33",
+          "bytes": 241409,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/es-ES-apple-medium-05-natural-wrap.png",
+          "sourceSHA256": "23ed75569f67769487bf685c10e2c3b57995070420b88717fc811336c0efc72a",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/es/05-receipt.png",
+          "src": "/images/es/05-receipt.png?v=23ed75569f67",
+          "bytes": 275310,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/es-ES-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "f5a70568e877b7f92933d645717021ab62f1fdc0ee587bfc2d96c9d14de73503",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/es/06-fx.png",
+          "src": "/images/es/06-fx.png?v=f5a70568e877",
+          "bytes": 253526,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/es-ES-apple-medium-07-caption18.png",
+          "sourceSHA256": "784823a15510715a8580934103b20fa59e4addfe01239ac71496fa539e599faf",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/es/07-insights.png",
+          "src": "/images/es/07-insights.png?v=784823a15510",
+          "bytes": 334628,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/es-ES-apple-medium-08-phrase-flow.png",
+          "sourceSHA256": "1e317e5a579a813ce99181f048aca82d55b0235e7b9aaf1c80debf8c30f58268",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/es/08-quick.png",
+          "src": "/images/es/08-quick.png?v=1e317e5a579a",
+          "bytes": 216382,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "es-ES/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/es-ES-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "3c8b429b6af56d2e6fc737c43bf3b9902be219f8f28f2cd6d4f1f592a7a28800",
+          "order": 9,
+          "key": "games",
+          "destination": "images/es/09-games.png",
+          "src": "/images/es/09-games.png?v=3c8b429b6af5",
+          "bytes": 221371,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "it-IT": {
+      "sourceLocale": "it",
+      "hero": {
+        "sourceID": "it/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/it-apple-medium-01-caption18.html",
+        "htmlSHA256": "d1aa2d7d869e6f8e11f11836480e3a651f6e4d97baa707b277e6f143e34751a4",
+        "spans": [
+          "Dividi le spese del gruppo.",
+          "Registra i costi di viaggio."
+        ],
+        "title": [
+          "Dividi le spese del gruppo.",
+          "Registra i costi di viaggio."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "it/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/it-apple-medium-01-caption18.png",
+          "sourceSHA256": "d1d5119ffba702febd4da7dab59dd3687a45769d18f1f30460480c37f483e1ac",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/it/01-overview.png",
+          "src": "/images/it/01-overview.png?v=d1d5119ffba7",
+          "bytes": 478712,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/it-apple-medium-02-phrase-flow.png",
+          "sourceSHA256": "b9d58ccb18e8d4bb75d26891b9111177258324477d45bb3b513347dd87341cfb",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/it/02-settlement.png",
+          "src": "/images/it/02-settlement.png?v=b9d58ccb18e8",
+          "bytes": 311370,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/it-apple-medium-03-natural-wrap.png",
+          "sourceSHA256": "3ac1ffec990f77d47ff987eb08de209efde4f0969c3c9796447d554876de64a2",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/it/03-roles.png",
+          "src": "/images/it/03-roles.png?v=3ac1ffec990f",
+          "bytes": 267615,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/it-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "05a6a4609990941ea38bea8574c7b466eb152289b163098569e8551ec3485c00",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/it/04-meetup.png",
+          "src": "/images/it/04-meetup.png?v=05a6a4609990",
+          "bytes": 241177,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/it-apple-medium-05-natural-wrap.png",
+          "sourceSHA256": "50812fa13f24f3816489b91024d2b3218834e487d7e45b0e587ad9ad908d6a6a",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/it/05-receipt.png",
+          "src": "/images/it/05-receipt.png?v=50812fa13f24",
+          "bytes": 255886,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/it-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "6db198618fc0f2e615c7601516317f29f7b0674da30b7fa1c16b7474243afb75",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/it/06-fx.png",
+          "src": "/images/it/06-fx.png?v=6db198618fc0",
+          "bytes": 248711,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/it-apple-medium-07-natural-wrap.png",
+          "sourceSHA256": "11e67f9330ffd3d2fd7b29c09b8586336b4e56eb705bb6b921fdf3dde7d4cd48",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/it/07-insights.png",
+          "src": "/images/it/07-insights.png?v=11e67f9330ff",
+          "bytes": 316215,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/it-apple-medium-08-phrase-flow.png",
+          "sourceSHA256": "317dcd87bc81383f3442bcdff6db88e503e44149cce3278e6a82a1c0ce1b32fd",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/it/08-quick.png",
+          "src": "/images/it/08-quick.png?v=317dcd87bc81",
+          "bytes": 216351,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "it/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/it-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "7e8b373fa25abc9c34f5961b5893de88ef4cc92fbd23d4e59969f783a4e56d9d",
+          "order": 9,
+          "key": "games",
+          "destination": "images/it/09-games.png",
+          "src": "/images/it/09-games.png?v=7e8b373fa25a",
+          "bytes": 204060,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "nl-NL": {
+      "sourceLocale": "nl-NL",
+      "hero": {
+        "sourceID": "nl-NL/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/nl-NL-apple-medium-01-phrase-flow.html",
+        "htmlSHA256": "ee48513dd6ab051ff227585cf3e60a6742967d0d9be8bf3cf94bb74d0bfa7cfc",
+        "spans": [
+          "Deel de kosten.",
+          "Houd je reisuitgaven bij."
+        ],
+        "title": [
+          "Deel de kosten.",
+          "Houd je reisuitgaven bij."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "nl-NL/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/nl-NL-apple-medium-01-phrase-flow.png",
+          "sourceSHA256": "f5c5b2b1accf5a68dd5069165e096c0430d9ee944d6e82a187666e9507a6293f",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/nl/01-overview.png",
+          "src": "/images/nl/01-overview.png?v=f5c5b2b1accf",
+          "bytes": 471236,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/nl-NL-apple-medium-02-phrase-flow.png",
+          "sourceSHA256": "400d0b7f94d7f9afb7fb6cfa8bb7a33950a8458d24b3fd2deeb33e0d4eec4ab8",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/nl/02-settlement.png",
+          "src": "/images/nl/02-settlement.png?v=400d0b7f94d7",
+          "bytes": 318236,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/nl-NL-apple-medium-03-phrase-flow.png",
+          "sourceSHA256": "14a1510149bcfea001837e86f1a662fdb86ba53a4ec970640b014e3645cfbc5d",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/nl/03-roles.png",
+          "src": "/images/nl/03-roles.png?v=14a1510149bc",
+          "bytes": 272596,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/nl-NL-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "3dede1a6fe0187857be1c3fa890a6ebd6296d45eeb50711b19307bd289705fa7",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/nl/04-meetup.png",
+          "src": "/images/nl/04-meetup.png?v=3dede1a6fe01",
+          "bytes": 242957,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/nl-NL-apple-medium-05-caption18.png",
+          "sourceSHA256": "c3fa178a0ad25caa3a98bc227dbc2e3aac1d5849053612dd9217be438e142b99",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/nl/05-receipt.png",
+          "src": "/images/nl/05-receipt.png?v=c3fa178a0ad2",
+          "bytes": 251834,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/nl-NL-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "e2d3a771b9f58850cbcc7aab05529587a20413c9a01807ed100d4044a970059f",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/nl/06-fx.png",
+          "src": "/images/nl/06-fx.png?v=e2d3a771b9f5",
+          "bytes": 259530,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/nl-NL-apple-medium-07-caption18.png",
+          "sourceSHA256": "1c90c626f95fe9b6707227d4cdc0e71e8f0cb5992484e6f47fe25db55ade6130",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/nl/07-insights.png",
+          "src": "/images/nl/07-insights.png?v=1c90c626f95f",
+          "bytes": 323857,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/nl-NL-apple-medium-08-caption18.png",
+          "sourceSHA256": "4edde9b8ff95e5af2390ddcea2535974e51000acc56310df756dcd820ba547d9",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/nl/08-quick.png",
+          "src": "/images/nl/08-quick.png?v=4edde9b8ff95",
+          "bytes": 222004,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "nl-NL/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/nl-NL-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "9fa5976dd684f4b8736d877734f8f3a66f30fad5bdca7e27166036d02039ffce",
+          "order": 9,
+          "key": "games",
+          "destination": "images/nl/09-games.png",
+          "src": "/images/nl/09-games.png?v=9fa5976dd684",
+          "bytes": 211533,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "pt-BR": {
+      "sourceLocale": "pt-BR",
+      "hero": {
+        "sourceID": "pt-BR/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-BR-apple-medium-01-caption18.html",
+        "htmlSHA256": "b24cd99c835f09d328ba85fac72c549f3729219efdef60a3b6440191131792fa",
+        "spans": [
+          "Divida as contas do grupo.",
+          "Registre gastos de viagem."
+        ],
+        "title": [
+          "Divida as contas do grupo.",
+          "Registre gastos de viagem."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "pt-BR/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-BR-apple-medium-01-caption18.png",
+          "sourceSHA256": "4edd5de3bdcba38c745c05f078f19166d14637438a535b64a11a7426c0d223a8",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/pt-br/01-overview.png",
+          "src": "/images/pt-br/01-overview.png?v=4edd5de3bdcb",
+          "bytes": 496160,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/pt-BR-apple-medium-02-natural-wrap.png",
+          "sourceSHA256": "a95ea9a54efb2bf5de20c2c7d5cd36630d2be79c98bd508e05ee70420025f120",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/pt-br/02-settlement.png",
+          "src": "/images/pt-br/02-settlement.png?v=a95ea9a54efb",
+          "bytes": 330191,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-BR-apple-medium-03-caption18.png",
+          "sourceSHA256": "51e3a6d6ed2595af500f2432703828a986bf585a1ed0ba3e8c877df286d751be",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/pt-br/03-roles.png",
+          "src": "/images/pt-br/03-roles.png?v=51e3a6d6ed25",
+          "bytes": 270556,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/pt-BR-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "6bf4e445bb0efc0302691ce8ccb75e8809e66a9a3cf5aabb173967a1839fbbe6",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/pt-br/04-meetup.png",
+          "src": "/images/pt-br/04-meetup.png?v=6bf4e445bb0e",
+          "bytes": 257983,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/pt-BR-apple-medium-05-natural-wrap.png",
+          "sourceSHA256": "fee7d2f24076307cffadad176d45afc64d13797d7c4db1f8d75bbff908dd8639",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/pt-br/05-receipt.png",
+          "src": "/images/pt-br/05-receipt.png?v=fee7d2f24076",
+          "bytes": 281151,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/pt-BR-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "6358a9bcd60dd0dd1d8b9bf5b53b69eddf186e8305ff7ec01b5b76a08f2ee28f",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/pt-br/06-fx.png",
+          "src": "/images/pt-br/06-fx.png?v=6358a9bcd60d",
+          "bytes": 253860,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/pt-BR-apple-medium-07-natural-wrap.png",
+          "sourceSHA256": "bcbd50dbc859dd7d3715e827ce655533cbc20bc4917e1ad526fc35a25b1f33df",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/pt-br/07-insights.png",
+          "src": "/images/pt-br/07-insights.png?v=bcbd50dbc859",
+          "bytes": 343143,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/pt-BR-apple-medium-08-natural-wrap.png",
+          "sourceSHA256": "6a50f9721aa2a2da457e0f10861fb3c6e3ba7b2aabea6e22a7df095de078ab42",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/pt-br/08-quick.png",
+          "src": "/images/pt-br/08-quick.png?v=6a50f9721aa2",
+          "bytes": 221553,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-BR/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/pt-BR-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "379ceae2a64234e152ff2b81e81b78299b7f8da3507d61bd5b3955a9b3adcb0a",
+          "order": 9,
+          "key": "games",
+          "destination": "images/pt-br/09-games.png",
+          "src": "/images/pt-br/09-games.png?v=379ceae2a642",
+          "bytes": 222115,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "pt-PT": {
+      "sourceLocale": "pt-PT",
+      "hero": {
+        "sourceID": "pt-PT/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-PT-apple-medium-01-caption18.html",
+        "htmlSHA256": "4803d79a8bb56e4d86c9ecaa6b8319f8694d2a2ce454ad9e9cf1b6ee8000cd04",
+        "spans": [
+          "Divida as contas do grupo.",
+          "Registe custos de viagem."
+        ],
+        "title": [
+          "Divida as contas do grupo.",
+          "Registe custos de viagem."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "pt-PT/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-PT-apple-medium-01-caption18.png",
+          "sourceSHA256": "8945aba2c647aee58647ff4a7022a4a72505eadb0319f45084bf36829234bc7c",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/pt-pt/01-overview.png",
+          "src": "/images/pt-pt/01-overview.png?v=8945aba2c647",
+          "bytes": 483476,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-PT-apple-medium-02-caption18.png",
+          "sourceSHA256": "57b5013e20d9fcfb7cfad13668c0e67379df6921e6d8b9007f501ad93901dac3",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/pt-pt/02-settlement.png",
+          "src": "/images/pt-pt/02-settlement.png?v=57b5013e20d9",
+          "bytes": 322039,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-PT-apple-medium-03-caption18.png",
+          "sourceSHA256": "6194d61ca22410c05fc112766210239201d67f6bf245d8f5f3259c8a7b2a32e6",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/pt-pt/03-roles.png",
+          "src": "/images/pt-pt/03-roles.png?v=6194d61ca224",
+          "bytes": 276287,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/pt-PT-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "efc3010b05d661f5ae7efcf4c56f7c48c7acba42740951272b2aca4051be0a48",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/pt-pt/04-meetup.png",
+          "src": "/images/pt-pt/04-meetup.png?v=efc3010b05d6",
+          "bytes": 247253,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/pt-PT-apple-medium-05-caption18.png",
+          "sourceSHA256": "08b7328eef03408145fd60dba6a35444bdc4e395528cc71411b008a0cb55a7f1",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/pt-pt/05-receipt.png",
+          "src": "/images/pt-pt/05-receipt.png?v=08b7328eef03",
+          "bytes": 270360,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/pt-PT-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "8b3a921bf230d1e5dc9f6e91c544f218d27f360eb7a3fbd54d50da6671d3d171",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/pt-pt/06-fx.png",
+          "src": "/images/pt-pt/06-fx.png?v=8b3a921bf230",
+          "bytes": 251233,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/pt-PT-apple-medium-07-natural-wrap.png",
+          "sourceSHA256": "f3e0ef0163c7cebb1c904c8e773d0109be960cb150ab17e6bcd57056f0b3b632",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/pt-pt/07-insights.png",
+          "src": "/images/pt-pt/07-insights.png?v=f3e0ef0163c7",
+          "bytes": 333032,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/pt-PT-apple-medium-08-phrase-flow.png",
+          "sourceSHA256": "688c669892d7ae77420d3251cbef17ea3ee4b1ecf82ee281f5ec73af206be27b",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/pt-pt/08-quick.png",
+          "src": "/images/pt-pt/08-quick.png?v=688c669892d7",
+          "bytes": 217361,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "pt-PT/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/pt-PT-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "6bccc38c5d5e0b7720d14d06c9a7b68d5e1dbaf0c473461cc8f88e6bbba04ac0",
+          "order": 9,
+          "key": "games",
+          "destination": "images/pt-pt/09-games.png",
+          "src": "/images/pt-pt/09-games.png?v=6bccc38c5d5e",
+          "bytes": 224593,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "id": {
+      "sourceLocale": "id",
+      "hero": {
+        "sourceID": "id/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/id-apple-medium-01-phrase-flow.html",
+        "htmlSHA256": "368b4d159d3f09c15c9cde39849ecb9dcb543556e560f38fe42332a05b2c4d42",
+        "spans": [
+          "Bagi tagihan bersama.",
+          "Catat biaya perjalanan."
+        ],
+        "title": [
+          "Bagi tagihan bersama.",
+          "Catat biaya perjalanan."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "id/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/id-apple-medium-01-natural-wrap.png",
+          "sourceSHA256": "6469ffab9fd9874d7a2da8b27122d8fea54dc4f9b1dbcb727007dc14cc37e924",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/id/01-overview.png",
+          "src": "/images/id/01-overview.png?v=6469ffab9fd9",
+          "bytes": 500858,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/id-apple-medium-02-caption18.png",
+          "sourceSHA256": "9e611227e1f47567d6e719156a5f34975309ad20922ccf8f0a9581414eb2d9f2",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/id/02-settlement.png",
+          "src": "/images/id/02-settlement.png?v=9e611227e1f4",
+          "bytes": 336349,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/id-apple-medium-03-caption18.png",
+          "sourceSHA256": "3c7e28c5d34beee635b0ed0fc351e438f139d7426a9fbd7d6324eb1e1d8dd40f",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/id/03-roles.png",
+          "src": "/images/id/03-roles.png?v=3c7e28c5d34b",
+          "bytes": 276959,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/id-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "2476f6d47d1fdd65fdf705ade65f128bd879209b337e2b387f633740cc7bdb83",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/id/04-meetup.png",
+          "src": "/images/id/04-meetup.png?v=2476f6d47d1f",
+          "bytes": 251571,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/id-apple-medium-05-caption18.png",
+          "sourceSHA256": "5c79038d90b2ee7fcb3b5f20e01824aa8698f02e4a155d8dd1d8b706f8d8b02d",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/id/05-receipt.png",
+          "src": "/images/id/05-receipt.png?v=5c79038d90b2",
+          "bytes": 274217,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/id-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "395cba1d66540c3f570751744e271fdeac60df539bac60cb4c31273d8a2fe60b",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/id/06-fx.png",
+          "src": "/images/id/06-fx.png?v=395cba1d6654",
+          "bytes": 235951,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/id-apple-medium-07-natural-wrap.png",
+          "sourceSHA256": "011b6cd4662b2584e9baa553762c6e152f8d812cf1f1d959db786e39ac294b77",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/id/07-insights.png",
+          "src": "/images/id/07-insights.png?v=011b6cd4662b",
+          "bytes": 343535,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/id-apple-medium-08-natural-wrap.png",
+          "sourceSHA256": "815ccfbb1c67b1a5ac3911f35313ea28d8dc5c333934d27003b19ae5f335ee16",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/id/08-quick.png",
+          "src": "/images/id/08-quick.png?v=815ccfbb1c67",
+          "bytes": 221160,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "id/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/id-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "5e17dc1cbd146bcbbd980b956adb16e3ec5ef5346912db156688345106bd080a",
+          "order": 9,
+          "key": "games",
+          "destination": "images/id/09-games.png",
+          "src": "/images/id/09-games.png?v=5e17dc1cbd14",
+          "bytes": 201176,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "vi": {
+      "sourceLocale": "vi",
+      "hero": {
+        "sourceID": "vi/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/vi-apple-medium-01-phrase-flow.html",
+        "htmlSHA256": "79d72ca29d6fbd35f05eb44b4066b780f9572a62c959fe06f474b588e64c651e",
+        "spans": [
+          "Chia tiền dễ dàng.",
+          "Theo dõi chi phí du lịch."
+        ],
+        "title": [
+          "Chia tiền dễ dàng.",
+          "Theo dõi chi phí du lịch."
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "vi/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/vi-apple-medium-01-phrase-flow.png",
+          "sourceSHA256": "f4b613428a60d9883d569fc0b4d8fe3701158716c64ffbffbe70dd855fb9f648",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/vi/01-overview.png",
+          "src": "/images/vi/01-overview.png?v=f4b613428a60",
+          "bytes": 496727,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/vi-apple-medium-02-phrase-flow.png",
+          "sourceSHA256": "a69e3963f1029aa802daeb4575bf4248fb04e74fc75a994434c93c90262dda3c",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/vi/02-settlement.png",
+          "src": "/images/vi/02-settlement.png?v=a69e3963f102",
+          "bytes": 312853,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/vi-apple-medium-03-caption18.png",
+          "sourceSHA256": "e7ed97e2405a58c9634d3cb134bf037a9b588ad7c4204b1d453e75c7486b1da6",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/vi/03-roles.png",
+          "src": "/images/vi/03-roles.png?v=e7ed97e2405a",
+          "bytes": 274069,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/vi-apple-medium-04-phrase-flow.png",
+          "sourceSHA256": "c265043955c678943cf593bda182dc8c227b3559554bf46a7784b8e00fe30af5",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/vi/04-meetup.png",
+          "src": "/images/vi/04-meetup.png?v=c265043955c6",
+          "bytes": 244780,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/vi-apple-medium-05-caption18.png",
+          "sourceSHA256": "c137470d93f2fe35c47cec6406f5ebb0bdd42de3541e8b7bb205e16f162556cf",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/vi/05-receipt.png",
+          "src": "/images/vi/05-receipt.png?v=c137470d93f2",
+          "bytes": 271463,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/vi-apple-medium-06-phrase-flow.png",
+          "sourceSHA256": "fa64ded68315b3bbfe387188f1bc8a6e5b7c026fc16d91408ee88c68224a699b",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/vi/06-fx.png",
+          "src": "/images/vi/06-fx.png?v=fa64ded68315",
+          "bytes": 249763,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/vi-apple-medium-07-caption18.png",
+          "sourceSHA256": "874d3376d39561a8e2e16d326fda1ecb8b4f14e9a74784a3d08fbc84a8781d09",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/vi/07-insights.png",
+          "src": "/images/vi/07-insights.png?v=874d3376d395",
+          "bytes": 326431,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/vi-apple-medium-08-natural-wrap.png",
+          "sourceSHA256": "eae51aea9cb23560cc3e18c31151f5ad6da37701f795a61e929a6985e995ce58",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/vi/08-quick.png",
+          "src": "/images/vi/08-quick.png?v=eae51aea9cb2",
+          "bytes": 224497,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "vi/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/vi-apple-medium-09-caption18.png",
+          "sourceSHA256": "2d8317cdcca68b3ec189a4ece67ec53903db8d563f1430ba30376b064cbe446c",
+          "order": 9,
+          "key": "games",
+          "destination": "images/vi/09-games.png",
+          "src": "/images/vi/09-games.png?v=2d8317cdcca6",
+          "bytes": 220969,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    },
+    "th": {
+      "sourceLocale": "th",
+      "hero": {
+        "sourceID": "th/apple-medium/01",
+        "html": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-01-caption18.html",
+        "htmlSHA256": "71bd2311cc40f3e7d5723af666c82f55dc8284269a4df279a36f114ca48ba856",
+        "spans": [
+          "หารบิลง่าย ๆ",
+          "บันทึกค่าใช้จ่ายทริป"
+        ],
+        "title": [
+          "หารบิลง่าย ๆ",
+          "บันทึกค่าใช้จ่ายทริป"
+        ]
+      },
+      "images": [
+        {
+          "sourceID": "th/apple-medium/01",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-01-caption18.png",
+          "sourceSHA256": "f95cb5f019b4b6da2ae748a2d5ea06989dacfef878071d79839e8e9346b204d1",
+          "order": 1,
+          "key": "overview",
+          "destination": "images/th/01-overview.png",
+          "src": "/images/th/01-overview.png?v=f95cb5f019b4",
+          "bytes": 499846,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/02",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-02-caption18.png",
+          "sourceSHA256": "570eba0c35244d6ba76d2e36e4dbb58da0d8c421e9a98fd941bb709a8a4c0089",
+          "order": 2,
+          "key": "settlement",
+          "destination": "images/th/02-settlement.png",
+          "src": "/images/th/02-settlement.png?v=570eba0c3524",
+          "bytes": 317801,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/03",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-03-caption18.png",
+          "sourceSHA256": "7f25b5f5708907e1d542d985ddbecbc5f9b3c019b93a30da5f917e01b5b2a29f",
+          "order": 3,
+          "key": "roles",
+          "destination": "images/th/03-roles.png",
+          "src": "/images/th/03-roles.png?v=7f25b5f57089",
+          "bytes": 269130,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/04",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-04-caption18.png",
+          "sourceSHA256": "3fac1284b961d745ca8625337d9cb5d07deb14c8693f85d812c80595c7557d72",
+          "order": 4,
+          "key": "meetup",
+          "destination": "images/th/04-meetup.png",
+          "src": "/images/th/04-meetup.png?v=3fac1284b961",
+          "bytes": 244649,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/05",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-natural-wrap/render/th-apple-medium-05-natural-wrap.png",
+          "sourceSHA256": "d6206daafa5f34e638ae5b39f6ea0ae88615d0295d911dec8b689583c98fccda",
+          "order": 5,
+          "key": "receipt",
+          "destination": "images/th/05-receipt.png",
+          "src": "/images/th/05-receipt.png?v=d6206daafa5f",
+          "bytes": 277436,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/06",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-06-caption18.png",
+          "sourceSHA256": "8727cd8d857119ac07fb5374d4737eb707dce6e9567d26a94d81a1e99ec2d1ea",
+          "order": 6,
+          "key": "fx",
+          "destination": "images/th/06-fx.png",
+          "src": "/images/th/06-fx.png?v=8727cd8d8571",
+          "bytes": 259847,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/07",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-07-caption18.png",
+          "sourceSHA256": "7a43ab9363e30c3fcff2e806df88d136ff7923b6018d863a12634cb3d0c69dc8",
+          "order": 7,
+          "key": "insights",
+          "destination": "images/th/07-insights.png",
+          "src": "/images/th/07-insights.png?v=7a43ab9363e3",
+          "bytes": 334459,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/08",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-rollout/render/th-apple-medium-08-caption18.png",
+          "sourceSHA256": "111706fe65d66d32074dd9fd849566d3ca3cd9bc435c3adc2af6c68c82c47e7b",
+          "order": 8,
+          "key": "quick",
+          "destination": "images/th/08-quick.png",
+          "src": "/images/th/08-quick.png?v=111706fe65d6",
+          "bytes": 226451,
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "sourceID": "th/apple-medium/09",
+          "sourcePNG": "docs/store_listing/2026.10.17/caption18-phrase-flow/render/candidate-ed90723ca4d9/th-apple-medium-09-phrase-flow.png",
+          "sourceSHA256": "a8b39754c3d9fd193e1b313b53e710d0b9a2cc14e4c368b1d412f4260c77f64d",
+          "order": 9,
+          "key": "games",
+          "destination": "images/th/09-games.png",
+          "src": "/images/th/09-games.png?v=a8b39754c3d9",
+          "bytes": 214053,
+          "width": 1206,
+          "height": 2622
+        }
+      ]
+    }
+  }
+}

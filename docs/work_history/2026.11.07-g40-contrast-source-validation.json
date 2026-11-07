@@ -1,0 +1,120 @@
+{
+  "task": "AI-WEB-1107-G40-contrast-correction",
+  "status": "source-validation-complete; Root light/dark contrast readback pending",
+  "inheritsSourceReceipt": {
+    "path": "docs/work_history/2026.11.07-localized-gallery-source-validation.json",
+    "sha256": "03b00cdbf984e42d5b04abd41b98bae21c375659c2e9603bfc7eccd714586e16"
+  },
+  "finding": {
+    "gate": "G40",
+    "sourceEvidence": "docs/audit_evidence/2026.11.07/ai_website/candidate-light-contrast.json (separate SPEND project)",
+    "selector": ".guide-example p",
+    "lightBefore": {
+      "textRGB": [
+        115,
+        115,
+        115
+      ],
+      "backgroundRGB": [
+        245,
+        245,
+        245
+      ],
+      "contrast": 4.3492316856,
+      "required": 4.5
+    },
+    "afterActualContrast": "pending Root CUA review in both themes"
+  },
+  "change": "Only add color: var(--body) to .guide-example p in landing-only discovery.css. Regenerated HTML changes only the CSS hash query.",
+  "changedRuntimeFiles": {
+    "discovery.css": {
+      "beforeSHA256": "6dc0a39a382993b91f9593df60bc25744e9a8db5e42192dfe2c5a38646040ecb",
+      "afterSHA256": "5e2ce29c103b37128d943666dd893423d031a1b6dde39823a99d75409aa9236d"
+    },
+    "index.html": {
+      "beforeSHA256": "ee97ecd0a8e863885d22097b0bf9510f3c673ca4f14b88378e57f0b5ebef94e3",
+      "afterSHA256": "6d49b418c7ef7f8857529d4bd7a46cc26fa8815cb86a72e74d3a916570284ce2"
+    },
+    "en/index.html": {
+      "beforeSHA256": "ee97ecd0a8e863885d22097b0bf9510f3c673ca4f14b88378e57f0b5ebef94e3",
+      "afterSHA256": "6d49b418c7ef7f8857529d4bd7a46cc26fa8815cb86a72e74d3a916570284ce2"
+    },
+    "ko/index.html": {
+      "beforeSHA256": "653729db8a2743937610414036eaae3f912ffc4decc95ec3e797448dcd4b70cc",
+      "afterSHA256": "a742118a86c240feeefc3f331d1d749482cbfdc27f00d4501dbbed07b8fa727a"
+    },
+    "ja/index.html": {
+      "beforeSHA256": "7f0d3c59fd2f52eab0326b7b608b18d37ba8176ea6423bae5afc056dc130c63b",
+      "afterSHA256": "39787169b036e54c497fdbf99cd3117cff203dce74189809399df0adac34d2dd"
+    },
+    "zh-hans/index.html": {
+      "beforeSHA256": "e7aa1491cb08b2d187228193c5af75732fe5ea55370fbda4edd145575e1a26d7",
+      "afterSHA256": "6c012540ec9dbebfe6d06b9003ad50dd815977de4ad913ba21acea51f4658566"
+    },
+    "zh-hant/index.html": {
+      "beforeSHA256": "9e4e1e396a4cecf3aae631dc025369b497e01b4047b581fb30af9fcfdf311da2",
+      "afterSHA256": "f539a9d1893d6e8f94fe2fdb94ca420eed4bd0643279043b73c3167a8d221e4f"
+    },
+    "de/index.html": {
+      "beforeSHA256": "211f727c1a0adf8cf80e632f2e7c88aef086d0ce810b3a7c0061bdb21ae17cb3",
+      "afterSHA256": "21e98ccc81f6d8a6cc9149ae1b8b8f1ea22381192b531e0f9d5294363cf56792"
+    },
+    "fr/index.html": {
+      "beforeSHA256": "f0aabfba91b7c5d7cc9c1059f628c3f98196d8967013e7f61d0f12dca8e9bcca",
+      "afterSHA256": "8e6160ae26ccb9ca7927ce30e8c9fe52dff17fc3f0ac645ff07a8d251ff21d99"
+    },
+    "es/index.html": {
+      "beforeSHA256": "692c0af0e4ad0c83dae9f3099bd7c1d9c2cae09777a553e5084149286839a416",
+      "afterSHA256": "546f42fe8f12185edfad72fe9eea7c93a277e3040874605194ea0ee8102da162"
+    },
+    "it/index.html": {
+      "beforeSHA256": "1ab809e58f21ced96fbbc090d67441ffb1038b7841f29b402cdaa35b18f7ab55",
+      "afterSHA256": "e59d560255860639823f4c1b688cb6d30f7e12b9e012735dca46f9b29e7e7371"
+    },
+    "nl/index.html": {
+      "beforeSHA256": "5d5f455d1cbb240d6769a2efd12b5a78c34fe790afd29078c6380073da6c59a9",
+      "afterSHA256": "10f70b83e06c435e5fbe1b166be2f2c4dc645d1842e345e10b4fb61b8cbdd603"
+    },
+    "pt-br/index.html": {
+      "beforeSHA256": "4b42bc6e03966340d6842c10e24bc360e5719f381f84fb5e8bf5ccace64dcf97",
+      "afterSHA256": "04e5525005ae97cf76304b78365056c5576fe414b92413476a67b9ef39423b67"
+    },
+    "pt-pt/index.html": {
+      "beforeSHA256": "4351bc3f96436898d2ee4f89f051d6d2e8a385cd0836397dd89018c0969d58ac",
+      "afterSHA256": "6b3153614518ce6f30ff415aa5faa8444cae61c103175f23114916d09673cb96"
+    },
+    "id/index.html": {
+      "beforeSHA256": "6b5f38380c4a34f13f846684d604b9fc9b0f0db77bf420933206283f222c78dd",
+      "afterSHA256": "562a191583d88c15cd6e46ca468c27dcc2aff2ec2ccefb37fd0f7568e23d18c0"
+    },
+    "vi/index.html": {
+      "beforeSHA256": "9d88e9eca92e96e5122c7dc54dd719944193977a78151ba4d8573debf06d0877",
+      "afterSHA256": "52f8a4f63e2cd5edbe66e415f8119e2ea0f0a96668b648f906c6a576a761b6fa"
+    },
+    "th/index.html": {
+      "beforeSHA256": "5d52ceedfdd6c9f05037bf0761fcbe0a3e6c4b0e0653fd86e6d44a3dde0ac2b0",
+      "afterSHA256": "e09c6a75f14cddb90d3c27e332d5e390d191e26e8b653b13c1e45a2530adade6"
+    }
+  },
+  "unchangedEnglishCompatibilityEntry": true,
+  "verification": {
+    "wholeSiteSourceValidator": "passed",
+    "diffCheck": "passed",
+    "generatedHTMLOnlyCSSQueryChanged": 16,
+    "localeSourcesUnchanged": 15,
+    "otherSourceAndGeneratedHashesUnchanged": true
+  },
+  "reusedEvidence": {
+    "languageBehaviorTests": 11,
+    "translationAndCopyReview": "unchanged locale sources",
+    "approvedNativeImages": 135,
+    "galleryProvenanceSHA256": "15825741c12ea5ad14a63cfe94c65be5ccb666c5cea0ba903c28ff21e0dc1a74",
+    "note": "No JS behavior, translation review or source-artwork import rerun. The required whole-site source validator still checks its normal static image and protected-file invariants."
+  },
+  "scopeExclusions": [
+    "No other color tokens or layout changes",
+    "No shared CSS, theme JavaScript or Privacy changes",
+    "No JSON copy or PNG changes",
+    "No commit, push or browser action"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "final audits complete; public delivery pending",
+  "sourceFingerprintSHA256": "3057d880e2946d93b010fc35df0b8e2806f9e37f7189e5fdf0230159f988ec5e",
+  "runtimeEditorialFiles": 195,
+  "aiSearchAudit": {
+    "independentAuditor": "ai_search_audit",
+    "requiredFindings": 0,
+    "verdict": "appropriate foundation for discovery and useful product references",
+    "actualRecommendationOrInstallIncreaseMeasured": false,
+    "unverified": [
+      "actual bot CDN logs",
+      "Search Console account controls and index selection",
+      "real acquisition effect"
+    ]
+  },
+  "copyAudit": {
+    "independentAuditor": "fresh_translation_audit",
+    "webLanguages": 15,
+    "changedStatementsRead": 135,
+    "unresolvedFindings": 0,
+    "humanNativeSpeakerReview": false
+  },
+  "hallmarkAudit": {
+    "version": "2.0.0",
+    "mode": "audit of existing website, static plus actual CUA UI checks",
+    "fullFloorZeroPassClaimed": false,
+    "dedicatedPuppeteerRenderTierRun": false,
+    "staticConfirming": {
+      "files": 6,
+      "fails": 12,
+      "reflex": 26,
+      "warns": 2,
+      "render": "off"
+    },
+    "remediation": {
+      "gate": "40",
+      "selector": ".guide-example p",
+      "lightBefore": 4.34923168556426,
+      "lightAfter": 18.159588039824865,
+      "darkAfter": 14.498978405673949,
+      "change": "existing body token color only; regenerated CSS hash references"
+    },
+    "remainingRecommendations": [
+      "legacy font tokenization",
+      "Hallmark overflow-clipping house rule, with no observed document overflow",
+      "existing layout rhythm, accent treatment and information density",
+      "footer decoration and line-breaking polish"
+    ],
+    "ui": {
+      "localeGalleries": 15,
+      "nativeImagesLoaded": 135,
+      "mobileMenusWithin320": 15,
+      "wideViewport": {
+        "width": 1920,
+        "height": 1080,
+        "containerWidth": 1040
+      },
+      "oldEnglishAliasAndManualLanguageMemory": "actual query/hash-preserving clicks passed"
+    }
+  },
+  "preservation": {
+    "protectedOriginalFiles": 35,
+    "privacy": "English original unchanged",
+    "originalEnglishGalleryAndBadges": "unchanged bytes and destinations",
+    "appStoreMetadataAppDataAnalyticsSecurityChanges": false
+  },
+  "fullReports": "Retained in the app project docs/audits/2026.11.07; this website receipt records the accepted source and exact validation scope."
+}

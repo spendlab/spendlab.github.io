@@ -15,10 +15,10 @@
   },
   "hero": {
     "title": [
-      "Deel groepskosten.",
-      "Houd reiskosten bij."
+      "Deel de kosten.",
+      "Houd je reisuitgaven bij."
     ],
-    "body": "Van een korte afspraak tot een hele reis. Houd gezamenlijke uitgaven bij en zie wie hoeveel aan wie moet betalen."
+    "body": "Kies per uitgave wie heeft betaald en wie de kosten deelt. Bekijk daarna wie hoeveel aan wie moet betalen."
   },
   "availability": "Voor iPhone en Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "Voorbeeld van de app",
   "screensLabel": "Negen schermafbeeldingen van de app. Scrol horizontaal om ze te bekijken.",
-  "screensNote": "De schermafbeeldingen zijn in het Engels.",
   "screenshotAlts": [
     "Groepskosten delen en reiskosten bijhouden.",
     "Saldi per deelnemer en voorgestelde verrekeningen.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Deze uitgave is alleen voor twee personen",
-      "body": "Een groepsreis betekent niet dat elke uitgave voor iedereen is. Kies per uitgave de deelnemers die eraan meededen.",
+      "body": "Kies per uitgave wie eraan deelnam. Een groepsreis kan uitgaven omvatten die door verschillende mensen worden gedeeld.",
       "steps": [
         "Voeg de uitgave aan je activiteit toe en leg vast wie heeft betaald.",
         "Selecteer alleen de deelnemers die deze uitgave delen. Verdeel gelijk, gebruik verhoudingen of voer individuele bedragen in.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Verschillende mensen hebben onderweg betaald",
-      "body": "Leg elke betaling vast in plaats van elke rekening meteen te verrekenen. SPEND gebruikt de betalingen en kostenverdeling om het saldo van iedere deelnemer te tonen.",
+      "body": "Leg gaandeweg elke betaling en ieders aandeel vast. SPEND brengt ze samen om het saldo van iedere deelnemer te tonen.",
       "steps": [
         "Maak een activiteit en voeg de mensen uit je groep toe.",
         "Leg bij elke uitgave de betaler en deelnemers vast. Hebben meerdere mensen één uitgave betaald? Noteer dan ieders bijdrage.",
         "Controleer de saldi en voorgestelde verrekeningen en deel daarna het resultaat."
       ],
       "exampleTitle": "Voorbeeld",
-      "example": "4 personen delen 180 gelijk, dus ieders aandeel is 45. A heeft 120 betaald en B 60. Hun saldi zijn A +75, B +15, C −45 en D −45. De voorgestelde verrekeningen laten zien hoe je de saldi kunt vereffenen; SPEND maakt geen geld over."
+      "example": "4 personen delen 180 gelijk, dus ieders aandeel is 45. A heeft 120 betaald en B 60. Hun saldi zijn A +75, B +15, C −45 en D −45. De voorgestelde verrekeningen laten zien hoe je de saldi kunt vereffenen."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Bekijk de omgerekende bedragen en groepssaldi in de gekozen valuta."
       ],
       "exampleTitle": "Controleer ook de koers",
-      "example": "Gebruik je op reis meerdere valuta? Bewaar dan de oorspronkelijke valuta van elke uitgave en controleer de omrekening. Wisselkoersen kunnen veranderen. Controleer daarom de gebruikte koers en behandel een omgerekend bedrag niet als een actuele koersnotering."
+      "example": "Gebruik je op reis meerdere valuta? Bewaar dan de oorspronkelijke valuta van elke uitgave en controleer de omrekening. Wisselkoersen kunnen veranderen. Controleer daarom de koers die voor de registratie is gebruikt."
     }
   ],
   "faqTitle": "Goed om te weten",
   "faqs": [
     {
-      "question": "Maakt SPEND geld over?",
-      "answer": "Nee. SPEND houdt uitgaven bij en toont saldi en voorgestelde verrekeningen. Daadwerkelijke betalingen regel je apart."
+      "question": "Kunnen de deelnemers per uitgave verschillen?",
+      "answer": "Kies wie elke uitgave deelt en verdeel gelijk, gebruik verhoudingen of voer individuele bedragen in. Binnen dezelfde activiteit kun je per uitgave verschillende deelnemers vastleggen."
     },
     {
-      "question": "Kan iedereen dezelfde groep in realtime bewerken?",
-      "answer": "In realtime delen en synchroniseren zijn geplande functies. Je kunt nu uitgavendetails en afrekeningen delen, maar dat is geen gezamenlijke bewerking in realtime."
+      "question": "Kan ik uitgaven en afrekeningen delen?",
+      "answer": "Deel uitgavendetails en afrekeningen, zodat je groep ze samen kan bekijken. In realtime delen en synchroniseren zijn gepland voor toekomstige updates."
     },
     {
       "question": "Kan ik een kopie van mijn gegevens bewaren?",

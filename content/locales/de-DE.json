@@ -15,10 +15,10 @@
   },
   "hero": {
     "title": [
-      "Gruppenkosten teilen.",
-      "Reisekosten erfassen."
+      "Ausgaben teilen.",
+      "Reisekosten im Blick behalten."
     ],
-    "body": "Vom kurzen Treffen bis zur ganzen Reise. Erfasse gemeinsame Ausgaben und sieh, wer wem wie viel schuldet."
+    "body": "Halte für jede Ausgabe fest, wer bezahlt hat und wer sich die Kosten teilt. Sieh dann auf einen Blick, wer wem wie viel zahlen sollte."
   },
   "availability": "Für iPhone und Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "App-Vorschau",
   "screensLabel": "Neun App-Screenshots. Scrolle seitlich, um sie anzusehen.",
-  "screensNote": "Die Screenshots sind auf Englisch.",
   "screenshotAlts": [
     "Gruppenkosten teilen und Reisekosten erfassen.",
     "Salden der Mitglieder und vorgeschlagene Ausgleichszahlungen.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Diese Ausgabe betrifft nur zwei Personen",
-      "body": "Bei einer Gruppenreise muss nicht jede Ausgabe alle betreffen. Wähle für jede Ausgabe die Mitglieder, die daran beteiligt sind.",
+      "body": "Wähle für jede Ausgabe, wer daran beteiligt war. Auf einer Gruppenreise können verschiedene Ausgaben von unterschiedlichen Personen geteilt werden.",
       "steps": [
         "Füge die Ausgabe zu deinem Ereignis hinzu und halte fest, wer bezahlt hat.",
         "Wähle nur die Mitglieder, die diese Kosten teilen. Teile gleichmäßig, nach Verhältnis oder mit individuellen Beträgen.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Unterwegs haben verschiedene Personen bezahlt",
-      "body": "Erfasse jede Zahlung, statt jede Rechnung sofort auszugleichen. SPEND zeigt aus den Zahlungen und Kostenanteilen den Saldo jedes Mitglieds.",
+      "body": "Erfasse nach und nach jede Zahlung und den Kostenanteil jedes Mitglieds. SPEND führt beides zusammen und zeigt den Saldo jeder Person.",
       "steps": [
         "Lege ein Ereignis an und füge die Mitglieder deiner Gruppe hinzu.",
         "Erfasse bei jeder Ausgabe, wer bezahlt hat und wer beteiligt ist. Haben mehrere Personen dieselbe Ausgabe bezahlt, erfasse ihre jeweiligen Beiträge.",
         "Prüfe die Salden und vorgeschlagenen Ausgleichszahlungen und teile anschließend das Ergebnis."
       ],
       "exampleTitle": "Beispiel",
-      "example": "4 Personen teilen 180 gleichmäßig, also trägt jede Person 45. A hat 120 und B hat 60 bezahlt. Die Salden sind A +75, B +15, C −45 und D −45. Vorgeschlagene Ausgleichszahlungen zeigen, wie sich die Salden ausgleichen lassen; SPEND überweist kein Geld."
+      "example": "4 Personen teilen 180 gleichmäßig, also trägt jede Person 45. A hat 120 und B hat 60 bezahlt. Die Salden sind A +75, B +15, C −45 und D −45. Vorgeschlagene Ausgleichszahlungen zeigen, wie sich die Salden ausgleichen lassen."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Sieh die umgerechneten Beträge und Gruppensalden in der gewählten Währung an."
       ],
       "exampleTitle": "Auch den Wechselkurs prüfen",
-      "example": "Wenn du auf einer Reise mehrere Währungen verwendest, behalte die ursprüngliche Währung jeder Ausgabe bei und prüfe die Umrechnung. Wechselkurse können sich ändern. Prüfe deshalb den verwendeten Kurs, statt einen umgerechneten Betrag als Echtzeitkurs zu verstehen."
+      "example": "Wenn du auf einer Reise mehrere Währungen verwendest, behalte die ursprüngliche Währung jeder Ausgabe bei und prüfe die Umrechnung. Wechselkurse können sich ändern. Prüfe deshalb den für deinen Eintrag verwendeten Kurs."
     }
   ],
   "faqTitle": "Gut zu wissen",
   "faqs": [
     {
-      "question": "Überweist SPEND Geld?",
-      "answer": "Nein. SPEND erfasst Ausgaben und zeigt Salden und vorgeschlagene Ausgleichszahlungen. Tatsächliche Zahlungen erledigst du separat."
+      "question": "Können bei jeder Ausgabe andere Personen beteiligt sein?",
+      "answer": "Wähle die Mitglieder, die sich jede Ausgabe teilen. Teile gleichmäßig, lege Verhältnisse fest oder gib individuelle Beträge ein. Innerhalb desselben Ereignisses kannst du für jede Ausgabe andere Beteiligte erfassen."
     },
     {
-      "question": "Können alle dieselbe Gruppe in Echtzeit bearbeiten?",
-      "answer": "Teilen und Synchronisieren in Echtzeit sind geplante Funktionen. Derzeit kannst du Ausgabendetails und Abrechnungsergebnisse teilen. Eine gemeinsame Bearbeitung in Echtzeit ist das nicht."
+      "question": "Kann ich Ausgaben und Abrechnungsergebnisse teilen?",
+      "answer": "Teile Ausgabendetails und Abrechnungsergebnisse, damit deine Gruppe sie gemeinsam ansehen kann. Teilen und Synchronisieren in Echtzeit sind für künftige Updates geplant."
     },
     {
       "question": "Kann ich eine Kopie meiner Aufzeichnungen aufbewahren?",

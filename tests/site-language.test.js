@@ -12,12 +12,12 @@ test('each supported language selects its published route', () => {
   }
 });
 
-test('regional Portuguese, Chinese scripts and English remain distinct', () => {
+test('regional Portuguese and Chinese stay distinct while English shares one route', () => {
   for (const [input, expected] of [
     ['pt-PT', 'pt-PT'], ['pt-BR', 'pt-BR'], ['pt-AO', 'pt-PT'], ['pt', 'pt-BR'],
     ['zh-Hant', 'zh-TW'], ['zh-HK', 'zh-TW'], ['zh-TW', 'zh-TW'],
     ['zh-Hans', 'zh-CN'], ['zh-SG', 'zh-CN'], ['zh-Hans-HK', 'zh-CN'],
-    ['en-GB', 'en-GB'], ['en-AU', 'en-GB'], ['en-US', 'en-US'], ['en-CA', 'en-US']
+    ['en-GB', 'en-US'], ['en-AU', 'en-US'], ['en-US', 'en-US'], ['en-CA', 'en-US']
   ]) assert.equal(language.matchLanguage(input), expected, input);
 });
 
@@ -97,4 +97,22 @@ test('unrecognized stored values cannot become destinations', () => {
   assert.equal(language.rememberPreference(storage, '//evil.example/'), false);
   assert.equal(language.rememberPreference(storage, '__proto__'), false);
   assert.equal(language.preferredLocale(['fr-FR'], '__proto__'), 'fr-FR');
+});
+
+
+test('English has one published choice and legacy saved English remains English', () => {
+  assert.equal(Object.keys(language.locales).length, 15);
+  assert.equal(language.locales['en-US'].lang, 'en');
+  assert.equal(language.locales['en-US'].name, 'English');
+  assert.equal(language.locales['en-GB'], undefined);
+  assert.equal(language.preferredLocale(['ko-KR'], 'en-GB'), 'en-US');
+  assert.equal(language.readPreference({ getItem() { return 'en-GB'; } }), 'en-US');
+});
+
+test('the previous UK English URL forwards to English with its query and fragment', () => {
+  for (const pathname of ['/en-gb/', '/en-gb/index.html']) {
+    const destination = language.redirectTarget({ pathname, remembered: 'ko-KR', languages: ['ja-JP'], search: '?utm_source=chatgpt.com', hash: '#guides' });
+    assert.equal(destination, '/en/?utm_source=chatgpt.com#guides');
+    assert.equal(language.redirectTarget({ pathname: '/en/', remembered: 'ko-KR' }), null);
+  }
 });

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 from pathlib import Path
@@ -15,9 +16,11 @@ APPLE = 'https://apps.apple.com/app/id1208128587'
 GOOGLE = 'https://play.google.com/store/apps/details?id=net.spendlab.spend'
 REGISTRY = json.loads(subprocess.check_output(['node', '-e', 'process.stdout.write(JSON.stringify(require("./site-language.js").locales))'], cwd=ROOT))
 ASSETS = json.loads((ROOT / 'content/site-assets.json').read_text())
-IMAGES = ASSETS['gallerySources']
+GALLERY = json.loads((ROOT / 'content/gallery.json').read_text())['locales']
 THEME_BUTTON = ASSETS['themeButton']
 TRADEMARKS = ASSETS['trademarks']
+LANGUAGE_VERSION = hashlib.sha256((ROOT / 'site-language.js').read_bytes()).hexdigest()[:12]
+DISCOVERY_VERSION = hashlib.sha256((ROOT / 'discovery.css').read_bytes()).hexdigest()[:12]
 
 
 def esc(value):
@@ -45,7 +48,8 @@ def render(text):
     nav = text['nav']
     toggle = THEME_BUTTON.replace('aria-label="Switch to light mode"', f'aria-label="{esc(text["themeLight"])}" data-label-light="{esc(text["themeLight"])}" data-label-dark="{esc(text["themeDark"])}"')
     image_markup = []
-    for index, (source, alt) in enumerate(zip(IMAGES, text['screenshotAlts'])):
+    sources = [item['src'] for item in GALLERY[locale]['images']]
+    for index, (source, alt) in enumerate(zip(sources, text['screenshotAlts'])):
         loading = ' loading="lazy"' if index >= 3 else ''
         image_markup.append(f'<img src="{esc(source)}" width="1206" height="2622"{loading} alt="{esc(alt)}">')
     features = ''.join(f'<article class="feature"><h3>{esc(item["title"])}</h3><p>{esc(item["body"])}</p></article>' for item in text['features'])
@@ -75,8 +79,8 @@ def render(text):
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/style.css?v=shared1">
   <link rel="stylesheet" href="/landing.css?v=badges4">
-  <link rel="stylesheet" href="/discovery.css?v=20261107">
-  <script src="/site-language.js?v=20261107"></script>
+  <link rel="stylesheet" href="/discovery.css?v={DISCOVERY_VERSION}">
+  <script src="/site-language.js?v={LANGUAGE_VERSION}"></script>
   <script src="/theme.js?v=spend-neutral1" defer></script>
 </head>
 <body class="landing">
@@ -105,7 +109,6 @@ def render(text):
         <div class="screens" tabindex="0" aria-label="{esc(text['screensLabel'])}">
           {''.join(image_markup)}
         </div>
-        <p class="screens-note">{esc(text['screensNote'])}</p>
       </section>
       <section class="content-section" id="features" aria-labelledby="features-title">
         <div class="section-heading"><h2 id="features-title">{esc(text['featuresTitle'])}</h2><p>{esc(text['featuresIntro'])}</p></div>
@@ -162,6 +165,8 @@ def build(selected=None):
             raise ValueError(f'Locale identity mismatch: {locale}')
         if [item['id'] for item in text['guides']] != [item['id'] for item in reference['guides']]:
             raise ValueError(f'Guide identity mismatch: {locale}')
+        if text['hero']['title'] != GALLERY[locale]['hero']['title']:
+            raise ValueError(f'Hero differs from approved store artwork: {locale}')
         if any(char in json.dumps(text, ensure_ascii=False) for char in ['\u00b7', '\u30fb', '\u2022', '\u2027']):
             raise ValueError(f'Unapproved separator in {locale}')
         folder = ROOT / REGISTRY[locale]['path'].strip('/')
@@ -170,6 +175,18 @@ def build(selected=None):
         (folder / 'index.html').write_text(rendered)
         if locale == 'en-US':
             (ROOT / 'index.html').write_text(rendered)
+    (ROOT / 'en-gb/index.html').write_text(f'''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPEND</title>
+  <link rel="canonical" href="https://app.spendlab.net/en/">
+  <script src="/site-language.js?v={LANGUAGE_VERSION}"></script>
+</head>
+<body><p><a href="/en/">Continue in English</a></p></body>
+</html>
+''')
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     sitemap = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')
     for info in REGISTRY.values():
@@ -182,5 +199,5 @@ def build(selected=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--locales', nargs='+', choices=list(REGISTRY), help='Render selected locales during editorial review; the default builds all 16.')
+    parser.add_argument('--locales', nargs='+', choices=list(REGISTRY), help='Render selected locales during editorial review; the default builds all 15.')
     build(parser.parse_args().locales)

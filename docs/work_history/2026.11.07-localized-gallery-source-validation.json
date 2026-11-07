@@ -1,0 +1,344 @@
+{
+  "task": "AI-WEB-1107-localized-gallery-followup",
+  "status": "source-validation-complete; Root final audits and public delivery pending",
+  "baseline": "f360b6ab7f526952c708b8dd8a6f2e78cc4411c6",
+  "historicalInitialWebLanguages": 16,
+  "currentWebLanguages": 15,
+  "storeLocalesPreserved": 16,
+  "canonicalManifestSHA256": "c82f83602e3fac077007e3384a494e82b4589b68c38a6a4ede40f3194c59fe37",
+  "sourceValidation": {
+    "localePages": 15,
+    "guideSections": 45,
+    "alternateEntriesPerPage": 16,
+    "approvedNativeImages": 135,
+    "newNativeImages": 126,
+    "allImageBytes": 38018144,
+    "newImageBytes": 35549953,
+    "dimensions": [
+      1206,
+      2622
+    ],
+    "protectedOriginalFilesByteExact": 35,
+    "legacyEnglishCompatibility": true,
+    "neutralEnglishFallback": true,
+    "staticLinks": true,
+    "contentHashAssetVersions": true
+  },
+  "behaviorTests": {
+    "command": "node --test tests/site-language.test.js",
+    "red": {
+      "passed": 8,
+      "failed": 3
+    },
+    "green": {
+      "passed": 11,
+      "failed": 0
+    },
+    "codeUnchangedSinceGreen": true
+  },
+  "editorialPreservation": {
+    "currentFeatures7": true,
+    "plannedFeatures3": true,
+    "thirdFAQ": true,
+    "guideIDsTitlesAndSteps": true,
+    "firstExample": true,
+    "secondExampleNumeralsAndSigns": true,
+    "changedFieldsRestrictedToAuthorizedScope": true
+  },
+  "localeSources": {
+    "de-DE": {
+      "sha256": "92ed7d957f5a795c76dfbf5c64e328b5030f452798f73f1bf3476624628a8672",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "en-US": {
+      "sha256": "5f3b8fa94adcf4fde0c9df6085e0a838b6404c3a573df79f394f9609eae8eea1",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "htmlLang",
+        "languageName",
+        "screensNote"
+      ]
+    },
+    "es-ES": {
+      "sha256": "fe45dea16a3a1429911a7e397b58f9595ddb0b07894c085aed9ab319823a0a9b",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "fr-FR": {
+      "sha256": "5739b6cc17552c476479b61de3069e13283ce278d1f7fb447dcd8ac82f91bc61",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "screensNote"
+      ]
+    },
+    "id": {
+      "sha256": "46a115499341543c294da8b850dd32f1cde5722ab0fafc31df733b5835615694",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "it-IT": {
+      "sha256": "2b272f0b27b0d53c8a25f5d8a64042c98f4cac3b0d7f6c353259f073edf56502",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "screensNote"
+      ]
+    },
+    "ja-JP": {
+      "sha256": "72260104014ba1942605dd74fc69c452fa850cd50164a208fa8069c36bd114a8",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "ko-KR": {
+      "sha256": "f703efc6ef766a3c759c01bc99aa3e0365ead43c9e0b0bdc3f3539ddf83cff55",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "nl-NL": {
+      "sha256": "7253982b83f900fe044022c1b1059312fd0878216889d1c76e0eaa4efd5bb6fb",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "pt-BR": {
+      "sha256": "02bf9a6011b0546dba63d30bd4df89e8ff5ff798f8deef90984c3422512be89d",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "pt-PT": {
+      "sha256": "e4a2670bdc82509449653de1b1b0c01c5f69ae6078327c2ae6de23290cb96608",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "th": {
+      "sha256": "5d475aa05726253543377ff26fa11f2c5bdf7925d034bfb607cc54a1ad620d7d",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "vi": {
+      "sha256": "7ea5d21e98f5629b8e4a1823952cfb925beee69c4c42509f6f0c6bb3c21004fe",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "zh-CN": {
+      "sha256": "b26c202d71137fcb9469fe310b0e13b6c3fbcc439a387181d9cac6d93a64f339",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    },
+    "zh-TW": {
+      "sha256": "dec2907d8f7e11d801997b7e6390782322eae042a31f8cfca43c55f789dc17f7",
+      "changedFields": [
+        "faqs[0].answer",
+        "faqs[0].question",
+        "faqs[1].answer",
+        "faqs[1].question",
+        "guides[0].body",
+        "guides[1].body",
+        "guides[1].example",
+        "guides[2].example",
+        "hero.body",
+        "hero.title[0]",
+        "hero.title[1]",
+        "screensNote"
+      ]
+    }
+  },
+  "sourceAndGeneratedSHA256": {
+    "site-language.js": "77d24226f6a68baee0da11dd8e20e54bef6160277939f00495b4ace03050a22f",
+    "discovery.css": "6dc0a39a382993b91f9593df60bc25744e9a8db5e42192dfe2c5a38646040ecb",
+    "scripts/build_site.py": "3f8553ff9ec7268158e9625258deee2d8d0d63e5611073a49702fb7a119af7e4",
+    "scripts/validate_site.py": "915374204ba19dd302dea1feec9532262bb27ca6b4c1c94b22f64bdc9cb0883a",
+    "scripts/import_gallery.py": "078804200139ca179df7215a7c0bea8e2c1f1e4e840e4bdd57c485b3a6c0b10b",
+    "tests/site-language.test.js": "6088eff1848b0ed74436d3294b69b70315049280f031bc21953a5c309f6ecfb8",
+    "content/gallery.json": "15825741c12ea5ad14a63cfe94c65be5ccb666c5cea0ba903c28ff21e0dc1a74",
+    "content/site-assets.json": "db13615262a7ed3087e57a378e10a38d66a766f54e9c9883b5547b032f8e574c",
+    "index.html": "ee97ecd0a8e863885d22097b0bf9510f3c673ca4f14b88378e57f0b5ebef94e3",
+    "en-gb/index.html": "3d500e5742b2583110139d68f5a30750137a5dfdec08cf9af1f05c270c818778",
+    "sitemap.xml": "76ba00c7445313d8be202e6be58db411d2571bddcd6f84e85b187f1606d40bc8",
+    "robots.txt": "a4a2bdb3054b2ae49e3d4822340bffd97f86dc413aa33585f6d60e8823cdf3f3",
+    "en/index.html": "ee97ecd0a8e863885d22097b0bf9510f3c673ca4f14b88378e57f0b5ebef94e3",
+    "ko/index.html": "653729db8a2743937610414036eaae3f912ffc4decc95ec3e797448dcd4b70cc",
+    "ja/index.html": "7f0d3c59fd2f52eab0326b7b608b18d37ba8176ea6423bae5afc056dc130c63b",
+    "zh-hans/index.html": "e7aa1491cb08b2d187228193c5af75732fe5ea55370fbda4edd145575e1a26d7",
+    "zh-hant/index.html": "9e4e1e396a4cecf3aae631dc025369b497e01b4047b581fb30af9fcfdf311da2",
+    "de/index.html": "211f727c1a0adf8cf80e632f2e7c88aef086d0ce810b3a7c0061bdb21ae17cb3",
+    "fr/index.html": "f0aabfba91b7c5d7cc9c1059f628c3f98196d8967013e7f61d0f12dca8e9bcca",
+    "es/index.html": "692c0af0e4ad0c83dae9f3099bd7c1d9c2cae09777a553e5084149286839a416",
+    "it/index.html": "1ab809e58f21ced96fbbc090d67441ffb1038b7841f29b402cdaa35b18f7ab55",
+    "nl/index.html": "5d5f455d1cbb240d6769a2efd12b5a78c34fe790afd29078c6380073da6c59a9",
+    "pt-br/index.html": "4b42bc6e03966340d6842c10e24bc360e5719f381f84fb5e8bf5ccace64dcf97",
+    "pt-pt/index.html": "4351bc3f96436898d2ee4f89f051d6d2e8a385cd0836397dd89018c0969d58ac",
+    "id/index.html": "6b5f38380c4a34f13f846684d604b9fc9b0f0db77bf420933206283f222c78dd",
+    "vi/index.html": "9d88e9eca92e96e5122c7dc54dd719944193977a78151ba4d8573debf06d0877",
+    "th/index.html": "5d52ceedfdd6c9f05037bf0761fcbe0a3e6c4b0e0653fd86e6d44a3dde0ac2b0"
+  },
+  "approvedImageSetSHA256": "2d252a13be016d180c8d2910d279e6e19dfcd5dc7b937572de2b73b723ec4067",
+  "remaining": [
+    "Root final AI-search audit",
+    "Root final Hallmark audit and actual browser review",
+    "Required findings resolution",
+    "Root commit/push/public readback"
+  ],
+  "limits": [
+    "No new image generation or transformation",
+    "No live public-store PNG readback claimed",
+    "No improvement in AI citations or installs measured",
+    "No app, store, analytics, policy or security changes"
+  ]
+}

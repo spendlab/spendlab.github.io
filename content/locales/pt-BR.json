@@ -15,10 +15,10 @@
   },
   "hero": {
     "title": [
-      "Divida as despesas do grupo.",
-      "Registre os gastos da viagem."
+      "Divida as contas do grupo.",
+      "Registre gastos de viagem."
     ],
-    "body": "De um encontro rápido a uma viagem inteira. Registre os gastos compartilhados e veja quem deve quanto a quem."
+    "body": "Escolha quem pagou e quem divide cada despesa. Depois, veja quem deve quanto a quem."
   },
   "availability": "Para iPhone e Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "Prévia do app",
   "screensLabel": "Nove capturas de tela do app. Role na horizontal para explorar.",
-  "screensNote": "As capturas de tela são exibidas em inglês.",
   "screenshotAlts": [
     "Dividir as despesas do grupo e registrar os gastos da viagem.",
     "Saldos dos integrantes e acertos sugeridos.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Esta despesa foi só de duas pessoas",
-      "body": "Mesmo em uma viagem em grupo, nem toda despesa precisa ser dividida entre todos. Escolha quem participou de cada gasto.",
+      "body": "Escolha quem participou de cada despesa. Uma viagem em grupo pode incluir gastos divididos entre pessoas diferentes.",
       "steps": [
         "Adicione a despesa ao evento e registre quem pagou.",
         "Selecione apenas os integrantes que dividem esta despesa. Divida igualmente, por proporções ou com valores individuais.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Várias pessoas pagaram despesas diferentes",
-      "body": "Registre cada pagamento em vez de acertar as contas a cada despesa. O SPEND usa os pagamentos e a divisão das despesas para mostrar o saldo de cada integrante.",
+      "body": "Registre cada pagamento e a parte de cada integrante conforme as despesas acontecem. O SPEND reúne essas informações para mostrar o saldo de cada pessoa.",
       "steps": [
         "Crie um evento e adicione as pessoas do grupo.",
         "Registre quem pagou e quem divide cada despesa. Se mais de uma pessoa pagou a mesma despesa, informe a contribuição de cada uma.",
         "Confira os saldos e os acertos sugeridos e compartilhe o resultado."
       ],
       "exampleTitle": "Exemplo",
-      "example": "4 pessoas dividem 180 igualmente, então a parte de cada uma é 45. A pagou 120 e B pagou 60. Os saldos são A +75, B +15, C −45 e D −45. Os acertos sugeridos mostram como equilibrar os saldos; o SPEND não transfere dinheiro."
+      "example": "4 pessoas dividem 180 igualmente, então a parte de cada uma é 45. A pagou 120 e B pagou 60. Os saldos são A +75, B +15, C −45 e D −45. Os acertos sugeridos mostram como equilibrar os saldos."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Veja os valores convertidos e os saldos do grupo na moeda escolhida."
       ],
       "exampleTitle": "Confira também a taxa de câmbio",
-      "example": "Se a viagem envolve mais de uma moeda, mantenha a moeda original de cada despesa e confira sua conversão. As taxas de câmbio podem mudar. Por isso, confira a taxa usada em vez de considerar o valor convertido uma cotação em tempo real."
+      "example": "Se a viagem envolve mais de uma moeda, mantenha a moeda original de cada despesa e confira sua conversão. As taxas de câmbio podem mudar. Por isso, confira a taxa usada no registro."
     }
   ],
   "faqTitle": "Algumas coisas para saber",
   "faqs": [
     {
-      "question": "O SPEND envia dinheiro?",
-      "answer": "Não. O SPEND registra despesas e mostra saldos e acertos sugeridos. Os pagamentos reais são feitos separadamente."
+      "question": "Os participantes podem mudar de uma despesa para outra?",
+      "answer": "Escolha os integrantes que dividem cada despesa e divida igualmente, use proporções ou informe valores individuais. Você pode registrar participantes diferentes para cada gasto dentro do mesmo evento."
     },
     {
-      "question": "Todos podem editar o mesmo grupo em tempo real?",
-      "answer": "O compartilhamento e a sincronização em tempo real são recursos planejados. Atualmente você pode compartilhar detalhes de despesas e resultados dos acertos, mas isso não é uma edição conjunta em tempo real."
+      "question": "Posso compartilhar despesas e resultados dos acertos?",
+      "answer": "Compartilhe os detalhes das despesas e os resultados dos acertos para que o grupo possa conferi-los em conjunto. O compartilhamento e a sincronização em tempo real estão planejados para futuras atualizações."
     },
     {
       "question": "Posso guardar uma cópia dos meus registros?",

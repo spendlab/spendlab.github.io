@@ -15,10 +15,10 @@
   },
   "hero": {
     "title": [
-      "Patungan lebih mudah.",
-      "Biaya perjalanan tercatat."
+      "Bagi tagihan bersama.",
+      "Catat biaya perjalanan."
     ],
-    "body": "Dari kumpul sebentar hingga liburan panjang. Catat pengeluaran bersama dan lihat siapa perlu membayar kepada siapa."
+    "body": "Pilih siapa yang membayar dan siapa yang berbagi setiap pengeluaran, lalu lihat siapa perlu membayar berapa kepada siapa."
   },
   "availability": "Untuk iPhone dan Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "Pratinjau aplikasi",
   "screensLabel": "Sembilan tangkapan layar aplikasi. Geser secara horizontal untuk melihatnya.",
-  "screensNote": "Tangkapan layar ditampilkan dalam bahasa Inggris.",
   "screenshotAlts": [
     "Patungan dan catat biaya perjalanan.",
     "Saldo anggota dan saran pelunasan.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Hanya dua orang yang berbagi biaya ini",
-      "body": "Bepergian bersama bukan berarti semua pengeluaran harus dibagi ke seluruh anggota. Pilih anggota yang ikut dalam setiap pengeluaran.",
+      "body": "Pilih siapa yang ikut dalam setiap pengeluaran. Dalam satu perjalanan, setiap biaya bisa dibagi oleh orang yang berbeda.",
       "steps": [
         "Tambahkan pengeluaran ke acara dan catat siapa yang membayar.",
         "Pilih hanya anggota yang berbagi pengeluaran ini. Bagi rata, gunakan rasio, atau masukkan jumlah masing-masing.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Beberapa orang bergantian membayar",
-      "body": "Catat setiap pembayaran tanpa perlu langsung membereskan patungan setiap kali ada tagihan. SPEND menggunakan catatan pembayaran dan pembagian biaya untuk menampilkan saldo setiap anggota.",
+      "body": "Terus catat setiap pembayaran dan bagian biaya tiap anggota. SPEND menggabungkan catatan ini untuk menampilkan saldo setiap anggota.",
       "steps": [
         "Buat acara dan tambahkan anggota kelompok Anda.",
         "Catat pembayar dan anggota yang berbagi setiap pengeluaran. Jika satu pengeluaran dibayar oleh beberapa orang, catat jumlah yang dibayar masing-masing.",
         "Periksa saldo anggota dan saran pelunasan, lalu bagikan hasilnya."
       ],
       "exampleTitle": "Contoh",
-      "example": "Empat orang membagi rata total 180, sehingga bagian setiap orang adalah 45. A membayar 120 dan B membayar 60. Saldonya adalah A +75, B +15, C −45, dan D −45. Saran pelunasan menunjukkan cara menyeimbangkan catatan; SPEND tidak mentransfer uang."
+      "example": "Empat orang membagi rata total 180, sehingga bagian setiap orang adalah 45. A membayar 120 dan B membayar 60. Saldonya adalah A +75, B +15, C −45, dan D −45. Saran pelunasan menunjukkan cara menyeimbangkan catatan."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Tinjau hasil konversi dan saldo kelompok dalam mata uang pilihan Anda."
       ],
       "exampleTitle": "Periksa kurs yang digunakan",
-      "example": "Jika perjalanan menggunakan lebih dari satu mata uang, simpan mata uang asli setiap pengeluaran dan periksa hasil konversinya. Kurs dapat berubah, jadi periksa kurs yang digunakan dan jangan menganggap hasil konversi sebagai nilai tukar terkini."
+      "example": "Jika perjalanan menggunakan lebih dari satu mata uang, simpan mata uang asli setiap pengeluaran dan periksa hasil konversinya. Kurs dapat berubah, jadi periksa kurs yang digunakan dalam catatan Anda."
     }
   ],
   "faqTitle": "Hal yang perlu diketahui",
   "faqs": [
     {
-      "question": "Apakah SPEND bisa mengirim uang?",
-      "answer": "Tidak. SPEND mencatat pengeluaran serta menampilkan saldo dan saran pelunasan. Pembayaran sebenarnya dilakukan secara terpisah."
+      "question": "Bisakah setiap pengeluaran dibagi oleh anggota yang berbeda?",
+      "answer": "Pilih anggota yang berbagi setiap pengeluaran, lalu bagi rata, gunakan rasio, atau masukkan jumlah masing-masing. Dalam satu acara, Anda dapat mencatat pengeluaran dengan anggota yang berbeda-beda."
     },
     {
-      "question": "Bisakah semua orang mengedit kelompok yang sama secara real-time?",
-      "answer": "Berbagi dan sinkronisasi secara real-time adalah fitur yang direncanakan. Saat ini Anda dapat membagikan rincian pengeluaran dan hasil pelunasan, tetapi belum dapat mengedit catatan bersama secara real-time."
+      "question": "Bisakah saya membagikan rincian pengeluaran dan hasil perhitungan pelunasan?",
+      "answer": "Bagikan rincian pengeluaran dan hasil perhitungan pelunasan agar anggota kelompok dapat memeriksanya bersama. Berbagi dan sinkronisasi secara real-time direncanakan untuk pembaruan mendatang."
     },
     {
       "question": "Bisakah saya menyimpan salinan catatan?",

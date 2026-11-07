@@ -15,10 +15,10 @@
   },
   "hero": {
     "title": [
-      "Chia tiền cùng nhóm.",
-      "Ghi chép chi phí du lịch."
+      "Chia tiền dễ dàng.",
+      "Theo dõi chi phí du lịch."
     ],
-    "body": "Từ buổi gặp ngắn đến cả chuyến đi. Ghi lại các khoản chi chung và xem ai cần trả ai."
+    "body": "Chọn người đã trả và những người cùng chia từng khoản chi, rồi xem ai cần trả ai bao nhiêu."
   },
   "availability": "Dành cho iPhone và Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "Xem trước ứng dụng",
   "screensLabel": "Chín ảnh chụp màn hình ứng dụng. Cuộn ngang để xem.",
-  "screensNote": "Ảnh chụp màn hình hiển thị bằng tiếng Anh.",
   "screenshotAlts": [
     "Chia tiền nhóm và ghi chép chi phí du lịch.",
     "Số dư của thành viên và các khoản thanh toán được gợi ý.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Chỉ hai người cùng chia khoản này",
-      "body": "Đi du lịch cùng nhóm không có nghĩa là mọi khoản chi đều chia cho tất cả mọi người. Hãy chọn những thành viên thực sự tham gia từng khoản chi.",
+      "body": "Chọn những người tham gia từng khoản chi. Trong một chuyến đi nhóm, các khoản chi có thể được chia cho những người khác nhau.",
       "steps": [
         "Thêm khoản chi vào sự kiện và ghi lại người đã trả.",
         "Chỉ chọn những thành viên cùng chia khoản chi này. Bạn có thể chia đều, dùng tỷ lệ hoặc nhập số tiền riêng.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Nhiều người thay nhau trả tiền",
-      "body": "Ghi lại từng lần trả tiền thay vì phải thanh toán lại cho nhau ngay sau mỗi hóa đơn. SPEND dựa vào số tiền đã trả và phần chia để hiển thị số dư của từng thành viên.",
+      "body": "Ghi lại từng lần trả tiền và phần chia của mỗi thành viên khi phát sinh chi tiêu. SPEND tổng hợp các thông tin này để hiển thị số dư của từng thành viên.",
       "steps": [
         "Tạo sự kiện và thêm các thành viên trong nhóm.",
         "Ghi người trả và những người cùng chia từng khoản chi. Nếu nhiều người cùng trả một khoản, hãy ghi số tiền mỗi người đã trả.",
         "Kiểm tra số dư của thành viên và các khoản thanh toán được gợi ý, rồi chia sẻ kết quả."
       ],
       "exampleTitle": "Ví dụ",
-      "example": "Bốn người chia đều tổng số tiền 180, nên phần của mỗi người là 45. A đã trả 120 và B đã trả 60. Số dư lần lượt là A +75, B +15, C −45 và D −45. Các khoản thanh toán được gợi ý cho biết cách cân bằng ghi chép; SPEND không chuyển tiền."
+      "example": "Bốn người chia đều tổng số tiền 180, nên phần của mỗi người là 45. A đã trả 120 và B đã trả 60. Số dư lần lượt là A +75, B +15, C −45 và D −45. Các khoản thanh toán được gợi ý cho biết cách cân bằng ghi chép."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Xem số tiền đã quy đổi và số dư của nhóm bằng loại tiền bạn chọn."
       ],
       "exampleTitle": "Kiểm tra tỷ giá đã dùng",
-      "example": "Nếu chuyến đi sử dụng nhiều loại tiền, hãy giữ loại tiền gốc của từng khoản chi và xem cách quy đổi. Tỷ giá có thể thay đổi, vì vậy hãy kiểm tra tỷ giá đã dùng thay vì xem số tiền quy đổi là giá trị theo tỷ giá hiện tại."
+      "example": "Nếu chuyến đi sử dụng nhiều loại tiền, hãy giữ loại tiền gốc của từng khoản chi và xem cách quy đổi. Tỷ giá có thể thay đổi, vì vậy hãy kiểm tra tỷ giá đã dùng cho bản ghi."
     }
   ],
   "faqTitle": "Một vài điều cần biết",
   "faqs": [
     {
-      "question": "SPEND có chuyển tiền không?",
-      "answer": "Không. SPEND ghi lại chi tiêu và hiển thị số dư cùng các khoản thanh toán được gợi ý. Việc trả tiền thực tế được thực hiện riêng."
+      "question": "Mỗi khoản chi có thể có những người cùng chia khác nhau không?",
+      "answer": "Chọn những thành viên cùng chia từng khoản chi, rồi chia đều, dùng tỷ lệ hoặc nhập số tiền riêng. Bạn có thể ghi nhận những người cùng chia khác nhau cho từng khoản trong cùng một sự kiện."
     },
     {
-      "question": "Mọi người có thể cùng chỉnh sửa nhóm theo thời gian thực không?",
-      "answer": "Chia sẻ và đồng bộ theo thời gian thực là các tính năng dự kiến. Hiện tại, bạn có thể chia sẻ chi tiết khoản chi và kết quả thanh toán, nhưng chưa thể cùng chỉnh sửa theo thời gian thực."
+      "question": "Tôi có thể chia sẻ chi tiêu và kết quả thanh toán không?",
+      "answer": "Chia sẻ chi tiết khoản chi và kết quả thanh toán để cả nhóm cùng xem lại. Tính năng chia sẻ và đồng bộ theo thời gian thực dự kiến sẽ có trong các bản cập nhật sau."
     },
     {
       "question": "Tôi có thể giữ một bản sao dữ liệu không?",

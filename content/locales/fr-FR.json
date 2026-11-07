@@ -15,10 +15,10 @@
   },
   "hero": {
     "title": [
-      "Partagez les frais du groupe.",
+      "Partagez les frais.",
       "Suivez vos dépenses de voyage."
     ],
-    "body": "D’une courte sortie à un voyage entier. Notez les dépenses communes et voyez qui doit combien à qui."
+    "body": "Indiquez pour chaque dépense qui a payé et qui la partage, puis voyez d’un coup d’œil qui doit combien à qui."
   },
   "availability": "Pour iPhone et Android",
   "storeAlts": [
@@ -27,7 +27,6 @@
   ],
   "screensTitle": "Aperçu de l’app",
   "screensLabel": "Neuf captures d’écran de l’app. Faites défiler horizontalement pour les parcourir.",
-  "screensNote": "Les captures d’écran sont en anglais.",
   "screenshotAlts": [
     "Partager les frais de groupe et suivre les dépenses de voyage.",
     "Soldes des participants et remboursements suggérés.",
@@ -77,7 +76,7 @@
     {
       "id": "different-participants",
       "title": "Seules deux personnes partagent cette dépense",
-      "body": "Voyager en groupe ne signifie pas que chaque dépense concerne tout le monde. Choisissez les participants pour chaque dépense.",
+      "body": "Choisissez les personnes qui ont participé à chaque dépense. Lors d’un voyage en groupe, les dépenses peuvent être partagées par des personnes différentes.",
       "steps": [
         "Ajoutez la dépense à votre événement et indiquez qui a payé.",
         "Sélectionnez uniquement les personnes qui partagent cette dépense. Répartissez à parts égales, selon des proportions ou avec des montants individuels.",
@@ -89,14 +88,14 @@
     {
       "id": "multiple-payers",
       "title": "Plusieurs personnes ont payé à tour de rôle",
-      "body": "Notez chaque paiement au lieu de régler les comptes après chaque dépense. SPEND utilise les paiements et les parts de chacun pour afficher les soldes.",
+      "body": "Notez chaque paiement et la part de chacun au fur et à mesure. SPEND les regroupe pour afficher le solde de chaque participant.",
       "steps": [
         "Créez un événement et ajoutez les membres du groupe.",
         "Pour chaque dépense, indiquez qui a payé et qui y participe. Si plusieurs personnes ont payé une même dépense, notez leurs contributions respectives.",
         "Vérifiez les soldes et les remboursements suggérés, puis partagez le résultat."
       ],
       "exampleTitle": "Exemple",
-      "example": "4 personnes partagent 180 à parts égales, soit 45 chacune. A a payé 120 et B a payé 60. Les soldes sont A +75, B +15, C −45 et D −45. Les remboursements suggérés indiquent comment équilibrer les comptes ; SPEND n’effectue aucun transfert d’argent."
+      "example": "4 personnes partagent 180 à parts égales, soit 45 chacune. A a payé 120 et B a payé 60. Les soldes sont A +75, B +15, C −45 et D −45. Les remboursements suggérés indiquent comment équilibrer les comptes."
     },
     {
       "id": "travel-currencies",
@@ -108,18 +107,18 @@
         "Consultez les montants convertis et les soldes du groupe dans la devise choisie."
       ],
       "exampleTitle": "Vérifiez aussi le taux",
-      "example": "Si votre voyage comprend plusieurs devises, conservez la devise d’origine de chaque dépense et vérifiez sa conversion. Les taux peuvent changer : vérifiez le taux utilisé plutôt que de considérer un montant converti comme un cours en temps réel."
+      "example": "Si votre voyage comprend plusieurs devises, conservez la devise d’origine de chaque dépense et vérifiez sa conversion. Les taux peuvent changer : vérifiez le taux utilisé pour votre enregistrement."
     }
   ],
   "faqTitle": "Quelques points à connaître",
   "faqs": [
     {
-      "question": "SPEND permet-il d’envoyer de l’argent ?",
-      "answer": "Non. SPEND enregistre les dépenses et affiche les soldes et les remboursements suggérés. Les paiements réels se font séparément."
+      "question": "Les participants peuvent-ils varier selon la dépense ?",
+      "answer": "Choisissez les personnes qui partagent chaque dépense, puis répartissez à parts égales, selon des proportions ou avec des montants individuels. Vous pouvez choisir des participants différents pour chaque dépense d’un même événement."
     },
     {
-      "question": "Tout le monde peut-il modifier le même groupe en temps réel ?",
-      "answer": "Le partage et la synchronisation en temps réel sont des fonctionnalités prévues. Vous pouvez actuellement partager les détails des dépenses et les résultats des comptes, mais il ne s’agit pas d’une modification collaborative en temps réel."
+      "question": "Puis-je partager les dépenses et le récapitulatif des comptes ?",
+      "answer": "Partagez les détails des dépenses et le récapitulatif des comptes pour que votre groupe puisse les consulter ensemble. Le partage et la synchronisation en temps réel sont prévus pour de futures mises à jour."
     },
     {
       "question": "Puis-je conserver une copie de mes données ?",
