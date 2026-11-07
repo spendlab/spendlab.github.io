@@ -1,10 +1,14 @@
 /* Hallmark: checked existing-system polish using static audit on English and Korean HTML plus this CSS; rendering is checked separately by Root through CUA. */
 /* Critique: retain the established SPEND layout and real screenshots; remove the menu shadow and improve heading wrapping and narrow-screen language controls. */
-.language-theme-controls { display: flex; flex: 0 0 auto; align-items: center; gap: 8px; margin-inline-start: auto; }
-.locale-picker { position: relative; font-size: 14px; }
+.landing header { display: grid; grid-template-columns: max-content max-content minmax(0, 1fr); }
+.landing header > .primary-nav { justify-self: end; }
+.language-theme-controls { display: flex; flex-wrap: nowrap; align-items: center; gap: 8px; min-width: 0; max-width: 100%; }
+.language-theme-controls #theme-toggle { flex: 0 0 44px; }
+.locale-picker { position: relative; min-width: 0; font-size: 14px; }
+.locale-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .locale-picker summary { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; cursor: pointer; list-style: none; }
 .locale-picker summary::-webkit-details-marker { display: none; }
-.locale-picker summary::after { content: "⌄"; color: var(--muted); }
+.locale-picker summary::after { content: "⌄"; flex: 0 0 auto; color: var(--muted); }
 .locale-picker summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .locale-picker nav { position: absolute; z-index: 2; inset-inline-end: 0; top: calc(100% + 8px); width: 230px; max-width: calc(100vw - 48px); max-height: 60vh; overflow-y: auto; background: var(--background); border: 1px solid var(--border); border-radius: 8px; padding: 6px; }
 .locale-picker nav a { display: block; padding: 10px 12px; text-decoration: none; border-radius: 4px; }
@@ -38,8 +42,10 @@
   .guide { grid-template-columns: 1fr; gap: 20px; padding-bottom: 28px; }
   .guide h3 { font-size: 1.2rem; }
 }
-@media (max-width: 640px) {
-  .landing .header-controls { width: 100%; }
+@media (max-width: 900px) {
+  .landing header { grid-template-columns: max-content minmax(0, 1fr); row-gap: 12px; }
+  .landing .language-theme-controls { justify-self: end; }
+  .landing header > .primary-nav { grid-column: 1 / -1; justify-self: start; }
   .landing .primary-nav { flex-wrap: wrap; }
 }
-@media print { .locale-picker { display: none; } }
+@media print { .locale-picker, .landing header > .primary-nav { display: none; } }

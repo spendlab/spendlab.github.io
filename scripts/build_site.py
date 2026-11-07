@@ -38,7 +38,7 @@ def language_picker(locale, text):
     for key, info in REGISTRY.items():
         current = ' aria-current="true"' if key == locale else ''
         links.append(f'<a href="{esc(info["path"])}" hreflang="{esc(info["lang"])}" lang="{esc(info["lang"])}" data-site-locale="{esc(key)}"{current}>{esc(info["name"])}</a>')
-    return f'<details class="locale-picker"><summary aria-label="{esc(text["nav"]["language"])}: {esc(text["languageName"])}">{esc(text["languageName"])}</summary><nav aria-label="{esc(text["nav"]["language"])}">{"".join(links)}</nav></details>'
+    return f'<details class="locale-picker"><summary aria-label="{esc(text["nav"]["language"])}: {esc(text["languageName"])}"><span class="locale-name">{esc(text["languageName"])}</span></summary><nav aria-label="{esc(text["nav"]["language"])}">{"".join(links)}</nav></details>'
 
 
 def render(text):
@@ -87,13 +87,11 @@ def render(text):
   <div class="page">
     <header>
       <a class="wordmark" href="{esc(path)}" aria-label="SPEND">SPEND</a>
-      <div class="header-controls">
-        <nav class="primary-nav" aria-label="{esc(nav['main'])}"><a href="{esc(path)}" aria-current="page">{esc(nav['home'])}</a><a href="#guides">{esc(nav['guides'])}</a><a href="/privacy/">Privacy</a></nav>
-        <div class="language-theme-controls">
-          {language_picker(locale, text)}
-          {toggle}
-        </div>
+      <div class="header-controls language-theme-controls">
+        {language_picker(locale, text)}
+        {toggle}
       </div>
+      <nav class="primary-nav" aria-label="{esc(nav['main'])}"><a href="{esc(path)}" aria-current="page">{esc(nav['home'])}</a><a href="#guides">{esc(nav['guides'])}</a><a href="/privacy/">Privacy</a></nav>
     </header>
     <main>
       <section class="intro" aria-labelledby="intro-title">
@@ -103,7 +101,6 @@ def render(text):
           <a class="store-link" href="{APPLE}"><img src="/assets/store-badges/app-store-en.svg" height="48" alt="{esc(text['storeAlts'][0])}"></a>
           <a class="store-link store-link--google" href="{GOOGLE}"><img src="/assets/store-badges/google-play-en.png" width="646" height="250" alt="{esc(text['storeAlts'][1])}"></a>
         </div>
-        <p class="availability">{esc(text['availability'])}</p>
       </section>
       <section class="screens-section" aria-label="{esc(text['screensTitle'])}">
         <div class="screens" tabindex="0" aria-label="{esc(text['screensLabel'])}">
