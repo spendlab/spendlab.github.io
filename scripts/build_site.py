@@ -38,7 +38,7 @@ def language_picker(locale, text):
     for key, info in REGISTRY.items():
         current = ' aria-current="true"' if key == locale else ''
         links.append(f'<a href="{esc(info["path"])}" hreflang="{esc(info["lang"])}" lang="{esc(info["lang"])}" data-site-locale="{esc(key)}"{current}>{esc(info["name"])}</a>')
-    return f'<details class="locale-picker"><summary aria-label="{esc(text["nav"]["language"])}: {esc(text["languageName"])}"><span class="locale-name">{esc(text["languageName"])}</span></summary><nav aria-label="{esc(text["nav"]["language"])}">{"".join(links)}</nav></details>'
+    return f'<details class="locale-picker"><summary aria-label="{esc(text["nav"]["language"])}: {esc(text["languageName"])}"><span class="locale-name">{esc(text["languageName"])}</span><svg class="locale-chevron" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m4 6 4 4 4-4"/></svg></summary><nav aria-label="{esc(text["nav"]["language"])}">{"".join(links)}</nav></details>'
 
 
 def render(text):
